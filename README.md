@@ -99,6 +99,8 @@ Usando el protocolo SSH, te puedes conectar y autenticar con servicios y servido
 
 **Archivo Binario:** Los archivos binarios que contienen bytes suelen ser interpretados como alguna cosa que no sean caracteres de texto. Un ejemplo típico son los programas de ordenador compilados; de hecho, las aplicaciones o programas compilados son conocidos como binarios, especialmente entre los programadores.
 
+**Tabla de Comandos Básicos**
+
 | **Comandos Básicos** | **Descripción** |
 |:--------: | :--------- |
 | **pwd**| Ruta de carpetas |

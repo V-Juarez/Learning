@@ -24,8 +24,8 @@
   - [Git Cherry-Pick](#Git-Cherry-Pick)
   - [Git Amenud](#Git-Amenud)
   - [Git Reset y Reflog](#Git-Reset-y-Reflog)
-  - [Commits de Git grep y Log](#Commits-de-Git-grep-y-Log)
-  - [Recuros colavorativos en git y github](#Recuros-colavorativos-en-git-y-github)
+  - [Commits de Git Grep y Log](#Commits-de-Git-Grep-y-Log)
+  - [Recuros Colavorativos en Git y Github](#Recuros-Colavorativos-en-Git-y-Github)
 
   Curso de [Git y Github](https://platzi.com/cursos/git-github/ "Git y Github") de [Platzi](https://platzi.com "Platzi")
 
@@ -441,7 +441,7 @@ Archivos como:
 
   `git commit --Amenud`
 
-  ### Git Reset y Reglog
+  ### Git Reset y Reflog
 
   Usarse en caso de emergencia.
 
@@ -454,7 +454,7 @@ Archivos como:
 
   `git reglog` ver información
 
-  ### Git Grep y Log
+  ### Commits de Git Grep y Log
 
 Buscar archivos y commits de git con grep y log
 
@@ -467,7 +467,7 @@ git grep -C color       // Archivos y números
 git log -S <nombre-de-la-rama> // commits
 ``` 
 
-### Recuroso colaborativos en Git y GitHub
+### Recuroso Colaborativos en Git y GitHub
 
 <p align="center">
 <a href=""><img src="img/git.png" width="250"></a>

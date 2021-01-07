@@ -331,7 +331,7 @@ git checkout -b <nombre-de-la-rama>
 
 // Enviar rama al servidor
 
-git push <nombre-de-la-rama> // footer-header
+git push origin <nombre-de-la-rama> // footer-header
 ```
 ## Configurar multiples colaboradores en GitHub
 

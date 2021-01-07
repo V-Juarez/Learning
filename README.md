@@ -25,7 +25,7 @@
   - [Git Amenud](#Git-Amenud)
   - [Git Reset y Reflog](#Git-Reset-y-Reflog)
   - [Commits de Git Grep y Log](#Commits-de-Git-Grep-y-Log)
-  - [Recuros Colavorativos en Git y Github](#Recuros-Colavorativos-en-Git-y-Github)
+  - [Recuros Colavorativos en Git y Github](#Recuroso-Colaborativos-en-Git-y-GitHub)
 
   Curso de [Git y Github](https://platzi.com/cursos/git-github/ "Git y Github") de [Platzi](https://platzi.com "Platzi")
 

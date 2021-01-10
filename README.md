@@ -13,6 +13,8 @@
   - [Ramas o brances en git](#Ramas-o-brances-en-git)
   - [Fusión de ramas con Git Merge](#Fusión-de-ramas-con-Git-Merge)
   - [Resolución de Conflictos la hacer un merge](#Resolución-de-Conflictos-la-hacer-un-merge)
+  - [Uso de GitHub](#Uso-de-GitHub)
+  - [Configurar llaves SSH en local](#Configurar-llaves-SSH-en-local)
   - [Tags-Etiquetas](#Tags-Etiquetas)
   - [Enviar ramas al servidor](#Enviar-ramas-al-servidor)
   - [Configurar multiples colaboradores en GitHub](#Configurar-multiples-colaboradores-en-GitHub)
@@ -166,7 +168,7 @@ git config --global core.editor emacs
 
 git config --list
 
-git config user.namez
+git config user.name
 ```
 * Ver configuración por defecto ```git config --list```
 * Configuraciones guardadas ```git config --list --show-origin```
@@ -284,10 +286,10 @@ ssh-keygen -t rsa -b 4096 -C "email"
 
 eval $(ssh-agent -s)
 
-ssh-add  <ruta-de-la-llave> ruta ~/.ssh/id-rsa.
+ssh-add  <ruta-de-la-llave> ruta ~/.ssh/id_rsa
 
-ssh-add ~/.ssh/id-rsa     // Linux y windows
-ssh-add -k ~/.ssh/id-rsa // solo en mac se le agrega -k
+ssh-add ~/.ssh/id_rsa     // Linux y windows
+ssh-add -k ~/.ssh/id_rsa // solo en mac se le agrega -k
 ```
 
 **conectar github con ssh**

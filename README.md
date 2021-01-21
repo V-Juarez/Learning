@@ -17,6 +17,7 @@
   - [Configurar llaves SSH en local](#Configurar-llaves-SSH-en-local)
   - [Tags-Etiquetas](#Tags-Etiquetas)
   - [Enviar ramas al servidor](#Enviar-ramas-al-servidor)
+  - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#¿Cómo-eliminar-un-repositorio-de-Git-creado-con-‘git-init’-en-un-directorio?)
   - [Configurar multiples colaboradores en GitHub](#Configurar-multiples-colaboradores-en-GitHub)
   - [Fork desde Consola](#Fork-desde-Consola)
   - [Subir imagenes a nustro proyecto](#Subir-imagenes-a-nustro-proyecto)
@@ -337,6 +338,15 @@ git checkout -b <nombre-de-la-rama>
 
 git push origin <nombre-de-la-rama> // footer-header
 ```
+## ¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?
+
+Git guarda todos los cambios realizados en el directorio .git de la carpeta donde se el repositorio. Para eliminarlo simplemente hay que borrar esa carpeta.
+
+cd carpeta/
+```console
+rm -rf .git
+```
+
 ## Configurar multiples colaboradores en GitHub
 
 * Agregar a colaboradores desde GitHub.

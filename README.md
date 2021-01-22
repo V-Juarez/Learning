@@ -20,8 +20,6 @@
   - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#¿Cómo-eliminar-un-repositorio-de-Git-creado-con-‘git-init’-en-un-directorio?)
   - [¿Cómo renombrar una rama local de Git?](#¿Cómo-renombrar-una-rama-local-de-Git?)
   - [¿Cómo cambiar el nombre de una rama remota de Git?](#¿Cómo-cambiar-el-nombre-de-una-rama-remota-de-Git?)
-  - []()
-  - []()
   - [Configurar multiples colaboradores en GitHub](#Configurar-multiples-colaboradores-en-GitHub)
   - [Fork desde Consola](#Fork-desde-Consola)
   - [Subir imagenes a nustro proyecto](#Subir-imagenes-a-nustro-proyecto)

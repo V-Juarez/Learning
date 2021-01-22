@@ -18,6 +18,10 @@
   - [Tags-Etiquetas](#Tags-Etiquetas)
   - [Enviar ramas al servidor](#Enviar-ramas-al-servidor)
   - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#¿Cómo-eliminar-un-repositorio-de-Git-creado-con-‘git-init’-en-un-directorio?)
+  - [¿Cómo renombrar una rama local de Git?](#¿Cómo-renombrar-una-rama-local-de-Git?)
+  - [¿Cómo cambiar el nombre de una rama remota de Git?](#¿Cómo-cambiar-el-nombre-de-una-rama-remota-de-Git?)
+  - []()
+  - []()
   - [Configurar multiples colaboradores en GitHub](#Configurar-multiples-colaboradores-en-GitHub)
   - [Fork desde Consola](#Fork-desde-Consola)
   - [Subir imagenes a nustro proyecto](#Subir-imagenes-a-nustro-proyecto)
@@ -345,6 +349,57 @@ Git guarda todos los cambios realizados en el directorio .git de la carpeta dond
 cd carpeta/
 ```console
 rm -rf .git
+```
+## ¿Cómo renombrar una rama local de Git?
+
+Antes de empezar, asegúrate de estar en la rama a la que quieres cambiarle el nombre, luego sigue los pasos según corresponda:
+
+```console
+git checkout old-name
+```
+
+Si deseas ver todas tus ramas locales, usa el siguiente comando:
+
+````console
+git branch --list
+````
+
+Cuando esté todo claro, sigue estos pasos:
+
+El uso del comando Git rename branch requerirá que agregues una opción `-m`:
+
+```shell
+git branch -m new-name
+```
+
+También puedes cambiar el nombre de una rama local desde otra rama usando los siguientes dos comandos:
+
+```console
+git checkout master
+
+git branch -m old-name new-name
+```
+Para finalizar, este comando listará todas las ramas, tanto locales como remotas, para verificar que se les haya cambiado el nombre:
+
+```console
+git branch -a
+```
+
+## ¿Cómo cambiar el nombre de una rama remota de Git?
+
+1. Aunque no es posible cambiar directamente el nombre de una rama remota. El proceso de renombrar una rama remota de Git implica seguir estos tres pasos:
+
+2. Para empezar, necesitarás renombrar la rama local siguiendo los pasos explicados antes.
+Luego borra la rama anterior y aplica push a la nueva. Puedes hacerlo fácilmente con los siguientes comandos:
+```console
+git push origin --delete nombre-anterior
+
+git push origin :nombre-anterior nombre-nuevo
+```
+
+3. Restablece la rama ascendente para tu nueva rama local y estará listo:
+```console
+git push origin -u nombre-nuevo
 ```
 
 ## Configurar multiples colaboradores en GitHub

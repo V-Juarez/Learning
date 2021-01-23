@@ -1,5 +1,5 @@
 # Git y GitHub
-<p align="center"><a href=""><img src="img/_git.png" width="600"></a></p>
+<p align="center"><a href=""><img src="img/_git.png" width="700"></a></p>
 
 ## Tabla de Contenido
   - [Objetivo](#Objetivo)

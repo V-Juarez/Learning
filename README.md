@@ -1,6 +1,39 @@
 # Desarrollo Profesional
-
 #### Marian villa
+
+# Tabla de Contenido
+- [1. Deconstruye tu vida](#)
+  - [¿Qué es productividad?](#)
+  - [Auditoría de la vida](#)
+  - [Conocer la persona productiva](#)
+  - [Autoconocimiento](#)
+  - [Personalidad y productividad](#)
+  - [Conocer la rueda de la vida](#)
+  - [Reconocer tu Hero Canvas](#)
+  - [El mapa de empatía como plataforma de autoconocimiento y validación](#)
+  - [Definir tu User Persona](#)
+- [2. Documenta un punto de vista de tu vida](#)
+  - [Crea tu propósito y tu propuesta de valor](#)
+  - [Proyecta tu plan de vida](#)
+- [3. Reconstruye tu vida](#)
+  - [Rediseña tu vida](#)
+  - [Aplica Design Thinking a tu vida](#)
+  - [Cómo fijar objetivos estratégicos](#)
+  - [Conoce las 3 P de la productividad](#)
+- [4. Claves para ser productivo](#)
+  - [GTD® (Getting Things Done®)](#)
+  - [Cómo dejar de perder el tiempo](#)
+  - [Espacio y ciclos](#)
+  - [Rituales y rutinas](#)
+  - [Hábitos](#)
+  - [El método Ivy Lee](#)
+- [5. La productividad y el trabajo remoto](#)
+  - [Introducción al trabajo remoto](#)
+  - [Herramientas para el trabajo remoto](#)
+  - [Métodos de productividad](#)
+  - [Tablero: crea tu Data Selfie](#)
+  - [¿Qué más sigue?](#)
+
 
 # 1. Deconstruye tu vida
 
@@ -452,31 +485,392 @@ Pasión = Afición + Habilidades
 * Escribe tu declaración.
 * Refínela.
 	
-## Proyecta tu plan de vida
+  ![](img/canvas.webp)
 
 ## Proyecta tu plan de vida
+
+  Canvas Personal:
+
+1. ¿Quién eres?
+2. ¿Qué tienes?
+3. ¿Qué haces? (Actividades clave)
+4. ¿A quién ayudas? (Clientes)
+5. ¿Cómo ayudas? (Propuesta de valor)
+6. ¿Cómo te encuentran? ¿Cómo entregas lo que ofreces? (Canales)
+7. ¿Cómo interactúas con las personas? (Relación con clientes)
+8. ¿Quién te ayuda? (Socios claves)
+9. ¿Qué obtienes? (Beneficios)
+10. ¿Qué das? (Costos)
 
 # 3. Reconstruye tu vida
 
 ## Rediseña tu vida
 
+__La meta es el fin último__ al que se quiere llegar, mientras que __el objetivo es el paso que se quiere cumplir__ para poder alcanzar la meta.
+
+  ![](img/warren.webp)
+
+  Regla 25-5 de Warren Buffett:
+
+1. Tómate un tiempo a solas para pensar en dónde estás ahora y a dónde quieres llegar.
+
+2. Haz una lista de las 25 cosas que te gustaría lograr en tu carrera profesional (o en cualquier rubro que estés teniendo esta situación).
+
+3. Ya que tengas la lista, circula los 5 logros que son más importantes para ti o los primeros a los que te gustaría llegar. Deshazte de los otros 20.
+
 ## Aplica Design Thinking a tu vida
+
+**Reconstruyendo tu vida**
+
+**Cuadrantes importantes:**
+
+* Amor
+* Intelecto
+* Salud
+* Espíritu
+
+**(Visualiza palabras claves por cada cuadrante)**
+
+![](img/thinking.png)
+
+
+**Affinity Map:**
+
+* Escribe (Objetivo importante)
+* Asocia (Valores o actividades importantes)
+* Redacta (Clasifique las ideas en las declaraciones)
+* Crea grupos (Organice esos datos según ideas que sugiere)
+
+**Nota:** puedes pasar todo el día fácilmente en este. Establezca un temporizador para asegurarse de no gastar demasiado tiempo en este ejercicio.
 
 ## Cómo fijar objetivos estratégicos
 
+Tener unos objetivos e indicadores clave para revisar que si se cumplieron
+
+**SMART:**
+
+* Específico
+* Medible
+* Alcanzable
+* Relevante
+* Temporal
+
+**Objetivos:**
+
+Anuales, Mensuales, Diarios, Horas, Minutos.
+
+**Metodología GOST:**
+
+Meta - Objetivo - Estrategia - Táctica
+
+**Metodología Eisenhower:**
+
+4 Variables (Urgente - Poco Urgente, Importante - Poco importante)
+
+* Importante, pero no Urgente: Algo que te apasiona, pero no tiene fecha, un proyecto a largo plazo, tiempo familiar, etc.
+* Importante y urgente: Plazos, Crisis de salud, etc.
+* Urgente, pero no importante: Llamadas telefónicas, textos, chats, etc.
+* Ni importante, ni urgente: TV, Netflix, Videojuegos, etc.
+
+**OKR:**
+
+* 3 Objetivos
+* 3 KPI por cada objetivo
+* Máximo 10 tareas relacionadas
+
+- [re:Work - Guide: Set goals with OKRs](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/)
+- [Qué son los OKR y cómo implementarlos](https://platzi.com/blog/que-es-okr/)
+- [Top 20 Motivation Tips : zen habits](https://zenhabits.net/how-i-became-early-riser/)
+- [Top 10 Productivity Hacks – Overview : zen habits](https://zenhabits.net/top-10-productivity-hacks-overview/)
+- [How I Became an Early Riser : zen habits](https://zenhabits.net/how-i-became-early-riser/)
+
 ## Conoce las 3 P de la productividad
+
++ **Planificar:** calendarizar, Metas y actividades en el tiempo, creación de listas y priorización de listas, dividir las grandes tareas en trozos pequeños, conmutación cognitiva: pasar de una tarea a otra.
+
++ **Persuadir:** seguridad, date siempre un porqué, Identidad: respeta tu personalidad, ¿te genera valor?.
++ **Persistir:** resiliencia, autoconocimiento, consciencia de la realidad + optimista, flexibilidad + perseverancia, control emocional, creatividad, practican el Mindfulness, tolerancia a la frustración, buscan apoyo social.
+
++ [The Eisenhower Decision Matrix: How to Distinguish Between Urgent and Important Tasks | The Art of Manliness](https://www.artofmanliness.com/articles/eisenhower-decision-matrix/)
 
 # 4. Claves para ser productivo
 
 ## GTD® (Getting Things Done®)
 
+**Preguntas con Flow**
+
+¿Qué le gustaría hacer aún si no gana un centavo por eso?
+
+* [So You Want to GTD? Your Step-By-Step Guide to Getting Things Done](https://todoist.com/productivity-methods/getting-things-done)
+
++ [My GTD Implementation](https://zenhabits.net/my-gtd-implementation/)
+
++ [Why is GTD so popular?](https://zenhabits.net/why-is-gtd-so-popular/)
+
+- [Tips for GTD’s Ubiquitous Capture](https://zenhabits.net/tips-for-gtds-ubiquitous-capture/)
+
+- [Tips for GTD’s Ubiquitous Capture](https://zenhabits.net/tips-for-gtds-ubiquitous-capture/)
+
+**Tips para hacer que las cosas pasen:**
+
+* Averigua qué es importante para ti
+* Priorízalo
+* Hazlo
+
 ## Cómo dejar de perder el tiempo
+
+**Piedras grandes primero:**
+
+- Comer
+- Leer
+- Tiempo en familia
+- Ejercitarse
+- Meditar / Rezar
+- Estudiar
+
+**¿En quién invierte Warren Buffet?**
+
+- Tiempo
+- Energía
+- Integridad
+
+**Sprint:**
+
+- Ciclos ágiles (Scrum) de 2 semanas.
+- Correr una pequeña distancia a gran velocidad.
+
+**Kanban Board:**
+
+* Por hacer
+* Haciendo
+* Hecho
+
+**Pomodoro:**
+
+* Elige una tarea para completar.
+* Ajusta un temporizador a 25 minutos.
+* Trabaja en la tarea hasta que pasen los 25 minutos.
+* Toma un pequeño descanso de cinco minutos (esto indica la conclusión de un “pomodoro”).
+* Repite los pasos del 1 al 4.
+* Después de cada cuatro pomodoros, toma un descanso más extenso, de unos 20 minutos o más.
+
+- [trello](https://trello.com)
+- [Forest](https://www.forestapp.cc)
 
 ## Espacio y ciclos
 
+**Para realizar trabajo remoto debes considerar:**
+
++ Tener horarios establecidos.
++ Un espacio de trabajo adecuado.
+
+**Cronobiología**
+
+- El cronotipo matutino (25% de la población)
+- El cronotipo intermedio (el 50% restante de la población)
+- Los vespertinos (25% de la población)
+
+- [The Discipline of Finishing: Conor Neill at TEDxUniversidaddeNavarra](https://www.youtube.com/watch?v=zXCiv4sc5eY)
+- [How to motivate yourself to change your behavior | Tali Sharot | TEDxCambridge](https://www.youtube.com/watch?v=xp0O2vi8DX4)
+- [Flow, the secret to happiness](https://www.ted.com/talks/mihaly_csikszentmihalyi_flow_the_secret_to_happiness)
+
 ## Rituales y rutinas
+
+**Análisis:**
+
+* Una tarea crítica al día (Revisala con anterioridad)
+* Registra tu tiempo (Técnica Pomodoro)
+* Duerme entre seis y ocho horas seguidas (Encuentra una medida para ti con la que te sientas cómodo)
+* Nuestra eficacia depende de nuestro ritmo circadiano (Elige cuál es y se consciente de él)
+* Eficaces 4 horas después de despertarnos (Optimizar esas 4 horas para las principales tareas)
+* Pasear, hacer ejercicio y desconectar (Un tiempo para ti)
+* Cambiar de habitación y delimitar el espacio de trabajo (Realiza cambios cada cierto tiempo)
+* Tomar largas duchas (Reflexión)
+* Tener un cuaderno de notas (Físico y análogo es muy importante * para una adecuada concentración)
+* Rompe la rutina (Ser flexible, realiza cortes)
+* Rituales → Rutina
+
+> “La salud mental consiste en la capacidad de amar y de trabajar” - Freud
+
+**Rutina:** cuando tenemos el hábito, ya no cuesta tanto, hemos establecido “una rutina”. Esto nos beneficia en:
+
+* Minimizar la incertidumbre
+* Ahorrar energía mental
+* Mantener la concentración
+
+- [Notion](https://www.notion.so)
+- [Las mejores rutinas matutinas según 300 personas exitosas](https://www.nytimes.com/es/2018/10/23/espanol/cultura/productividad-rutina-manana.html)
+- [Daily Rituals: How Artists Work](https://www.amazon.com/-/es/Mason-Currey/dp/0307273601)
+- [Daily Rituals: Women at Work](https://www.amazon.com/-/es/Daily-Rituals-Women-at-Work-ebook/dp/B07FLNRYNR/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;qid=&amp;sr=)
 
 ## Hábitos
 
+**Hábito:** se denomina a cualquier conducta repetida regularmente y elegida conscientemente que permanece en el tiempo.
+
+* Hábitos Físicos
+* Hábitos Afectivos
+* Hábitos Sociales
+* Hábitos Morales
+* Hábitos Intelectuales
+* Hábitos Mentales
+* Hábitos Higiene
+* Hábitos Costumbristas
+* Hábitos Saludables
+* Hábitos Recreativos
+
+**Entre 18 y 254 días es el tiempo para adoptar hábitos**, pero esto depende de cada persona. No está mal tardarse más o menos que otras personas durante el proceso de la adopción del hábito.
+
+![](img/habitos.webp)
+
 ## El método Ivy Lee
 
+**Método Ivy Lee:**
+
+- Lista diaria de tareas (Eje de tareas).
+- 6 tareas importantes (Piedras pequeñas).
+- Priorizar y ordenar las 6 tareas (Ur).
+- Concentrarse en 1 hasta terminarla (Pomodoro Sprint).
+- Si alguna no termina, se pasa para el día siguiente.
+
+**Deepwork:** para producir a tu nivel máximo, necesitas trabajar durante períodos prolongados con plena concentración en una sola tarea sin distracciones.
+
+- [4 Strategies to Produce Deep, Meaningful Work](https://medium.com/the-mission/4-strategies-to-produce-deep-meaningful-work-d9aafc3d32e3)
+
+# 5. La productividad y el trabajo remoto
+
+## Introducción al trabajo remoto
+
+**The flow**
+
+El flujo se refiere al estado de inmersión total en una actividad, y es posible que lo conozca mejor como la zona.
+
+**Remote First Companies**
+
+  - Tienen a las personas correctas y motivadas.
+  - Se encargan de dejar claro que hay que hacer y por qué, para qué y
+cuándo.
+  - Tiene todo documentado.
+  - Las métricas de éxito son claras para todo el equipo.
+
+Recuerda que lo que importa es la producción y los resultados, no la presencia o la cantidad de horas que uno ha pasado mirando su pantalla.
+
+**Los 6 tipos de reuniones en equipo:**
+
+* Actualización de status.
+* Toma de decisiones.
+* Compartir Información.
+* Resolución de problemas.
+* Diseño e innovación.
+* Fortalecimiento de equipo.
+
+-  [5 Great Resources for Remote Workers](https://blog.producthunt.com/5-great-resources-for-remote-workers-1c2fcad6b7f2?gi=3e827b6742e5)
+
+## Herramientas para el trabajo remoto
+
+**Herramientas para trabajo Remoto**
+
+  - Gestor de correos
+  - Gestor de Calendario
+  - Gestor de Notas
+  - Gestor de Proyectos
+  - Gestor de Comunicaciones
+  - Videollamadas
+
+**Priorizar las Tareas:**
+
+  * Asigne a cada tarea una calificación de 10 en términos del valor que cree que ofrecerá.
+  * Otorgue una calificación de 10 por costo.
+  - Divida el valor por el costo.
+  - Aplique una ponderación a la urgencia del paso 3. (Opcional)
+  - Priorizar por el resultado final.
+
+**Revisión de Recursos y Límites:**
+
+Equipo: sentido de equipo y misión compartida.
+
+**Ergonomía**
+
+**Establecer Límites:**
+
+  - En el trabajo
+  - Personas Cercanas
+  - Personales
+
+**Recuerda que también es muy importante que estemos constantemente revisando nuestra salud mental.**
+
+- [calendly](https://calendly.com)
+
+## Métodos de productividad
+
+**Matriz del Flow:**
+
+Se trata de que ubiques donde está el reto y tus capacidades para poder llegar al momento de fluidez donde estás concentrado y feliz.
+
+**Método Kanban:**
+
+  + Lienzo
+  + Listas
+  + Tarjetas
+
+**Método Cómete a la Rana:**
+
+> “Cómete una rana viva a primera hora de la mañana y nada peor que eso te pasará el resto del día” - Mark Twain
+
+**Método Moscow:**
+
+Must - Should - Could - Would
+
+  - [MoSCoW Method](https://www.projectsmart.co.uk/moscow-method.php)
+  - [3 razones por las que fracasas usando datos - YouTube](https://www.youtube.com/watch?v=Sltc_0DFacU&amp;feature=youtu.be)
+  - [Tú eres lo que mides | PlatziLive - YouTube](https://www.youtube.com/watch?v=Q0500TokxIg)
+  - [18 Key Performance Indicator (KPI) Examples Defined](https://www.clearpointstrategy.com/18-key-performance-indicators/)
+
+  ![](img/flow.webp)
+
+## Tablero: crea tu Data Selfie
+
+**Factores Medición:**
+
+  - Cantidad: cantidad de tareas logradas
+  - Calidad: la calidad de las mismas
+  - Velocidad: el tiempo que te tomó realizarlas
+  - Costo: los recursos usados
+
+**KPI:** Medida o indicador que ayuda a una organización a comprender qué tan bien se está desempeñando en relación con sus metas y objetivos estratégicos.
+
+**Factores para un KPI:**
+
+  - Cuál es el objetivo asociado.
+  - Para qué será usado y qué explica.
+  - Cómo se recopila la data.
+  - Criterios de evaluación / fórmula / escala.
+  - Con qué frecuencia se recopilará y generará reporte.
+  - Quién será el encargado de la data.
+
+  [Weekdone](https://weekdone.com/es)
+
+  ## ¿Qué más sigue?
+
+  Bibliografía: (encontrarán recursos en inglés y en español)
+
+  - [Psychological Types; C. G. Jung](https://amzn.to/3iUKeTN)
+  - [Organizational Linkages](https://amzn.to/3g9DCiC)
+  - [Measure what matters](https://amzn.to/2CCv1r8)
+  - [How Design Makes The World](https://amzn.to/31866VL)
+  - [Hyper Focus](https://amzn.to/3h8e9Yd)
+  - [4DayWeek](https://amzn.to/3kWr6Ha)
+  - [Everybody Matters](https://amzn.to/3iTeGxS)
+  - [How to Successfully Manage a Remote Team](https://pages.getkisi.com/unlocked-remote-guide)
+  - [Daily Rituals](https://amzn.to/3kYYyfV)
+  - [Daily Rituals Women At Work](https://amzn.to/2Q2swSf)
+  - [Focus]( https://amzn.to/34aarty)
+  - [7 Hábitos de la gente altamente efectiva](https://amzn.to/2EbOBeg)
+  - [What got you here won’t you there]()
+  - [Inteligencia Genial](https://amzn.to/3haRlal)
+  - [Tu Modelo de Negocio](https://amzn.to/34cVI1c)
+  - [Start with Why](https://amzn.to/317FxAf)
+  - [Find your why](https://amzn.to/34cBd4y)
+  - [Designing your life](https://amzn.to/31YkXkW)
+  - [Getting things done](https://amzn.to/320vvA9)
+  - [The Warren Buffett Way](https://amzn.to/3kUaDD4)
+  - [Eat That Frog](https://amzn.to/313YymY)

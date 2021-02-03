@@ -59,6 +59,8 @@
 - [7. Mentorías Expert](#7.-Mentorías-Expert)
   - [La importancia de tener una buena ortografía](#La-importancia-de-tener-una-buena-ortografía)
 
+---
+
 # 1. ¿La ortografía para qué?
 
   ## La importancia de escribir bien
@@ -464,26 +466,134 @@ Cuando usamos aplicaciones de edición de texto, no debemos fiarnos 100% de la f
 
   ## Reto: el uso de la tilde
 
+Cuando usamos aplicaciones de edición de texto, no debemos fiarnos 100% de la función de corrección automática de ortografía, ya que en muchos casos estos programas no detectan correctamente la presencia de palabras con tildes diacríticas o verbos conjugados en pretérito simple, dejando pasar como válidos muchos de estos errores.
 
   ## Reto: tus palabras clave
 
+**Ejemplo:**
+- Escribir
+- es-cri-**BIR**
 
-4. Oraciones
-Estructura de la oración y tipos de oraciones
-Tipos de palabras
-Reto: tu idea principal
-5. Párrafos
-La importancia de la puntuación
-Los signos de puntuación
-La coma criminal
-Ejemplo: los signos de puntuación
-Reto: los signos de puntuación
-Reto: tu primer párrafo
-6. Textos
-Construyendo un texto
-Estructura de un texto
-Errores comunes al escribir un texto
-Reto: tu texto completo
-¿Qué más te gustaría aprender?
-7. Mentorías Expert
-La importancia de tener una buena ortografía
+Palabra aguda terminada en R, por lo tanto no lleva tilde.
+
+# 4. Oraciones
+
+  ## Estructura de la oración y tipos de oraciones
+
+Una oración es un conjunto de diferentes tipos de palabras que se unen para expresar una idea.
+
+**La estructura más simple que puede tener una oración es:**
+
+_Sujeto + Predicado_
+
+El sujeto es el elemento que realiza la acción y el predicado es la parte de la oración que ofrece información acerca del sujeto. El núcleo del predicado es el verbo y siempre debe estar presente en el predicado. En el idioma español, el sujeto pudiera no estar presente de manera explícita en la oración, en cuyo caso se le denomina sujeto tácito.
+
+**Tipos de oraciones:**
+
+- **Declarativas o enunciativas:** son oraciones que informan de algún acontecimiento de manera objetiva. Pueden ser afirmativas o negativas.
+- **Interrogativas:** son oraciones que formulan una pregunta. Pueden ser directas o indirectas.
+
+  - [pregunta indirecta  | La interrogación directa e indirecta en español](https://www.practicaespanol.com/la-interrogacion-directa-e-indirecta-en-espanol/)
+
+- **Exclamativas:** son oraciones que expresan una emoción.
+- **Imperativas:** son oraciones que se usan para dar una orden o expresan una petición o súplica.
+- **Dubitativas:** son oraciones que expresan una duda.
+- **Optativas o desiderativas:** son oraciones que expresan un deseo.
+
+  ## Tipos de palabras
+
+De acuerdo a la función que cumplen en la oración, las palabras pueden ser de los siguientes tipos:
+
+- **Sustantivo:** es un nombre que se usa para identificar a una persona, animal o cosa, ya sea material o inmaterial.
+- **Adjetivo:** es una palabra que describe, modifica o complementa al sustantivo.
+- **Verbo:** es la palabra que representa la acción que es realizada por el sujeto. Se conjuga de acuerdo a la persona, tiempo y modo.
+- **Adverbio:** es una palabra que modifica al verbo o al adjetivo.
+- **Artículo:** es una palabra que delimita al sustantivo.
+- **Pronombre:** es una palabra que hace las veces de sustantivo. Puede sustituir al sustantivo y la oración conserva el mismo sentido.
+- **Conjunción:** son palabras que permiten enlazar otras dos palabras o frases.
+- **Preposición:** es una palabra que establece una relación de subordinación entre dos o más palabras.
+- **Interjección:** es una palabra que expresa emoción. Las interjecciones pueden ser en sí mismas una oración.
+
+Ahora que conoces los diferentes tipos de palabras es propicio retomar el caso de tres palabras que son muy parecidas pero con funciones muy diferentes y distintos significados, hablamos de **¡Ay!**: que es una *interjección,* **Hay**: que es la conjugación del verbo *haber* y **Ahí**: que es un adverbio de lugar.
+
+  - [Educalingo, el diccionario para gente curiosa](https://educalingo.com/es/dic-es/hola)
+
+  ## Reto: tu idea principal
+
+  **Ejemplo**
+
+Yo soy una ingeniera apasionada por la escritura.
+
+- Yo: pronombre.
+- Soy: verbo.
+- Una, la: artículos.
+- Ingeniera, escritura: sustantivos.
+- Apasionada: adjetivo.
+- Por: preposición.
+
+# 5. Párrafos
+
+  ## La importancia de la puntuación
+
+  En un párrafo, que es un conjunto de varias oraciones que comparten o complementan una misma idea principal, la puntuación es lo que le da sentido y entonación apropiada a lo que escribimos. Además, una puntuación correcta le permite al lector hacer pausas y respirar.
+
+  “Vamos a comer, niños”
+    - Mamá preocupada por sus hijos
+
+  🆚
+
+  “Vamos a comer niños”
+    - Mujer carnivora
+
+  ## Los signos de puntuación
+
+  [Signos de puntuación](img/punto.png)
+
+  ## La coma criminal
+
+La **coma criminal** es un error muy común que consiste en poner una coma entre el**sujeto** y el **verbo**, entre el **verbo** y el **objeto**, o en otros lugares de la oración donde no debería ir. Este error se debe a que al hablar hacemos una pausa natural en estos lugares y, debido a que nos hemos acostumbrado a asociar generalmente pausas con comas y con puntos, tendemos a representar esta pausa con una coma.
+
+**Casos en los que existe coma criminal**
+
+- Cuando la coma se encuentra entre el **sujeto** y el **verbo** es una coma criminal.
+- Cuando la coma se encuentra entre el **verbo** y el **objeto** es una coma criminal.
+- Cuando la palabra que está antes de la coma ha sido confundida con un **vocativo**, sin serlo.
+- Cuando lo que está separando no es un **inciso**.
+
+**Repaso del uso correcto de la coma**
+
+- Cuando estamos **enumerando elementos**.
+- Cuando estamos en presencia de un **inciso**.
+- Cuando estamos en presencia de un **vocativo**.
+
+   ![](img/coma.webp "coma criminal")
+
+  ## Ejemplo: los signos de puntuación
+
+
+  ## Reto: los signos de puntuación
+
+
+  ## Reto: tu primer párrafo
+
+
+# 6. Textos
+
+  ## Construyendo un texto
+
+
+  ## Estructura de un texto
+
+
+  ## Errores comunes al escribir un texto
+
+
+  ## Reto: tu texto completo
+
+
+  ## ¿Qué más te gustaría aprender?
+
+
+# 7. Mentorías Expert
+
+  ## La importancia de tener una buena ortografía

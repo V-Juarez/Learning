@@ -570,6 +570,9 @@ La **coma criminal** es un error muy común que consiste en poner una coma entre
 
   ## Ejemplo: los signos de puntuación
 
+![](img/in.jpg "Tipos de Inciscos")
+
+Quedarnos sin aire al leer pudiera significar que faltan algunos signos de puntuación en el texto, pero ten cuidado, también pudiera significar que estamos respirando mal; esto suele suceder cuando estamos apurados o nerviosos, o simplemente no estamos prestando atención al texto que leemos. Aún cuando pudiéramos tomar como indicios de faltas de puntuación el quedarnos sin aire, no necesariamente es así en todos los casos.
 
   ## Reto: los signos de puntuación
 
@@ -581,12 +584,103 @@ La **coma criminal** es un error muy común que consiste en poner una coma entre
 
   ## Construyendo un texto
 
+Un **texto** es un conjunto de párrafos que comunican una idea. Tiene un principio y un final definidos. Hay diferentes tipos de textos: narrativos, descriptivos y argumentativos.
+
+![](img/texto.png "Texto")
+
+¿Qué es el texto? Es un conjunto de de párrafos que forman una idea. Tiene un principio y un final definido. Existen diferentes tipos de textos: narrativos, descriptivos, argumentativos. Dependerá de ti qué tipo de texto vas a crear.
+
+**Para construir un texto es necesario seguir ciertos pasos:**
+
+- Elige un tema y un tipo de texto.
+- Documéntate.
+- Organiza tu información.
+- Escribe un primer borrador.
+- Lee y relee lo que has escrito.
+- Haz las correcciones necesarias.
+- Reescribe y vuelve a leer.
+
+**¿Cómo se construye un texto?**
+‌
+
+Vamos a ver varios pasos que debemos seguir para construir un texto. A continuación te voy a mostrar una lista de pasos que debes seguir:
+
+‌
+
+- **Elige un tema y un tipo de texto:** muchas veces no elegimos el tema, pero si estamos haciendo algo libre podemos elegir el tema que queramos y la forma en que lo vamos a desarrollar.
+
+- **Documéntate:** lee mucho sobre el tema que escogiste tratar. Existen muchas fuentes de conocimientos, el Internet lo es. Puedes inspirarte de otros autores para lograr el tema que tanto deseas culminar y compartir.
+
+- **Organiza tu información:** tenemos que aprovechar todo el tiempo que invertimos en la investigación, si no organizamos nuestro texto puede que mucha información se nos pierda.
+
+- **Escribe un primer borrador:** este no tiene que ser perfecto, la escritura fluye mejor cuando lo la interrumpimos con nada. Esta es la forma más libre de expresar en una hoja ─ puede ser online o una hoja física ─ nuestra idea.
+
+- **Haz las correcciones necesarias:** este es el mejor momento para poner en práctica todo lo que hemos aprendido en este curso, también de poner las puntuaciones indicadas. Tenemos que releer lo que escribimos, aveces nos acostumbramos a nuestros errores y quizá tengamos que salir a despejarnos para poder detectarlos.
+
+- **Reescribe:** debemos hacerlo un par de veces para poder llegar al punto de tenerlo completado.
+
+Ten en cuenta que no debes permanecer indefinidamente en el ciclo de leer, corregir y reescribir, porque terminas por acostumbrarte a tus propios errores y dejas de detectarlos. Haz una pausa, deja reposar el texto y luego vuélvelo a leer sólo un par de veces; recuerda que en algún momento debes llegar a considerar tu texto como un producto terminado.
+
+- [Los límites dudosos de la oración gramatical](https://estilollano.com)
+
 
   ## Estructura de un texto
 
+**1. Introducción:** un párrafo con el que abrimos y presentamos la idea, de qué vamos a hablar. Si es un texto argumentativo podemos hablar un poco de nuestra posición frente al argumento. Tenemos que presentar la idea principal.
+
+**2. Desarrollo:** este puede ser de una longitud de tres o cuatro párrafos, también depende el tipo de texto que estemos desarrollando. Si es un texto argumentativo tenemos que presentar a detalle el tema, podemos presentar los puntos de vista diferente que tienen muchos grupos sociales, también tenemos que explicar el nuestro a detalle.
+
+**3. Conclusión:** es muy importante, tenemos que llegar siempre a una enseñanza y un fin lógico de nuestro documento. Tenemos que concluir todo el desarrollo, es en este último donde presentamos la conclusión que tenemos que sacar del texto.
+
+‌**¿Y el título?**
+‌
+El título es la carnada de tu texto, es lo que hará que las personas se detengan a leerlo. Muchas veces lo recomendable es escribir el título al final. El título puede ser una oración en sí mismo, un sujeto y un predicado, no necesariamente tiene que ser así, pero tenemos que lograr que describa muy bien lo que van a leer los usuarios.
+
+- [Entrevista sobre el oficio de correctora de textos](http://conpropositodeenmienda.blogspot.com)
 
   ## Errores comunes al escribir un texto
 
+- **Discordancia entre sujeto y predicado:** cuando el sujeto y el verbo de la oración no están conjugados en la misma persona, tiempo y género.
+
+![](img/dis1.png "Discordancia entre el sujeto y predicado")
+
+- **Infinitivo introductor:** cuando la primera palabra de una oración es un verbo en infinitivo. Lo correcto es utilizar una conjugación del mismo verbo o un sustantivo.
+
+![](img/inf2.png "El infinitivo introductor y “adicional” como adverbio")
+
+- **“Adicional” como adverbio:** cuando se usa “adicional” como un adverbio y no como adjetivo. Lo correcto es agregarle el sufijo “-mente” para convertirlo en adverbio.
+
+![](img/ge3.png "El gerundio que expresa posterioridad")
+
+- **El gerundio que expresa posterioridad:** cuando se usa un gerundio en una oración, este no debe expresar una acción posterior a la que expresa el verbo principal.
+
+![](img/ge3.png "El gerundio que expresa posterioridad")
+
+- **“Haber” como verbo personal:** cuando se conjuga incorrectamente el verbo “haber”. La forma correcta de conjugarlo es en tercera persona ya que es un verbo impersonal.
+
+![](img/hab.png "“Haber” como verbo personal")
+
+- **Cacofonía:** cuando se repite varias veces la misma palabra o una que suena muy similar.
+
+![](img/ca.png "Cacofonía")
+
+- **Adverbio de lugar y pronombre posesivo:** cuando se escribe un pronombre posesivo: mío, tuyo y suyo, luego de un adverbio de lugar. Lo correcto es usar las formas: de mí, de ti, etc.
+
+![](img/ad.png "Adverbio de lugar y pronombre posesivo")
+
+- **Dequeísmo y Antidequeísmo:** cuando hay un uso excesivo o incorrecto uso de la expresión “de que” en una oración. Si al cambiar la palabra “que” por “algo” no suena bien la oración, seguro se está usando de la forma incorrecta.
+
+![](img/de.png "Dequeísmo y antidequeismo")
+
+- **Falta de puntuación:** cuando en un texto o párrafo muy largo hay ausencia de puntos, comas y demás signos de puntuación.
+
+![](img/fal.png "Falta de puntuación")
+
+- **Exceso de puntuación:** cuando en un texto hay uso excesivo de puntos, comas y demás signos de puntuación. La “coma criminal” es un ejemplo de este tipo de error.
+
+![](img/exc.png "Exceso de puntuación")
+
+- [Dificultades gramaticales. La gramática sirve para algo](https://erroresgramaticales.blogspot.com)
 
   ## Reto: tu texto completo
 

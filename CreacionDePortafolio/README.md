@@ -2,34 +2,36 @@
 
 #### Caro Gayosso
 
-1. Bienvenida al curso
-Introducción y bienvenida al curso
-2. ¿Por qué necesito un portafolio creativo y CV de impacto?
-¿Por qué necesito un portafolio creativo y un CV de impacto?
-¿Qué perfiles profesionales deben tener un portafolio ?
-3 habilidades que necesitarás para crear tu cv y portafolio
-3. Portafolio creativo
-Objetivo, estructura y contenido del portafolio
-Plataformas para la creación de portafolio
-Creación de portafolio con behance
-Gestiona tu portafolio
-4. Curriculum
-¿Qué es un cv?
-Estructura ideal de un CV
-Redacción del CV por sección
-Creación de CV en Canva
-Consideraciones en el CV
-5. Contacto con reclutadores
-¿Quiénes son los reclutadores y cómo piensan?
-¿Dónde buscan talento los reclutadores?
-Prepárate para las preguntas que te harán los reclutadores
-6. Bonus Demo Reel
-¿Qué es un demo reel y cuál es su objetivo?
-Revisión de demo reels
-7. Conclusiones del curso
-Conclusiones finales de todo el curso
+# Tabla de 
 
-# 1. Bienvenida al curso
+- [1. Bienvenida al curso](#1.-Bienvenida-al-curso)
+  - [Introducción y bienvenida al curso](#Introducción-y-bienvenida-al-curso)
+- [2. ¿Por qué necesito un portafolio creativo y CV de impacto?](#2.-¿Por-qué-necesito-un-portafolio-creativo-y-CV-de-impacto?)
+  - [¿Por qué necesito un portafolio creativo y un CV de impacto?](#¿Por-qué-necesito-un-portafolio-creativo-y-un-CV-de-impacto?)
+  - [¿Qué perfiles profesionales deben tener un portafolio?](#¿Qué-perfiles-profesionales-deben-tener-un-portafolio?)
+  - [3 habilidades que necesitarás para crear tu cv y portafolio](#3-habilidades-que-necesitarás-para-crear-tu-cv-y-portafolio)
+- [3. Portafolio creativo](#3.-Portafolio-creativo)
+  - [Objetivo, estructura y contenido del portafolio](#Objetivo-estructura-y-contenido-del-portafolio)
+  - [Plataformas para la creación de portafolio](#Plataformas-para-la-creación-de-portafolio)
+  - [Creación de portafolio con behance](#Creación-de-portafolio-con-behance)
+  - [Gestiona tu portafolio](#Gestiona-tu-portafolio)
+- [4. Curriculum](#4.-Curriculum)
+- [¿Qué es un cv?](#¿Qué-es-un-cv?)
+- [Estructura ideal de un CV](#Estructura-ideal-de-un-CV)
+- [Redacción del CV por sección](#Redacción-del-CV-por-sección)
+- [Creación de CV en Canva](#Creación-de-CV-en-Canva)
+- [Consideraciones en el CV](#Consideraciones-en-el-CV)
+- [5. Contacto con reclutadores](#5.-Contacto-con-reclutadores)
+  - [¿Quiénes son los reclutadores y cómo piensan?](#¿Quiénes-son-los-reclutadores-y-cómo-piensan?)
+  - [¿Dónde buscan talento los reclutadores?](#¿Dónde-buscan-talento-los-reclutadores?)
+  - [Prepárate para las preguntas que te harán los reclutadores](#Prepárate-para-las-preguntas-te-harán-los-reclutadores)
+- [6. Bonus Demo Reel](#6.-Bonus-Demo-Reel)
+- [¿Qué es un demo reel y cuál es su objetivo?](#¿Qué-es-un-demo-reel-y-cuál-es-su-objetivo?)
+- [Revisión de demo reels](#Revisión-de-demo-reels)
+- [7. Conclusiones del curso](#7.-Conclusiones-del-curso)
+  - [Conclusiones finales de todo el curso](#Conclusiones-finales-de-todo-el-curso)
+
+# 1. Bienvenida al curso  🏅🏅🏅🏅
 
 Aprenderás cómo diseñar un Curriculum Vitae(CV) y un portafolio creativo de manera exitosa
 Introducción y bienvenida al curso
@@ -77,7 +79,7 @@ Depende del tipo empresa debes presentar tu CV. Debes dirigirte a cada audiencia
 
 Recuerda que en tu portafolio también puedes usar Ilustraciones, videos, fotografías, gráficos y reportes.
 
-# 3 habilidades que necesitarás para crear tu cv y portafolio
+**3 habilidades que necesitarás para crear tu cv y portafolio**
 
 No es cuestión de suerte conseguir el trabajo de tus sueños, es la suma de varios factores como la habilidad analítica, comunicación efectiva y perseverancia. Tal vez no lo habías visto de este modo pero necesitas de la suma de estos tres factores para lograr un resultado más “exacto”, tal como si fuera una ecuación.
 

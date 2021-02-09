@@ -18,7 +18,7 @@
   - [Ejemplo: La B y la V](#Ejemplo-La-B-y-la-V)
   - [Reto: La B y la V](#Reto-La-B-y-la-V)
   - [La S, la C y la Z](#La-S,-la-C-y-la-Z)
-  - [Ejemplo: La S, la C y la Z](#Ejemplo:-La-S,-la-C-y-la-Z)
+  - [Ejemplo: La S, la C y la Z](#Ejemplo-La-S,-la-C-y-la-Z)
   - [Reto: La S, la C y la Z](#Reto-La-S,-la-C-y-la-Z)
   - [La G y la J](#La-G-y-la-J)
   - [Ejemplo y reto: La G y la J](#Ejemplo-y-reto-La-G-y-la-J)

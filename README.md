@@ -17,7 +17,7 @@
   - [Configurar llaves SSH en local](#Configurar-llaves-SSH-en-local)
   - [Tags-Etiquetas](#Tags-Etiquetas)
   - [Enviar ramas al servidor](#Enviar-ramas-al-servidor)
-    - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#¿Cómo-eliminar-un-repositorio-de-Git-creado-con-‘git-init’-en-un-directorio?)
+    - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#¿Cómo-eliminar-un-repositorio-de-Git-creado-con-git-init-en-un-directorio?)
     - [Borrar archivos | carpetas del repositorio](#Borrar-archivos-|-carpetas-del-repositorio)
     - [¿Cómo renombrar una rama local de Git?](#¿Cómo-renombrar-una-rama-local-de-Git?)
     - [¿Cómo cambiar el nombre de una rama remota de Git?](#¿Cómo-cambiar-el-nombre-de-una-rama-remota-de-Git?)
@@ -341,7 +341,7 @@ git checkout -b <nombre-de-la-rama>
 
 git push origin <nombre-de-la-rama> // footer-header
 ```
-## ¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?
+  ### ¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?
 
 Git guarda todos los cambios realizados en el directorio .git de la carpeta donde se el repositorio. Para eliminarlo simplemente hay que borrar esa carpeta.
 
@@ -351,7 +351,7 @@ cd carpeta/
 rm -rf .git
 ```
 
-  ## Borrar archivos | carpetas del repositorio
+  ### Borrar archivos y carpetas del repositorio
 
   Para borrar archivos o carpetas en nuestro respositorio (bitbucket, github...) se usa el comando `rm` de **git** con los siguientes pasos:
 
@@ -378,7 +378,7 @@ rm -rf .git
   $ git push <origin master> # Rama Master
   ```
 
-  ## ¿Cómo renombrar una rama local de Git?
+  ### ¿Cómo renombrar una rama local de Git?
 
 Antes de empezar, asegúrate de estar en la rama a la que quieres cambiarle el nombre, luego sigue los pasos según corresponda:
 
@@ -413,7 +413,7 @@ Para finalizar, este comando listará todas las ramas, tanto locales como remota
 git branch -a
 ```
 
-  ## ¿Cómo cambiar el nombre de una rama remota de Git?
+  ### ¿Cómo cambiar el nombre de una rama remota de Git?
 
 1. Aunque no es posible cambiar directamente el nombre de una rama remota. El proceso de renombrar una rama remota de Git implica seguir estos tres pasos:
 

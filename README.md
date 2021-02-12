@@ -17,10 +17,10 @@
   - [Configurar llaves SSH en local](#Configurar-llaves-SSH-en-local)
   - [Tags-Etiquetas](#Tags-Etiquetas)
   - [Enviar ramas al servidor](#Enviar-ramas-al-servidor)
-    - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#¿Cómo-eliminar-un-repositorio-de-Git-creado-con-git-init-en-un-directorio?)
-    - [Borrar archivos | carpetas del repositorio](#Borrar-archivos-|-carpetas-del-repositorio)
-    - [¿Cómo renombrar una rama local de Git?](#¿Cómo-renombrar-una-rama-local-de-Git?)
-    - [¿Cómo cambiar el nombre de una rama remota de Git?](#¿Cómo-cambiar-el-nombre-de-una-rama-remota-de-Git?)
+    - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#Cómo-eliminar-un-repositorio-de-Git-creado-con-git-init-en-un-directorio)
+    - [Borrar archivos y carpetas del repositorio](#Borrar-archivos-y-carpetas-del-repositorio)
+    - [¿Cómo renombrar una rama local de Git?](#Cómo-renombrar-una-rama-local-de-Git)
+    - [¿Cómo cambiar el nombre de una rama remota de Git?](#Cómo-cambiar-el-nombre-de-una-rama-remota-de-Git)
   - [Configurar multiples colaboradores en GitHub](#Configurar-multiples-colaboradores-en-GitHub)
   - [Fork desde Consola](#Fork-desde-Consola)
   - [Subir imagenes a nustro proyecto](#Subir-imagenes-a-nustro-proyecto)
@@ -330,7 +330,7 @@ git push origin master
 
 ## Enviar ramas al servidor
 
-```git
+```bash
 // crear rama
 
 git branch <nombre-de-la-rama>
@@ -347,7 +347,7 @@ Git guarda todos los cambios realizados en el directorio .git de la carpeta dond
 
 cd carpeta/
 
-```git
+```bash
 rm -rf .git
 ```
 
@@ -357,13 +357,13 @@ rm -rf .git
 
   **1. Eliminar un archivo**
 
-  ```git
+  ```bash
   git rm miarchivo.php # Estar en el directorio
   ```
 
   **1.1 Eliminar una carpeta | directorio**
 
-  ```git 
+  ```bash
   $ git rm -r mi-carpeta
   ```
 
@@ -402,7 +402,7 @@ git branch -m new-name
 
 También puedes cambiar el nombre de una rama local desde otra rama usando los siguientes dos comandos:
 
-```console
+```bash
 git checkout master
 
 git branch -m old-name new-name

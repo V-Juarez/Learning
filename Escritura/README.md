@@ -1,4 +1,4 @@
-# Ortografía Básica
+# Ortografía Básica 🪄🪄🪄
 
 #### Mariadrea
 
@@ -82,7 +82,10 @@ En este curso aprenderás todo lo necesario para mejorar tu ortografía y con el
   - [Spelling mistakes 'cost millions' in lost online sales](https://www.bbc.com/news/education-14130854)
   - [Bad Grammar Are Bad for Branding](https://www.adweek.com/brand-marketing/bad-grammar-are-bad-branding-157579/)
   - [What's Really Hot on Dating Sites?](https://www.wsj.com/articles/whats-really-hot-on-dating-sites-proper-grammar-1443746849)
-  - [curso-de-ortografia.pdf](doc/curso-de-ortografia.pdf)
+
+  ***
+
+  - [curso-de-ortografia.pdf](https://drive.google.com/file/d/1qI5x2S3ZQMU4chZuZw1IRKa7lRVHC5GL/view?usp=sharing)
 
   ## ¿Qué es la ortografía?
 
@@ -90,7 +93,7 @@ La ortografía es un conjunto de convenciones y reglas que nos permiten mantener
 
 Sin embargo, estas reglas no son inmutables, no están “escritas sobre piedra”, sino que se nutren permanentemente con lo que decimos, los nuevos conceptos que creamos y las diferentes formas de expresión que van surgiendo constantemente. Tal es el caso de palabras como toballa, bluyín o posverdad, esta última incorporada apenas en diciembre de 2017 en los diccionarios de habla hispana.
 
-\* [Real Academia Española](https://www.rae.es)
+* [Real Academia Española](https://www.rae.es)
 
   ## ¿Cómo aprenderás a escribir mejor?
 
@@ -109,9 +112,9 @@ El proyecto que vamos a desarrollar a lo largo del curso está relacionado con e
 
 Así como el átomo es la unidad fundamental de la materia, la letra es la unidad fundamental del lenguaje escrito. Hay dos tipos de letras: vocales y consonantes.
 
-Las vocales son 5: a, e, i, o, u, y se diferencian de las consonantes en el hecho de que, al pronunciarlas, el aire sale de tu boca sin encontrar ningún obstáculo.
+**Las vocales son 5:** **a, e, i, o, u,** y se diferencian de las consonantes en el hecho de que, al pronunciarlas, el aire sale de tu boca sin encontrar ningún obstáculo.
 
-Por su parte, las consonantes son 22 en el idioma español: b, c, d, f, g, h, j, k, l, m, n, ñ, p, q, r, s, t, v, w, x, y, z. Al pronunciar las consonantes, el aire que sale de tu boca se encuentra con algún obstáculo, lo que produce el sonido característico de cada una.
+Por su parte, las **consonantes son 22 en el idioma español:** **b, c, d, f, g, h, j, k, l, m, n, ñ, p, q, r, s, t, v, w, x, y, z.** Al pronunciar las consonantes, el aire que sale de tu boca se encuentra con algún obstáculo, lo que produce el sonido característico de cada una.
 
 Para completar su sonido, las consonantes deben estar acompañadas necesariamente de una vocal, mientras que una vocal puede incluso ser una sílaba independiente en sí misma.
 
@@ -159,20 +162,19 @@ Aún cuando son una gran cantidad de reglas ortográficas que pueden llegar a se
 
 Encuentra las infografías que hemos preparado para ti con las reglas más importantes como archivos adjuntos a esta clase. Descárgalas en tu teléfono inteligente y dales una primera lectura para familiarizarte con los diferentes ejemplos.
 
-  - [ll-y](img/ll-y.webp)
-  - [h](img/h.png)
-  - [g-j](img/g-j.png)
-  - [b-v](img/b_v.png)
-  - [c-s-z](img/S-c-z.webp)
+  - [ll-y](https://drive.google.com/file/d/1DujJmuF_DG9ljZ0RJP2ViwsrcgDH9e3N/view?usp=sharing)
+  - [h](https://drive.google.com/file/d/13ajqZ96OY7Y1y06AJ899eJ-FGpc35MTd/view?usp=sharing)
+  - [g-j](https://drive.google.com/file/d/1CK7JO-XilLehloS0CZKZdPe9ARjtp3UG/view?usp=sharing)
+  - [b-v](https://drive.google.com/file/d/1FEk18BxQ9vIWUHv1v75CYKe7_dUGsacF/view?usp=sharing)
+  - [c-s-z](https://drive.google.com/file/d/1i5k9dHPWFH_3MV5ub2z6AkRY53RImkGh/view?usp=sharing)
 
-  **Nota:** Para realizar un buen resumen.
-  Utilizar Notas de Cornell
+  **Nota:** _Para realizar un buen resumen.Utilizar Notas de Cornell._
 
-  ![](img/notas-de-cornell.png)
+  ![](https://i.ibb.co/Wn13YvH/notas-de-cornell.png)
 
   ## La B y la V
 
-  - [b-v](img/b_v.png)
+  - [b-v](https://drive.google.com/file/d/1FEk18BxQ9vIWUHv1v75CYKe7_dUGsacF/view?usp=sharing)
 
   ## Ejemplo: La B y la V
 
@@ -185,7 +187,7 @@ Leer mucho, escribir mucho, aprender de las correcciones que recibas y recordar 
 
   ## La S, la C y la Z
 
-  - [c-s-z](img/S-c-z.webp)
+  - [c-s-z](https://drive.google.com/file/d/1i5k9dHPWFH_3MV5ub2z6AkRY53RImkGh/view?usp=sharing)
 
 ## Ejemplo: La S, la C y la Z
 
@@ -202,7 +204,7 @@ Para este ejercicio utilizaremos una Platzigrafía a le que le hemos quitado tod
 
   ## La G y la J
 
-   - [g-j](img/g-j.png)
+   - [g-j](https://drive.google.com/file/d/1CK7JO-XilLehloS0CZKZdPe9ARjtp3UG/view?usp=sharing)
 
   ## Ejemplo y reto: La G y la J
 
@@ -211,8 +213,10 @@ Para este ejercicio utilizaremos una Platzigrafía a le que le hemos quitado tod
 - La j no se debe combinar con ninguna consonante después de ella; o lo que es igual, siempre deberá estar seguida de una vocal, excepto en la palabra reloj.
 - Las palabras derivadas de palabras que usan la letra g, también deben escribirse con esta letra, por ejemplo: origen / original.
 
-  ## La LL y la Yo
-  
+  ## La LL y la Y
+
+- [ll-y](https://drive.google.com/file/d/1DujJmuF_DG9ljZ0RJP2ViwsrcgDH9e3N/view?usp=sharing)
+
   ## Ejemplo y reto: La LL y la Y
 
 **Casos especiales:**
@@ -222,7 +226,7 @@ Para este ejercicio utilizaremos una Platzigrafía a le que le hemos quitado tod
 
   ## La H
 
-  - [h](img/h.png)
+  - [h](https://drive.google.com/file/d/13ajqZ96OY7Y1y06AJ899eJ-FGpc35MTd/view?usp=sharing)
 
   ## Ejemplo: la H
 
@@ -244,7 +248,7 @@ Para este ejercicio utilizaremos una Platzigrafía a le que le hemos quitado tod
 
   Siguiendo la analogía de la química, donde el átomo era la representación de la letra. Cuando unimos varios átomos tenemos moléculas y cuando la molécula es más grande, tenemos un compuesto.
 
-  ![](img/silaba.png "S&iacute;labas y Palabras")
+  ![](https://i.ibb.co/87npdHJ/silaba.png "S&iacute;labas y Palabras")
 
   En este caso mi sílaba sería una molécula y mi palabra sería el compuesto.
 
@@ -262,7 +266,7 @@ La consonante inicial de la palabra debe unirse a la primera vocal. La consonant
 
 Así que nuestra palabra se divide en dos sílaba:
 
-![](img/consonate1.png "Divisi&oacute;n de s&iacute;labas")
+![](https://i.ibb.co/F505nh1/consonate1.png "Divisi&oacute;n de s&iacute;labas")
 
 **Consonante entre dos vocales**
 
@@ -272,7 +276,7 @@ Toda consonantes que esté en medio de dos vocales, debe unirse a la vocal que l
 
 En esta palabra todas las consonantes se pueden unir a la vocal que le sigue
 
-![](img/consonante2.png "Consonante entre dos vocales")
+![](https://i.ibb.co/0QCWgpf/consonante2.png "Consonante entre dos vocales")
 
 **Grupos consonánticos indivisibles**
 
@@ -280,7 +284,7 @@ Cuando tenemos dos consonantes juntas en medio de dos vocales hay dos opciones. 
 
 Por ejemplo la siguiente palabra:
 
-![](img/2.png "Grupos consonánticos indivisibles")
+![](https://i.ibb.co/8DhygdZ/2.png "Grupos consonánticos indivisibles")
 
 Acá se pronuncia do-ble no dob-le cuando tenemos esas dos consonantes juntas, por lo tanto, estos grupos consonánticos nunca se deben separar y deben quedarse dentro de la misma sílaba.
 
@@ -288,7 +292,7 @@ Cuando no es un grupo consonántico indivisible lo que hacemos es separar la pro
 
 Por ejemplo:
 
-![](img/2-1.png "Grupos consonánticos indivisibles")
+![](https://i.ibb.co/ccTx6RV/2-1.png "Grupos consonánticos indivisibles")
 
 Nosotros pronunciamos tam-bor, por eso cuando tenemos dos consonantes juntos entre dos vocales y no formen parte del grupo consonántico indivisible, se deben separar cada una en una sílaba.
 
@@ -296,18 +300,18 @@ Nosotros pronunciamos tam-bor, por eso cuando tenemos dos consonantes juntos ent
 
 Un ejemplo claro sería:
 
-![](img/3.png "Tres consonantes ente vocales")
+![](https://i.ibb.co/LNMjBCJ/3.png "Tres consonantes ente vocales")
 
 Aquí aplica la regla de los grupos consonánticos indivisibles, tenemos que las consonante t tiene un sonido fuerte y que cuando le agregamos la r se modifica el sonido. La primera consonante que conseguimos en este grupo de tres la agregamos a la vocal anterior y las otras dos que son indivisibles por su sonido alterado se agregan a la vocal que sigue. Por esto queda en-tre-ga.
 También podemos tener las tres consonantes juntas pero que no correspondan al grupo de las consonantes indivisibles, en este caso lo que haremos es dejar las dos primeras consonantes a la sílaba anterior y la tercera a la sílaba siguiente:
 
-![](img/3-1.png "Tres consonantes ente vocales")
+![](https://i.ibb.co/YPX7gfD/3-1.png "Tres consonantes ente vocales")
 
 **Cuatro consonantes entre vocales**
 
 Estos casos son especiales, siempre vas a tener en segundo lugar un grupo de consonantes indivisibles, por esto las dos primeras consonantes se quedan con la vocal anterior y las otras dos con la vocal siguiente.
 
-  ![](img/4.png "Cuatro consonantes entre vocales")
+  ![](https://i.ibb.co/swT3968/4.png "Cuatro consonantes entre vocales")
 
   ## Diptongo, triptongo e hiato
 
@@ -325,11 +329,11 @@ Se presenta cuando hay dos vocales seguidas en la misma palabra pero se separan 
 
 **NOTA:** si en una palabra hay una vocal abierta y la otra cerrada y el énfasis fonético recae en la cerrada, es decir, se aplica la tilde en la vocal cerrada.
 
-![](img/vocales.webp "Diptongo, triptongo e hiato")
+![](https://i.ibb.co/RbbQrb9/vocales.webp "Diptongo, triptongo e hiato")
 
   ## La sílaba tónica, el acento y la tilde
 
-![](img/ejm.png "Fuerza al pronunciarla")
+![](https://i.ibb.co/vVNm3fz/ejm.png "Fuerza al pronunciarla")
 
 - La **sílaba tónica** es, dentro de una palabra, la sílaba que lleva el mayor énfasis o mayor fuerza al pronunciarla. Las demás sílabas de menor fuerza en su pronunciación se llaman sílabas átonas. A la **sílaba tónica** también se le conoce como acento léxico. En general, a la fuerza o énfasis en la pronunciación se le llama **acento**; y aunque solemos usar el término acento como sinónimo de **tilde**, no son lo mismo. Todas las palabras tienen acento, sílaba tónica, pero no todas llevan tilde.
 
@@ -349,9 +353,9 @@ Ahora aprendamos a usar las tildes. Todo se reduce a saber distinguir la sílaba
 * Son las que llevan la sílaba tónica en la última posición.
 * Llevan tilde cuando terminan en vocal, n o s: excepto que sea monosílaba, esos no se acentúan.
 
-Ejemplo:
+**Ejemplo:**
 
-![](img/aguda.png "ejemplo de palabra aguda")
+![](https://i.ibb.co/FXZvddv/aguda.png "ejemplo de palabra aguda")
 
 Las palabras **agudas** son las que llevan el acento (o sílaba tónica) en la **última sílaba** y deben llevar **tilde** en la última **vocal**, sólo cuando terminan en vocal, en **N** o en **S**, excepto cuando la palabra es un monosílabo, ya que estos nunca deben llevar tilde.
 
@@ -368,9 +372,9 @@ Las palabras graves o llanas son las que llevan el acento (o sílaba tónica) en
 
 Se les puede llamar de las dos formas. Son las que llevan el acento en la penúltima sílaba, es decir: la sílaba antes de la última. 
 
-Por ejemplo:
+**Por ejemplo:**
 
-![](img/llana.png "Palabra grave")
+![](https://i.ibb.co/3M1NNSM/llana.png "Palabra grave")
 
 **¿Cuando se usan tilde en estas palabras?**
 ‌
@@ -397,7 +401,7 @@ Las palabras graves que terminen en un hiato, siempre llevan tilde, aunque termi
 
 Las palabras esdrújulas son las que llevan el acento (o sílaba tónica) en la antepenúltima sílaba (la que viene antes de la penúltima) y siempre llevan tilde. La tilde debe ir en la sílaba tónica.
 
-![](img/esdrujula.png "Palabra esdrújula")
+![](https://i.ibb.co/y4QmXGP/esdrujula.png "Palabra esdrújula")
 
 Si usamos la técnica para descubrir la sílaba tónica, nos daremos cuenta de que ná es la correcta. ¿Cuando llevan tilde? Siempre. Dato curioso: **la palabra esdrújula es una palabra esdrújula.**
 
@@ -417,7 +421,7 @@ Las palabras terminadas en -ísimo o -ísima siempre son esdrújulas.
 Si has seguido la dinámica, sabrás que la sílaba tónica de este tipo de palabras está en la **tras-antepenúltima** sílaba, es anterior a la **antepenúltima**. Siempre lleva tilde. Todas las palabras que tengan la sílaba tónica en esta posición o anterior a esta son **sobreesdrújulas**. Hay pocas palabras sobreesdrújulas en nuestro idioma o son derivados de otras palabras. 
 Ejemplo:
 
-![](img/esdru.png "Palabras sobreesdrújulas")
+![](https://i.ibb.co/kcKyJ4j/esdru.png "Palabras sobreesdrújulas")
 
 Viene de la palabra rápido, esta es esdrújula por eso lleva tilde. Agregando el sufijo mente la convertimos en un adverbio, nos indica velocidad. Tiene 5 sílabas y tiene su sílaba tónica en la tras-antepenúltima sílaba, lleva acento.
 
@@ -428,8 +432,8 @@ Ejemplos de palabras sobreesdrújulas:
 
 **Repaso de las reglas ortográficas sobre el uso de las tildes:**
 
-- Las palabras agudas llevan tilde cuando terminan en vocal, N o S.
-- Las palabras graves o llanas llevan tilde cuando no terminan ni en vocal, ni en N, ni en S.
+- Las palabras agudas llevan tilde cuando terminan en vocal, **N o S**.
+- Las palabras graves o llanas llevan tilde **cuando no terminan ni en vocal, ni en N, ni en S**.
 - Las palabras graves terminadas en hiato llevan tilde aún cuando no cumplan la regla anterior.
 - Las palabras esdrújulas y sobreesdrújulas siempre llevan tilde.
 
@@ -566,11 +570,11 @@ La **coma criminal** es un error muy común que consiste en poner una coma entre
 - Cuando estamos en presencia de un **inciso**.
 - Cuando estamos en presencia de un **vocativo**.
 
-   ![](img/coma.webp "coma criminal")
+   ![](https://i.ibb.co/kmcfWVZ/coma.webp "coma criminal")
 
   ## Ejemplo: los signos de puntuación
 
-![](img/in.jpg "Tipos de Inciscos")
+![](https://i.ibb.co/XpQryxz/in.jpg "Tipos de Inciscos")
 
 Quedarnos sin aire al leer pudiera significar que faltan algunos signos de puntuación en el texto, pero ten cuidado, también pudiera significar que estamos respirando mal; esto suele suceder cuando estamos apurados o nerviosos, o simplemente no estamos prestando atención al texto que leemos. Aún cuando pudiéramos tomar como indicios de faltas de puntuación el quedarnos sin aire, no necesariamente es así en todos los casos.
 
@@ -586,7 +590,7 @@ Quedarnos sin aire al leer pudiera significar que faltan algunos signos de puntu
 
 Un **texto** es un conjunto de párrafos que comunican una idea. Tiene un principio y un final definidos. Hay diferentes tipos de textos: narrativos, descriptivos y argumentativos.
 
-![](img/texto.png "Texto")
+![](https://i.ibb.co/YZmvb79/texto.png "Texto")
 
 ¿Qué es el texto? Es un conjunto de de párrafos que forman una idea. Tiene un principio y un final definido. Existen diferentes tipos de textos: narrativos, descriptivos, argumentativos. Dependerá de ti qué tipo de texto vas a crear.
 
@@ -642,43 +646,43 @@ El título es la carnada de tu texto, es lo que hará que las personas se deteng
 
 - **Discordancia entre sujeto y predicado:** cuando el sujeto y el verbo de la oración no están conjugados en la misma persona, tiempo y género.
 
-![](img/dis1.png "Discordancia entre el sujeto y predicado")
+![](https://i.ibb.co/S5DhcpJ/dis1.png "Discordancia entre el sujeto y predicado")
 
 - **Infinitivo introductor:** cuando la primera palabra de una oración es un verbo en infinitivo. Lo correcto es utilizar una conjugación del mismo verbo o un sustantivo.
 
-![](img/inf2.png "El infinitivo introductor y “adicional” como adverbio")
+![](https://i.ibb.co/WtmdsHw/inf2.png "El infinitivo introductor y “adicional” como adverbio")
 
 - **“Adicional” como adverbio:** cuando se usa “adicional” como un adverbio y no como adjetivo. Lo correcto es agregarle el sufijo “-mente” para convertirlo en adverbio.
 
-![](img/ge3.png "El gerundio que expresa posterioridad")
+![](https://i.ibb.co/1ssq9my/ge3.png "El gerundio que expresa posterioridad")
 
 - **El gerundio que expresa posterioridad:** cuando se usa un gerundio en una oración, este no debe expresar una acción posterior a la que expresa el verbo principal.
 
-![](img/ge3.png "El gerundio que expresa posterioridad")
+![](https://i.ibb.co/1ssq9my/ge3.png"El gerundio que expresa posterioridad")
 
 - **“Haber” como verbo personal:** cuando se conjuga incorrectamente el verbo “haber”. La forma correcta de conjugarlo es en tercera persona ya que es un verbo impersonal.
 
-![](img/hab.png "“Haber” como verbo personal")
+![](https://i.ibb.co/hmKZLk0/hab.png "“Haber” como verbo personal")
 
 - **Cacofonía:** cuando se repite varias veces la misma palabra o una que suena muy similar.
 
-![](img/ca.png "Cacofonía")
+![](https://i.ibb.co/gWZvKBy/ca.png "Cacofonía")
 
 - **Adverbio de lugar y pronombre posesivo:** cuando se escribe un pronombre posesivo: mío, tuyo y suyo, luego de un adverbio de lugar. Lo correcto es usar las formas: de mí, de ti, etc.
 
-![](img/ad.png "Adverbio de lugar y pronombre posesivo")
+![](https://i.ibb.co/dtBLTGp/ad.png "Adverbio de lugar y pronombre posesivo")
 
 - **Dequeísmo y Antidequeísmo:** cuando hay un uso excesivo o incorrecto uso de la expresión “de que” en una oración. Si al cambiar la palabra “que” por “algo” no suena bien la oración, seguro se está usando de la forma incorrecta.
 
-![](img/de.png "Dequeísmo y antidequeismo")
+![](https://i.ibb.co/Xx91w1X/de.png "Dequeísmo y antidequeismo")
 
 - **Falta de puntuación:** cuando en un texto o párrafo muy largo hay ausencia de puntos, comas y demás signos de puntuación.
 
-![](img/fal.png "Falta de puntuación")
+![](https://i.ibb.co/PjFjZ3D/fal.png "Falta de puntuación")
 
 - **Exceso de puntuación:** cuando en un texto hay uso excesivo de puntos, comas y demás signos de puntuación. La “coma criminal” es un ejemplo de este tipo de error.
 
-![](img/exc.png "Exceso de puntuación")
+![](https://i.ibb.co/SrfwHKx/exc.png "Exceso de puntuación")
 
 - [Dificultades gramaticales. La gramática sirve para algo](https://erroresgramaticales.blogspot.com)
 

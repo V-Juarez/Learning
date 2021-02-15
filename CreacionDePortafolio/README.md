@@ -56,6 +56,8 @@ Herramienta que sirve para demostrar de manera visual, las capacidades con las q
 
 [NeuroHR | Eye "Eye Tracking"](https://neurohres.wordpress.com/2016/08/27/estudio-a-traves-de-eye-trackingdetermina-cuanto-tiempo-pasa-un-reclutador-de-personal-mirando-un-curriculum/)
 
+[slide-portafolio-y-cv.pdf](https://drive.google.com/file/d/1RFmbzmH9k1drEXB-gXxAumuTETmcnIXL/view?usp=sharing)
+
 ## ¿Qué perfiles profesionales deben tener un portafolio ?
 
 **¿Qué perfiles profesionales deben tener un portafolio ?**

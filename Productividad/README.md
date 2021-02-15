@@ -50,6 +50,9 @@ Realiza uno de estos test, e identifica como eres. Y dale vidad a tu personalida
 - [DISC](https://www.123test.com/disc-personality-test/)
 - [16Personalities](https://www.16personalities.com)
 
+
+- [Slides del curso - Productividad.pdf](https://drive.google.com/file/d/1bNhfeSSgFGt-gnNGbJMK-ofeLxxQ9dzg/view?usp=sharing)
+
   ## Auditoría de la vida
 
   **La teorìa**
@@ -68,6 +71,8 @@ Realiza uno de estos test, e identifica como eres. Y dale vidad a tu personalida
 
 	[AIT BUT WHY](https://waitbutwhy.com)
 
+  [MY LIFE IN WEEKS](https://drive.google.com/file/d/1hU-G4lNxBTLaoGIVZ8alka8xmcegAvsL/view?usp=sharing)
+
   Recuerda después de realizar el diagnóstico:
 
   - Entender las macro categorías de tu vida
@@ -75,6 +80,8 @@ Realiza uno de estos test, e identifica como eres. Y dale vidad a tu personalida
   - Revisa las épicas
   - Momentos de enfermedad o muerte
   - Saca tu propia #DataSelfie
+
+  - [Toolkit de Productividad.pdf](https://drive.google.com/file/d/18rb-B2y06ldkJWypDXRUw5lULYtLdmzY/view?usp=sharing)
 
   ## Conocer la persona productiva
 
@@ -299,6 +306,8 @@ Les quiero aportar una herramienta que uso frecuentemente para conocer mis forta
 * Emociones
 * Preguntas
 * Comportamientos
+
+[FODA](https://drive.google.com/file/d/1F1EnN7nU1WZKpTMCAQYgoX9AktJWh7MR/view?usp=sharing)
 
   ## El mapa de empatía como plataforma de
 
@@ -847,7 +856,8 @@ Must - Should - Could - Would
   - Con qué frecuencia se recopilará y generará reporte.
   - Quién será el encargado de la data.
 
-  [Weekdone](https://weekdone.com/es)
+  + [Weekdone](https://weekdone.com/es)
+  + [Weekdone](https://drive.google.com/file/d/159tzWynIbZlMMPhYVQNqN2uuAVyHIh-u/view?usp=sharing)
 
   ## ¿Qué más sigue?
 

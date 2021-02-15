@@ -31,7 +31,7 @@
   - [Introducción al trabajo remoto](#Introducción-al-trabajo-remoto)
   - [Herramientas para el trabajo remoto](#Herramientas-para-el-trabajo-remoto)
   - [Métodos de productividad](#Métodos-de-productividad)
-  - [Tablero: crea tu Data Selfie](#Tablero:-crea-tu-Data-Selfie)
+  - [Tablero: crea tu Data Selfie](#Tablero-crea-tu-Data-Selfie)
   - [¿Qué más sigue?](#¿Qué-más-sigue?)
 
 ***

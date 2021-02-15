@@ -2,38 +2,39 @@
 #### Marian villa
 
 # Tabla de Contenido
-- [1. Deconstruye tu vida](#)
-  - [¿Qué es productividad?](#)
-  - [Auditoría de la vida](#)
-  - [Conocer la persona productiva](#)
-  - [Autoconocimiento](#)
-  - [Personalidad y productividad](#)
-  - [Conocer la rueda de la vida](#)
-  - [Reconocer tu Hero Canvas](#)
-  - [El mapa de empatía como plataforma de autoconocimiento y validación](#)
-  - [Definir tu User Persona](#)
-- [2. Documenta un punto de vista de tu vida](#)
-  - [Crea tu propósito y tu propuesta de valor](#)
-  - [Proyecta tu plan de vida](#)
-- [3. Reconstruye tu vida](#)
-  - [Rediseña tu vida](#)
-  - [Aplica Design Thinking a tu vida](#)
-  - [Cómo fijar objetivos estratégicos](#)
-  - [Conoce las 3 P de la productividad](#)
-- [4. Claves para ser productivo](#)
-  - [GTD® (Getting Things Done®)](#)
-  - [Cómo dejar de perder el tiempo](#)
-  - [Espacio y ciclos](#)
-  - [Rituales y rutinas](#)
-  - [Hábitos](#)
-  - [El método Ivy Lee](#)
-- [5. La productividad y el trabajo remoto](#)
-  - [Introducción al trabajo remoto](#)
-  - [Herramientas para el trabajo remoto](#)
-  - [Métodos de productividad](#)
-  - [Tablero: crea tu Data Selfie](#)
-  - [¿Qué más sigue?](#)
+- [1. Deconstruye tu vida](#1.-Deconstruye-tu-vida)
+  - [¿Qué es productividad?](#¿Qué-es-productividad?)
+  - [Auditoría de la vida](#Auditoría-de-la-vida)
+  - [Conocer la persona productiva](#Conocer-la-persona-productiva)
+  - [Autoconocimiento](#Autoconocimiento)
+  - [Personalidad y productividad](#Personalidad-y-productividad)
+  - [Conocer la rueda de la vida](#Conocer-la-rueda-de-la-vida)
+  - [Reconocer tu Hero Canvas](#Reconocer-tu-Hero-Canvas)
+  - [El mapa de empatía como plataforma de autoconocimiento y validación](#El-mapa-de-empatía-como-plataforma-de-autoconocimiento-y-validación)
+  - [Definir tu User Persona](#Definir-tu-User-Persona)
+- [2. Documenta un punto de vista de tu vida](#2.-Documenta-un-punto-de-vista-de-tu-vida)
+  - [Crea tu propósito y tu propuesta de valor](#Crea-tu-propósito-y-tu-propuesta-de-valor)
+  - [Proyecta tu plan de vida](#Proyecta-tu-plan-de-vida)
+- [3. Reconstruye tu vida](#3.-Reconstruye-tu-vida)
+  - [Rediseña tu vida](#Rediseña-tu-vida)
+  - [Aplica Design Thinking a tu vida](#Aplica-Design-Thinking-a-tu-vida)
+  - [Cómo fijar objetivos estratégicos](#Cómo-fijar-objetivos-estratégicos)
+  - [Conoce las 3 P de la productividad](#Conoce-las-3-P-de-la-productividad)
+- [4. Claves para ser productivo](#4.-Claves-para-ser-productivo)
+  - [GTD® (Getting Things Done®)](#GTD®-Getting-Things-Done®)
+  - [Cómo dejar de perder el tiempo](#Cómo-dejar-de-perder-el-tiempo)
+  - [Espacio y ciclos](#Espacio-y-ciclos)
+  - [Rituales y rutinas](#Rituales-y-rutinas)
+  - [Hábitos](#Hábitos)
+  - [El método Ivy Lee](#El-método-Ivy-Lee)
+- [5. La productividad y el trabajo remoto](#5.-La-productividad-y-el-trabajo-remoto)
+  - [Introducción al trabajo remoto](#Introducción-al-trabajo-remoto)
+  - [Herramientas para el trabajo remoto](#Herramientas-para-el-trabajo-remoto)
+  - [Métodos de productividad](#Métodos-de-productividad)
+  - [Tablero: crea tu Data Selfie](#Tablero:-crea-tu-Data-Selfie)
+  - [¿Qué más sigue?](#¿Qué-más-sigue?)
 
+***
 
 # 1. Deconstruye tu vida
 
@@ -48,7 +49,7 @@ Realiza uno de estos test, e identifica como eres. Y dale vidad a tu personalida
 - [Truity](https://www.truity.com/)
 - [the Big Five Personality Test](https://www.truity.com/test/big-five-personality-test)
 - [DISC](https://www.123test.com/disc-personality-test/)
-- [16Personalities](https://www.16personalities.com)
+- [16 Personalities](https://www.16personalities.com)
 
 
 - [Slides del curso - Productividad.pdf](https://drive.google.com/file/d/1bNhfeSSgFGt-gnNGbJMK-ofeLxxQ9dzg/view?usp=sharing)
@@ -67,7 +68,9 @@ Realiza uno de estos test, e identifica como eres. Y dale vidad a tu personalida
 
   * [Life in weeks](https://onedrive.live.com/view.aspx?resid=B9A5E09DC677935A!28469&ithint=file,xlsx&authkey=!ABKoxbvvxgmnQIQ)
 
-  ![](img/weeks-block.png)
+  ![](https://i.ibb.co/gdDm24F/weeks-block.png)
+
+  ![](https://i.ibb.co/5rZ3Mdx/LIfe.png)
 
 	[AIT BUT WHY](https://waitbutwhy.com)
 
@@ -101,7 +104,7 @@ Realiza uno de estos test, e identifica como eres. Y dale vidad a tu personalida
 
 > “La vida es todo eso que pasa mientras haces planes; haz los planes y ejecútalos”
 
-![](img/agilis.webp)
+![](https://i.ibb.co/DwbkMhx/agilis.webp)
 
 **Autoconocimiento**
 
@@ -337,7 +340,7 @@ Resultados
 
 La matriz consta de 6 módulos, en el área central encontramos la personificación del usuario, en este caso nosotros, *‘Nuestro propio usuario’*, la matriz en primera instancia generalmente se trabaja de manera análoga, y luego podría digitalizarse o trabajarse en una herramienta como: *Google Draw, Muraly o Miro*.
 
-![](img/Mapa-1.png)
+![](https://i.ibb.co/KWmX5Qr/Mapa-1.png)
 
 Para toda la matriz se trata de tomar palabras claves, en técnicas de las ciencias sociales esto se llama ‘Verbatim’ hay que estar despierto a estas claves en la entrevista. Recuerden que no se trata de tener las respuestas, se trata de las preguntas adecuadas. Una buena práctica es grabarlas con la autorización del entrevistado, incluso es importante que tengas un formato firmado de esta autorización.
 
@@ -469,7 +472,7 @@ Pasión = Afición + Habilidades
 
 * ¿Qué amas hacer?
 
-![](img/ikigai.webp)
+![](https://i.ibb.co/3T2LjtH/ikigai.webp)
 
 **Profesión** = Habilidades + Mercado/Demanda
 ¿En qué eres bueno?
@@ -494,7 +497,7 @@ Pasión = Afición + Habilidades
 * Escribe tu declaración.
 * Refínela.
 	
-  ![](img/canvas.webp)
+  ![](https://i.ibb.co/YBWVbsB/canvas.webp)
 
 ## Proyecta tu plan de vida
 
@@ -517,7 +520,7 @@ Pasión = Afición + Habilidades
 
 __La meta es el fin último__ al que se quiere llegar, mientras que __el objetivo es el paso que se quiere cumplir__ para poder alcanzar la meta.
 
-  ![](img/warren.webp)
+  <p align="center"><a href=""><img src="https://i.ibb.co/PYjc4rM/warren.webp" width="600"></a></p>
 
   Regla 25-5 de Warren Buffett:
 
@@ -540,8 +543,7 @@ __La meta es el fin último__ al que se quiere llegar, mientras que __el objetiv
 
 **(Visualiza palabras claves por cada cuadrante)**
 
-![](img/thinking.png)
-
+<p align="center"><a href=""><img src="https://i.ibb.co/XjPYYn6/thinking.png" width="600"></a></p>
 
 **Affinity Map:**
 
@@ -729,7 +731,7 @@ Meta - Objetivo - Estrategia - Táctica
 
 **Entre 18 y 254 días es el tiempo para adoptar hábitos**, pero esto depende de cada persona. No está mal tardarse más o menos que otras personas durante el proceso de la adopción del hábito.
 
-![](img/habitos.webp)
+![](https://i.ibb.co/MSMr0Hy/habitos.webp)
 
 ## El método Ivy Lee
 
@@ -834,7 +836,7 @@ Must - Should - Could - Would
   - [Tú eres lo que mides | PlatziLive - YouTube](https://www.youtube.com/watch?v=Q0500TokxIg)
   - [18 Key Performance Indicator (KPI) Examples Defined](https://www.clearpointstrategy.com/18-key-performance-indicators/)
 
-  ![](img/flow.webp)
+  ![](https://i.ibb.co/mt8GBDJ/flow.webp)
 
 ## Tablero: crea tu Data Selfie
 
@@ -847,6 +849,8 @@ Must - Should - Could - Would
 
 **KPI:** Medida o indicador que ayuda a una organización a comprender qué tan bien se está desempeñando en relación con sus metas y objetivos estratégicos.
 
+![](https://i.ibb.co/qJJtKVv/kirk.webp)
+
 **Factores para un KPI:**
 
   - Cuál es el objetivo asociado.
@@ -857,7 +861,8 @@ Must - Should - Could - Would
   - Quién será el encargado de la data.
 
   + [Weekdone](https://weekdone.com/es)
-  + [Weekdone](https://drive.google.com/file/d/159tzWynIbZlMMPhYVQNqN2uuAVyHIh-u/view?usp=sharing)
+
+  + [Weekdone.pdf](https://drive.google.com/file/d/159tzWynIbZlMMPhYVQNqN2uuAVyHIh-u/view?usp=sharing)
 
   ## ¿Qué más sigue?
 

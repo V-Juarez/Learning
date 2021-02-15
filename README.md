@@ -11,7 +11,7 @@ Apuntes de Habilidades de comunicaci&oacute;n escrita y verbal.
 
 Apuntes:
 
-<li><a href="https://github.com/V-Juarez/Learning/tree/DesarrolloPersonal/AprenderEnLinea" target="_blank">Productividad</a></li>
+<li><a href="https://github.com/V-Juarez/Learning/blob/DesarrolloPersonal/Productividad" target="_blank">Productividad</a></li>
   
 <li><a href="https://github.com/V-Juarez/Learning/tree/DesarrolloPersonal/CreacionDePortafolio" target="_blank">Creaci&oacute;n de Portafolio</a></li>
   

@@ -338,24 +338,151 @@ Todos nuestros slides tienen problemas en algún momento de nuestras vidas. Cuan
   • Usar una fuente legible y de buen grosos para cualquier tipo de proyector.
   • Cerrar con mi E-mail
 
+![](https://i.ibb.co/LCCMkbD/presentacion.webp)
+
+- [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+- Open Sans -> Font
 
 ## Sincronización de tiempo en charlas con apoyo visual
 
+El tiempo es uno de los factores más difíciles de controlar cuando estás en cámara o frente al público. Las charlas TED preparan mucho a sus conferencistas para que den las mejores charlas, que deben durar de 12 a 15 minutos.
 
+Los slides son una herramienta de disciplina mental que te ayuda a organizar tus ideas y saber cuánto tiempo te puedes tomar. Intenta no dedicarle a cada diapositiva más de un minuto.
+
+Ejercicio: La próxima vez que vayas a dar una charla intenta crear un ignite (una conferencia de 5 minutos, con 20 slides que corren automáticamente cada 15 segundos) incluso si no te lo pidieron. Esto te va ayudar a tener ideas más concretas y a dejar tus mensajes claros.
 
 # 4. Grandes conferencias (inspiración)
+
 ## Ignite: Cómo ser un refugiado
+
+El uso del silencio en esta charla para dejar clavado un punto en la audiencia siempre me inspirará. Es mágica la forma en la que en segundos creas empatía con una situación tan lejana, gracias al poder de saber hablar en público.
+
+Otro formato desafiante en cuanto al tiempo es el PechaKucha Japones. La idea es tratar un tema en un tiempo muy corto usando solo 20 slides con el proposito de no aburrir, dejar bien clara la idea y generar impacto. 
+
+Les dejo la intro de wikipedia y un ejemplo mas abajo: "PechaKucha (ペチャクチャ?) es un formato de presentación en el cual se expone una presentación de manera sencilla e informal mediante 20 diapositivas mostradas durante 20 segundos cada una. 
+
+Originalmente creado por Astrid Klein y Mark Dytham de Klein-Dytham Architecture (KDa) en Tokio en 20031​ como un punto de encuentro para jóvenes emprendedores donde pudiesen mostrar sus presentaciones en público e intercambiar opiniones. Desde entonces, el formato se ha extendido de manera viral a otras ciudades alrededor del mundo.
+
+El nombre PechaKucha deriva de un término japonés que significa cháchara o parloteo."
+
+  > Uso del silencio es increible, te marca, y aunque no es una gran moduladora de su voz, ese silencio deja una gran marca en la presentación.
+
+  > No sabía de las charlas Ignite. Muy profundas y de fuertes mensajes siendo simples y elocuentes 😃.
+
+- [HOW TO BE A REFUGEE by Tara Horn, Ep 46](https://www.youtube.com/watch?v=5T1o6cUUVQ0&feature=emb_logo)
+
 ## Ignite: Por qué los brasieres son tan incómodos
+
+El poder de empatizar, crear una base común y luego romper esa base con una idea nueva y un esfuerzo gigante, sumado a la magia de hilar todo contando una sola historia es la razón por la que esta charla me encanta.
+
+No se distrajo cuando el sonido fallo, ella simple mente siguió con su presentación.
+
+- [Why Are Bras So Uncomfortable by Michelle Lam](https://www.youtube.com/watch?time_continue=5&v=SLz0GaifWNI&feature=emb_logo)
+- [Lo que puedes esperar de las charlas Ignite en PlatziConf México 2016](https://platzi.com/blog/ignites-platziconfmx-2016/)
+
 # 5. Práctica, improvisación y optimización
+
 ## Cómo practicar para una conferencia, exposición o discurso
+
+Practica de pie desde el comienzo, pues lo más probable es que tu conferencia sea de pie, además recuerda que utilizas diferentes lados del cerebro dependiendo de si estás hablando ante un público o solo con una persona.
+
+Otra técnica que puedes utilizar son los enlaces mnemónicos, que son imágenes que te ayudan a recordar lo que estás tratando de decir. Para esto los slides son nuevamente de gran ayuda.
+
+Si tienes la oportunidad, practica con algunas personas que puedan darte feedback. Eso si, recuerda que todo el mundo tiene una opinión y no todas vale la pena considerarlas.
+
+Finalmente, si hay una frase que te interesa mucho recalcar puedes intentar cantarla. Esto te ayuda a crear un enlace más en tu cerebro para interiorizar el mensaje.
+
+- [📈 El 70% de quienes estudian en Platzi aumentan sus ingresos en un año](https://www.youtube.com/watch?v=U9hq83ryFj0)
+
 ## Improvisación efectiva en charlas en vivo
+
+Parar el show es lo peor que puedes hacer, lo único que importa cuando estás frente al público es que ““el show debe continuar””.
+
+El standup comedy es un arte que no todo el mundo puede manejar bien, pero con el que puedes comenzar a practicar algunas cosas para ganar tiempo. Ten una serie de chistes o comentarios que no sean discriminantes de ninguna forma y genera empatía con tu audiencia.
+
+Si hay algún problema técnico, no hay ningún problema en dar contexto y pedir ayuda para que tu charla salga lo mejor posible. Y si el problema es que olvidaste lo que tenías que decir haz una pausa callada e intenta simplemente recordar cuál es el núcleo del mensaje que quieres dar, solo eso te va a permitir recuperar el hilo conductor.
+
+> Freddy es el mejor profesor simplemente porque es el único que te enseña de una forma que no se te va a olvidar y te mata de risa al mismo tiempo.
+>
+> No pude evitar pensar “CARAJO NO PIDAS PERDON!”
+
+• Tus emociones no importan.
+• Vencer todas las dificultades.
+• Improvisar: Stand up comedí: Chistes neutrales.
+• Regalar cosas: Como improvisar.
+• Evitar el vacío.
+• Hacer preguntas del contexto de la charla,
+regalar premios para mantener a la audiencia enganchada.
+
+
 ## Optimiza tu charla para auditorios: manejo de escenarios y cámaras
+
+Es normal no estar acostumbrados a estar frente a una cámara. No importa en dónde estén ubicadas, siempre intenta identificarlas y tener un contacto directo con el lente.
+
+Un buen truco es que intentes mirar a un área vacía y no hacer contacto visual con una persona, pues las reacciones emocionales de tu audiencia pueden afectar tu energía en el escenario. Otra cosa que puedes hacer es ir cambiando entre las cámaras fijas que hayas identificado, solo no hagas esto con cámaras que se están moviendo.
+
+¿Hay que moverse en el escenario? Muchos auditorios tienden a tener un podio en el que está el computador o algún control. Intenta no quedarte ahí si es posible y moverte en un área limitada para que la audiencia se enganche más contigo.
+
+![](https://i.ibb.co/QcVC44K/camara.webp)
+
 ## Aplausos: Qué necesita tu presentación para que te aplaudan
+
+Siempre que termines una charla te van a aplaudir. En Broadway a esto lo llaman ““el botón””, que es como el Call To Action. Este es el momento en el que se hacer un resumen un poco más acelerado del mensaje más fuerte que quieres dejar y que hace que cierre, que la gente sepa que ““aquí se acabó””.
+
+Toma el mensaje más central de tu charla, cambia el tono, acelera el ritmo y agrega un punto final en tu forma de hablar para incitar a los aplausos.
+
+Hay una forma de crear un ““botón en el intermedio””. Esto tiene que ver más con reacciones emocionales que puedes generar en tu audiencia, y en el instante en el que detectes que alguien inicia un aplauso puedes detenerte y dejar que esto se extienda.
+
+**El botón:** Resumen acelerado de todo lo que hablamos y cerrar con impacto (Call to action)
+
+La gente aplaude porque tiene una reacción emocional a lo que tú dices. La gente aplaude porque quiere que todos los que están a su alrededor sepan “Yo estoy de acuerdo con eso”. Y tienes que darles una excusa para aplaudir.
+
 # 6. Charlas en vivo vs. Charlas grabadas
+
 ## Cómo hablarle a público online en Youtube
+
+Los videos de YouTube tienen algunas características representativas. Aquí te damos algunos consejos para lograr los mejores videos:
+
+Haz un video corto, aproximadamente de 9 minutos. Una conferencia puede durar hasta 20 minutos, pero lo ideal es entre 12 y 15 minutos.
+Habla rápido, sin pausas, pero vocalizando. Practica tu dicción y mira siempre al lente.
+Crea thumbnails con títulos llamativos y de buena calidad para atraer más clicks. Agrega mayúsculas a las palabras clave que quieres resaltar.
+
+**Idea a resaltar.**
+
+Video en Youtube:
+
+  - Titulo relacionado y llamativo
+  - Titulo con mayusculas mejorar el posicionamiento
+  - En la imagen de presentación del video debe tener un mensaje emocional.
+
+La música de fondo en los vídeos de Youtube le da más peso al mensaje que queremos trasmitir, porque la música activa numerosas emociones ubicadas en áreas del cerebro que se encargan de la empatía y la imitación.
+
+- [Elevator pitch: Aprende a venderte en 60 segundos](https://www.youtube.com/watch?v=kgf3c5mk5eg)
+
 ## Técnicas de interactividad en conferencias
+
+Pedirle a la audiencia que levante la mano para saber un poco más sobre ellos sirve mucho para iniciar una conferencia, pues así todos pueden ver qué tipo de personas están en el auditorio, identificarse con el resto y saber que depronto vas a interactuar con ellos.
+
+Cuando haces preguntas a la audiencia donde los fuerzas a cometer errores generas recordación de algún dato importante que querías dejar en tu charla. Haz preguntas sobre el contenido de tu conferencia y mantén la atención de las personas todo el tiempo.
+
+En charlas o conferencias online puedes tener interactividad con tus redes sociales, invitando a que te envíen preguntas o mensajes a una cuenta determinada o un hashtag.
+
+- [Cómo parecer inteligente en tu charla TEDx | Will Stephen | TEDxNewYork](https://www.youtube.com/watch?v=8S0FDjFBj8o)
+
 ## Charlas en vivo vs. Charlas grabadas
+
+
+
 # 7. Consejos importantes
+
 ## Cómo dar una charla en inglés si no es tu idioma nativo
+
+
+
 ## Elimina tus muletillas y frases de apoyo repetitivas
+
+
+
 ## Proyecto final del curso: Tu conferencia en Youtube
+
+

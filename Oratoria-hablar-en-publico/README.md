@@ -468,21 +468,44 @@ Cuando haces preguntas a la audiencia donde los fuerzas a cometer errores genera
 En charlas o conferencias online puedes tener interactividad con tus redes sociales, invitando a que te envíen preguntas o mensajes a una cuenta determinada o un hashtag.
 
 - [Cómo parecer inteligente en tu charla TEDx | Will Stephen | TEDxNewYork](https://www.youtube.com/watch?v=8S0FDjFBj8o)
+- [El poder del flow | Túpac Mantilla | TEDxBogotá](https://www.youtube.com/watch?v=CNsJXngfiDY&t=5s)
 
 ## Charlas en vivo vs. Charlas grabadas
 
+Hay una mentalidad diferente cuando estamos viendo en vivo versus cuando vemos algo grabado. En vivo vale la pena pausar e interactuar con la audiencia, pues probablemente llevan bastante tiempo ahí y quieren conectarse más con el conferencista. En charlas o versiones grabadas es importante editar estos componentes de interactividad, pues generan la sensación de que te perdiste algo que ya pasó.
 
+**Tip:** Cuando hagas charlas grabadas piensa en que le estás hablando a una, dos o pocas personas. Cuando hagas charlas en vivo habla como si estuvieras dirigiéndote a muchas personas.
+
+- Charla grabada = Al grano
+- Charla en Vivo = Interactiva
+- Charla grabada = Hablar uno a uno
+- Charla en Vivo = Hablar a un auditorio, aunque no sea un grupo grande
 
 # 7. Consejos importantes
 
 ## Cómo dar una charla en inglés si no es tu idioma nativo
 
+En Platzi hemos tenido que hacer diferentes presentaciones en inglés, tanto para reuniones o eventos presenciales como para contenido en video en YouTube.
 
+**¿Por qué tenemos miedo de hablar en otro idioma?** A veces nos sentimos inseguros, pues no estamos acostumbrados a hacerlo normalmente, y la realidad es que si no podemos hablar un idioma a pesar de que podamos leerlo, tenemos un nivel muy bajo en el manejo de dicho idioma. Recuerda que el acento no es tan importante como el mensaje que quieres dar, si estás preparado para compartir lo que sabes con seguridad, el resto no importa.
+
+Todo el mundo tiene un acento, incluso en su idioma nativo. Aunque existen formas de mejorar o cambiar tu acento, pero la verdad es que mientras te entiendan y lo que estés diciendo sea interesante todo estará bien. Sin embargo hay algo que puedes hacer siempre que vayas a dar una charla en un idioma que no es tu idioma nativo: habla lento, incluso al punto de sentirte incómodo.
+
+Crear un script (escribir lo que quieres decir) funciona si es la primera vez que vas a hablar en otro idioma, pero ten en cuenta que después no deberías usar el script para decir cada una de las palabras que anotaste, pues esto puede bloquearte. Solo necesitas el script como una guía mental para tener la estructura de tu discurso.
 
 ## Elimina tus muletillas y frases de apoyo repetitivas
 
+Cuando empezamos a hablar en público es normal tener algunas muletillas, tics nerviosos o frases de apoyo repetitivas que son difíciles de quitar. Para combatir esto el primer paso es identificarlas. Mira tus conferencias, grábate y revisa, además pregúntale a personas cercanas que te puedan dar ese feedback.
 
+Luego de haber identificado tus muletillas puedes empezar a reemplazarlas con silencios. Esto también tiene efectos colaterales positivos, como darle más importancia a lo que acabas de decir, sonar más inteligente o generar más impacto, incluso si lo que pasó es que simplemente se te olvido lo que seguía.
+
+Si vas a leer un discurso o decir algo que sabes de memoria igual es importante ponerle intención y pensar realmente qué viene a continuación, así que las pausas pueden ser una herramienta muy valiosa que te ayudará a darle más fuerza a tu mensaje.
 
 ## Proyecto final del curso: Tu conferencia en Youtube
 
+Para aprobar este curso necesitas:
 
+Haz un video en YouTube de máximo 9 minutos.
+Debe ser un video publicado después del lanzamiento de este curso, no puede ser un video viejo.
+El video debe ser tuyo, debe estar en tu canal.
+Debe tener más de 1000 views.

@@ -15,6 +15,9 @@
       - [Propiedades de la radicación:](#propiedades-de-la-radicación)
       - [Simplificar una raíz:](#simplificar-una-raíz)
   - [Orden de operaciones](#orden-de-operaciones)
+  - [$$9 * 2 = 18$$](#9--2--18)
+  - [$$7 * 2 = 14$$](#7--2--14)
+  - [$$20 + 6 = 26$$](#20--6--26)
   - [Factorización](#factorización)
   - [Recta numérica](#recta-numérica)
   - [¡A practicar lo aprendido!](#a-practicar-lo-aprendido)
@@ -133,7 +136,7 @@ Si estamos buscando la raíz de una multiplicación podemos separar los término
 **Formula**
 
 ```latex
-\sqrt{x}
+$$\sqrt{x}$$
 ```
 
 1. $$4.\sqrt{2}$$
@@ -170,20 +173,148 @@ $$4.\sqrt{2}$$
 
 ## Orden de operaciones
 
+Las operaciones se deben resolver siguiendo un orden:
 
+  - Las que se encuentren dentro de paréntesis y corchetes.
+  - Las operaciones de potencias y raíz.
+  - Las operaciones de multiplicación y división.
+  - Por último, las operaciones de suma y resta.
+
+
+$$2 * 5 + 2 * 4 - 8 + 4 / 2 = 22 | 26 | 9$$
+
+![](https://i.ibb.co/hBWVK7X/orden.webp)
+
+Ejemplos
+
+1. $$(3 + 6) * 2$$
+   $$9 * 2 = 18$$
+---
+
+2. $$(3 + 2^2) * 2$$
+   $$(3 + 4) * 2$$
+   $$7 * 2 = 14$$
+---
+
+3. $$20 + 12 / 2$$
+   $$20 + 6 = 26$$
+---
+
+4. $$4 * 8 / 2$$
+   $$32 / 2 = 16$$
+
+---
+
+5. $$2 * 5 + 2 * 4 - 8 + 4 / 2$$
+    $$10 + 8 - 8 + 2 $$
+    $$10 + 2 = 12$$
 
 ## Factorización
 
+La factorización consiste en el proceso de encontrar factores. Para un numero X, los factores serán los números que al multiplicarse su resultado sea igual al número X.
+
+Para facilitar el proceso de factorización debemos utilizar los números primos.
+
+Los números primos son aquellos números cuyos únicos factores son el mismo número y el número 1.
+
+> La factorización es una técnica que consiste en la descomposición de una expresión matemática (que puede ser un número, una suma o resta, una matriz, un polinomio, etc.) en forma de producto.
+
+![](https://i.ibb.co/g7K8qhW/fact.webp)
+
+![](https://i.ibb.co/g7Xykkb/fact1.webp)
+
+![](https://i.ibb.co/jbMvM8M/fact3.webp)
+
+![](https://i.ibb.co/R2smKhx/fact4.webp)
 
 
 ## Recta numérica
 
+Los seres humanos somos muy visuales, por ello se tuvo la necesidad de graficar lo que se media, así nació la recta numérica.
 
+En la recta numérica se encuentran tanto los números positivos como negativos y en su centro se encuentra el cero. Mientras más a la derecha se encuentre un número en la recta numérica, mayor va a ser su valor.
+
+Los signos + y - tienen propiedades muy importantes:
+
+- Signos diferentes dan negativo, por ejemplo, sumar un signo negativo te va a dar negativo.
+- Par de signos iguales dan positivo, por ejemplo, restar un signo negativo te va a dar positivo.
+
+![](https://i.ibb.co/L5WTSJX/r1.gif)
+
+![](https://i.ibb.co/P5Dgyrb/r2.jpg)
 
 ## ¡A practicar lo aprendido!
 
 
+¡Es hora de practicar lo aprendido!
 
+Pero antes te dejamos la solución de algunos ejercicios para que compruebes tus resultados:
+
+$3+6*4=27$
+
+Recuerda que la multiplicación tiene prioridad sobre la suma por lo tanto la debemos hacer primero
+
+$123+4*2+(3+2)=136$
+
+Debemos resolver primero la operación entre paréntesis luego la división y multiplicación de izquierda a derecha y finalmente las sumas, comprueba que tengas el mismo resultado
+
+$8^4=8x8x8x8$
+
+La potenciación es lo mismo que tener una multiplicación repetida
+
+$(3*4+22+(3-2))+1=36$
+
+Tenemos un paréntesis grande y debemos fijar nuestra atención allí, después vemos otro paréntesis dentro de este por lo que esta será nuestra primer operación luego seguirán los exponentes y terminamos de resolver todo nuestro paréntesis grande
+
+$8+(-7)= 8-7$
+
+Recuerda que sumar algo negativo, en realidad es restar o quitar
+
+$(-6)-(-7)= -6 + 7$
+
+Si quitamos algo negativo estamos en realidad agregando algo positivo
+
+$12* (-2)= -24$
+
+En la multiplicación si tenemos un signo negativo nos da como resultado un signo negativo
+
+¿Cuáles son los factores primos del número $45$?
+
+Puedes utilizar cualquiera de los métodos vistos en clase y encontrarás que son : $3,3, 5$
+
+¿Cuáles son los factores primos del número $36$?
+
+¿Cuál de los dos números es mayor, $-5$ o $-3$?
+
+Recuerda que entre más valor, más negativo, por lo tanto $-3 > -5$
+
+¡Ahora sí! pon a prueba tus conocimientos y déjanos saber tu respuesta en la sección de comentarios.
+
+$(-6)-(-7)*(-8)+(-5) = -67$
+
+$(93+33+(4-26))+(3-6*2)= 95$
+
+$12* (-2)(-1)(-3)= -72$
+
+$8+(-7)*33= - 223$
+
+$147+(83+(5+25))= 260$
+
+Encuentra la factorización de números primos de los siguientes números:
+
+$$32, 84, 16, 19, 26$$
+$$(2.2.2.2.2)$$
+$$(2.2.3.7)$$
+$$(2.2.2.2)$$
+$$(19.1)$$
+$$(2.13)$$
+
+Encuentra todos los posibles grupos de factores, no necesariamente primos de los siguientes números:
+
+$$34,81, 36$$
+$$34 = (1.34),(17.2)$$
+$$81 = (9.9),(81.1)$$
+$$36 = (2.2.3.3),(36.1),(18.2),(3.4.3),(9.4),(9.2.2),(3.6.2)$$
 
 # 2. Principios del álgebra
 ## Principios del álgebra

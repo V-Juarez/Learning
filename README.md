@@ -71,27 +71,27 @@ Inicar git en tu proyecto desde tu repositorio local.
   git push
 ```
 Al realizar un commit los archivos son enviados a 
-* **git add** Agrega todos los archivos.
+* **`git add`** Agrega todos los archivos.
 * **Staging area :** almacenamiento temporal.Staging -> área en memoria ram que almacena la información que va a enviarse al repositorio. Git commit-> envía la información al repositorio y genera versiones de nuestros archivos. Checkout -> permite regresar un archivo a una versión anterior previamente guardada en el repositorio.
 
-* **git commit -m "mensaje"** Agrega a la base de datos, en la base de archivos.
-*  **git status** Ver el estado de archivos y cambios.
-* **git show** Ver los cambios historicos realizados.
-* **git log** Historia entera de un archivo.
-* **git pull** Trea el repositorio
-* **git push** Envia al repositorio remoto
+* **`git commit -m "mensaje"`** Agrega a la base de datos, en la base de archivos.
+*  **`git status`** Ver el estado de archivos y cambios.
+* **`git show`** Ver los cambios historicos realizados.
+* **`git log`** Historia entera de un archivo.
+* **`git pull`** Trea el repositorio
+* **`git push`** Envia al repositorio remoto
 
 ### Open SSL
 
 [Conectar a GitHub con SSH](https://docs.github.com/es/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
 
-**Acerca de SSH**
+#### Acerca de SSH
 
 Usando el protocolo SSH, te puedes conectar y autenticar con servicios y servidores remotos. Con las claves SSH, te puedes conectar con GitHub sin suministrar tu nombre de usuario ni contraseña en cada visita.
 
 [Generar una nueva clave SSH y agregarla al ssh-agent](https://docs.github.com/es/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-**Tipos de archivos**
+#### Tipos de archivos
 
 * **Archivos de texto:** Texto plano normal y sin nada especial.
 * **Archivos RTF:** Podemos guardar texto con diferentes tamaños, estilos y colores. Si lo abrimos en un editor de código, es más complejo que solo el texto plano. Archivo binario.
@@ -122,35 +122,37 @@ Usando el protocolo SSH, te puedes conectar y autenticar con servicios y servido
 
 ## Stagin y los repositorios
 
-**Archivo Tracked:** Son los archivos que vivien dentr  o de git, no tienen cambios y sus útlimas actualizaciones han sido guardadas en el repositorio a través de ``` git add ``` y ```git commit -m "<mensaje>" ```
+**`Archivo Tracked:`** Son los archivos que vivien dentr  o de git, no tienen cambios y sus útlimas actualizaciones han sido guardadas en el repositorio a través de ``` git add ``` y ```git commit -m "<mensaje>" ```
 
-**Archivos staged:** Son archivos staging, viven dentro de git y hay registro de ellos porque han sido afectados por el comando ```git add```, aún que sus últimos cambios no. __Git__ sabe de la existencia de estos últimos cambios, pero todavía no ha sido guardados definitivamente en el repositorio. Aún falta ejecutar el comando ```git commit -m "<mensaje>"```.
+**`Archivos staged:`** Son archivos staging, viven dentro de git y hay registro de ellos porque han sido afectados por el comando ```git add```, aún que sus últimos cambios no. __Git__ sabe de la existencia de estos últimos cambios, pero todavía no ha sido guardados definitivamente en el repositorio. Aún falta ejecutar el comando `git commit -m "<mensaje>"`.
 
-**Archivo Unstaged:** Archivos "Tracked pero Unstaged". Son archivos que viven dentro de git pero no ha sido afectados por el comando ```git add``` ni ```git commit``` tiene registro de estos archivos pero esta desactualizado, sus últimas versiones están guardadas enel _**Dico Duro**_.
+**`Archivo Unstaged:`** Archivos "Tracked pero Unstaged". Son archivos que viven dentro de git pero no ha sido afectados por el comando ```git add``` ni ```git commit``` tiene registro de estos archivos pero esta desactualizado, sus últimas versiones están guardadas enel _**Dico Duro**_.
 
-**Archivo Untracked:** Son archivos que no vivien en git, solo en el disco duro. Nunca ha sido afectadso por ```git add```. Git no tiene registro de sus existencia.
+**`Archivo Untracked:`** Son archivos que no vivien en git, solo en el disco duro. Nunca ha sido afectadso por ```git add```. Git no tiene registro de sus existencia.
 
 Casos muy raro donde los archivos tiene dos estados al mismo tiempo: **Staged y Untracked**. Esto pas cuando guardas los cambios de un archivoenel área de **Staging** con el comando ```git add``` pero antes de hacer un commit para guardas los cambios en el repositorio, haces nuevos cambios que todavía no han sido guardados en el área de **Staging** (en realidad, todo sigue funcionado igual pero es un poco divertido).
 
-**git reset HEAD:** Nos ayuda a sacar archivos del estado (staging) staged para devolverlos a su estado anterior. Si los envian de Unstaged, vuelven allí y los msmo se venía de Untracked.
+**`git reset HEAD:`** Nos ayuda a sacar archivos del estado (staging) staged para devolverlos a su estado anterior. Si los envian de Unstaged, vuelven allí y los msmo se venía de Untracked.
 
-**git commit:** Mover un archivo de unstaged a Tracked.
+**`git commit:`** Mover un archivo de unstaged a Tracked.
 
 ## Git rm
 
-```git rm --cached``` Mueve los archivos que le indiquemos al estado Untracked.
+`git rm --cached` Mueve los archivos que le indiquemos al estado Untracked.
 
-```git rm --force``` Elimina los archivos de git y del disco duro. **Git** guarda la existencia de los archivos, por lo que podemos recuperar si es necesario (podemos utilizar comandos más avanzados).
+`git rm --force` Elimina los archivos de git y del disco duro. **Git** guarda la existencia de los archivos, por lo que podemos recuperar si es necesario (podemos utilizar comandos más avanzados).
 
-```git checkout``` Volver a traer cambios.
+`git checkout` Volver a traer cambios.
 
 ### Git es una base de datos precisa
 
 _**Git**_ es una base de datos muy precisa con todos los cambios y crecimiento que ha tenido nuestro proyecto. Los commits son la unica forma de tener un registro de los cambios.
 
-_**Las ramas amplifican mucho más el potencial de git**_
+#### Las ramas amplifican mucho más el potencial de git
 
-Todos los commits se aplican sobre una rama. En la rama master (se puede cambiar el nombre, en el repositorio local. Con el siguiente comando ```git branch -m <nuevo-nombre>```) creamos nuevas ramas, a partir de esta. Y crear un flujo de trabajo independiente.
+
+
+Todos los commits se aplican sobre una rama. En la rama master (se puede cambiar el nombre, en el repositorio local. Con el siguiente comando `git branch -m <nuevo-nombre>`) creamos nuevas ramas, a partir de esta. Y crear un flujo de trabajo independiente.
 
 Una rama es copiar un commit __(de cualquier rama)__, pasarlo a otro lado __(otra rama)__ y continuar el trabajo de una parte especifica de el proyecto, sin afectar el flujo de trabajo principal __(de la rama master o rama principal)__.
 
@@ -163,7 +165,7 @@ una rama **hotfix** para unirse a master cuando sea posible.
 
  Ahora que tienes Git en tu sistema, vas a querer hacer algunas cosas para personalizar tu entorno de Git. Es necesario hacer estas cosas solamente una vez en tu computadora, y se mantendrán entre actualizaciones. También puedes cambiarlas en cualquier momento volviendo a ejecutar los comandos correspondientes.
 
- ```git
+ ```bash
 git config --global user.name "John Doe"
 
 git config --global user.email johndoe@example.com
@@ -174,63 +176,63 @@ git config --list
 
 git config user.name
 ```
-* Ver configuración por defecto ```git config --list```
-* Configuraciones guardadas ```git config --list --show-origin```
+* Ver configuración por defecto `git config --list`
+* Configuraciones guardadas `git config --list --show-origin`
 
 ## Analizar los cambios de los archivos
 
-Analiar los cambios en los archivos del proyecto con **git**.
+Analiar los cambios en los archivos del proyecto con **`git`**.
 
-**git show:** cambios que han existido sobre un archivo, util para detectar ¿Cuándo se produjeron ciertos cambios? ¿Qué se rompió y Cómo podemos soluciarlo? Pero podmeos ser más detallados.
+**`git show`:** cambios que han existido sobre un archivo, util para detectar ¿Cuándo se produjeron ciertos cambios? ¿Qué se rompió y Cómo podemos soluciarlo? Pero podmeos ser más detallados.
 
-**git diff commit A commit B:** Ver la diferenica entre una versión y otra. No necesariamente todos losa cambios desde la creación del archivo.
+**`git diff commit A commit B:`** Ver la diferenica entre una versión y otra. No necesariamente todos losa cambios desde la creación del archivo.
 
-**git log:** Obtener ID de los commits.
+**`git log:`** Obtener ID de los commits.
 
-**git checkout + ID-del-commit:** Nos permite viarjar en el tiempo. Podemos volver a cualquier versión anterior de un archivo específico o incluso del proyecto entero. también es la **forma de crear ramas y movernos entre ellos.
+**`git checkout + ID-del-commit`:** Nos permite viarjar en el tiempo. Podemos volver a cualquier versión anterior de un archivo específico o incluso del proyecto entero. también es la **forma de crear ramas y movernos entre ellos.
 
-**git reset:** Vovemos en el tiempo y borramos los cambios que hicimos después de un commit.
+**`git reset:`** Vovemos en el tiempo y borramos los cambios que hicimos después de un commit.
 
-**git reset --hard:** borra toda la información que tengamos en el área de staging (Perder todo para siempre).
+**`git reset --hard:`** borra toda la información que tengamos en el área de staging (Perder todo para siempre).
 
-**git reset --soft:** Mantiene los archivos en el área de *staging* para que podamos aplicaar nuestros últimos cambios pero desde un commit anterior.
+**`git reset --soft`:** Mantiene los archivos en el área de *staging* para que podamos aplicaar nuestros últimos cambios pero desde un commit anterior.
 
-al ejecuatar ```git reset ID --hard``` volvemos al anterior commit.
+al ejecuatar `git reset ID --hard` volvemos al anterior commit.
 
-**git log --stat:** Ver cambios específicos al realizar el commit.
+**`git log --stat:`** Ver cambios específicos al realizar el commit.
 
-**git rm:** Elimina archivos de **git** sin eliminar su hitoria del sistema de versiones. Y es posible recuperarlo, recuperar el último commit antes de borrar el archivo.
+**`git rm`:** Elimina archivos de **git** sin eliminar su hitoria del sistema de versiones. Y es posible recuperarlo, recuperar el último commit antes de borrar el archivo.
 
-**git rm --cached:** Elimina los archivos del área de **staging** y del próximo commit pero los mantiene en el disco duro.
+**`git rm --cached:`** Elimina los archivos del área de **staging** y del próximo commit pero los mantiene en el disco duro.
 
-**git rm --force:** Elimina los archivos de git y del disco duro, git siempre guarda todo. Podemos acceder al registro de la existencia de archivos y recuperar (pero debemos utilizar comandos avanzados).
+**`git rm --force`:** Elimina los archivos de git y del disco duro, git siempre guarda todo. Podemos acceder al registro de la existencia de archivos y recuperar (pero debemos utilizar comandos avanzados).
 
-**git reset:** Volvemos al pasado sin poder retornar al futuro. Borra el historial y la debemos sobreescribir.
+**`git reset:`** Volvemos al pasado sin poder retornar al futuro. Borra el historial y la debemos sobreescribir.
 
-**git reset HEAD:** Comando para sacar archivos del área de staging. Se utiliza para los últimos cambios de estos archivos, no enviados al último commit.
+**`git reset HEAD`:** Comando para sacar archivos del área de staging. Se utiliza para los últimos cambios de estos archivos, no enviados al último commit.
 
-**git clone <url>:** Nos permite descargar los archivos de la última versión de la rama principla y todo el historial de cambios en la carpeta .git.
+**`git clone <url>`:** Nos permite descargar los archivos de la última versión de la rama principla y todo el historial de cambios en la carpeta .git.
 
-**git push:** Mandar los cambios a un servidor remoto.
+**`git push:`** Mandar los cambios a un servidor remoto.
 
-**git fetch:** Traer actualizaciones del servidor remoto y guardarlas en el servidor local.
+**`git fetch`** Traer actualizaciones del servidor remoto y guardarlas en el servidor local.
 
-**gt merge:** Se utiliza con servidores remotos. Combinar los últimos cambios del sevidor remoto y nuestro directorio del trabajo.
+**`gt merge`:** Se utiliza con servidores remotos. Combinar los últimos cambios del sevidor remoto y nuestro directorio del trabajo.
 
-**git pull:** git fetch y git merge al mismo tiempo.
+**`git pull`:** git fetch y git merge al mismo tiempo.
 
 ## Ramas o brances en git 
 
 Las ramas son la forma de hacer cambios a nuestro proyecto sin afectar el flujo de trabajo de la rama principal. Esto porque queremos trabajar un parte muy específica de la aplicación o simplemente experimentar.
 
-**Cabecera o HEAD:**  Representan la rama y el commit de esa rama donde estamos trabajando. Por defecto está cabecera aparecera en el último commit de nuestra rama principla. Pero podemos cambiarlo al cera una rama: 
-```git
+**`Cabecera o HEAD`:**  Representan la rama y el commit de esa rama donde estamos trabajando. Por defecto está cabecera aparecera en el último commit de nuestra rama principla. Pero podemos cambiarlo al cera una rama: 
+```bash
 git branch rama(<nombre-de-la-rama>)
 
 git checkout -b rama(<<nombre-de-la-rama>)
 ```
 o nos movemos en el tiempo a cualuqier otro commit de cualquier otra rama con los commits.
-```github
+```bash
 git reset id-commit
 
 git checkout rama o id-commit
@@ -239,18 +241,18 @@ git checkout rama o id-commit
 
 ## Fusión de ramas con Git Merge
 
-```git merge``` nos permite crear un nuevo commit con la combinación. (Rama donde nos encontramos cuando ejecutamos el comando y la rama que indiquemos después del comando)
+`git merge` nos permite crear un nuevo commit con la combinación. (Rama donde nos encontramos cuando ejecutamos el comando y la rama que indiquemos después del comando)
 
 Estando en la rama master, ejecutamos merge.
 
-```git 
+```bash
 git checkout master
 
 git merge cabecera
 ```
 
 o de una rama a otra rama
-```git 
+```bash
 git checkout cabecera
 
 git merge <nombre-de-rama>
@@ -259,14 +261,13 @@ git merge <nombre-de-rama>
 
 ## Resolución de Conflictos la hacer un merge
 
-**Corregir manualmente**
-
+### Corregir manualmente
 ## Uso de GitHub
 
 ![](img/github.png)
 
 **Conectar nuestro repositorio remoto**
-```git
+```bash
 
 git remote add origin <pegamos-el-link>
 
@@ -275,17 +276,18 @@ git remote -V
 git push origin master
 ```
 Ingresamos credenciales
-* **fetch:** traer cosas.
-* **push:** enviar cosas.
 
-Ver datos del usuario: ```git config -l```.
+* **`fetch`:** traer cosas.
+* **`push:`** enviar cosas.
+
+Ver datos del usuario: `git config -l`.
 
 
 ## Configurar llaves SSH en local
 
 [Crear llaves SSH](https://platzi.com/tutoriales/1557-git-github/4067-configurar-llaves-ssh-en-git-y-github/)
 
-```git 
+```bash
 ssh-keygen -t rsa -b 4096 -C "email"
 
 eval $(ssh-agent -s)
@@ -296,8 +298,42 @@ ssh-add ~/.ssh/id_rsa     // Linux y windows
 ssh-add -k ~/.ssh/id_rsa // solo en mac se le agrega -k
 ```
 
+### Configurar key gitlab
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "email"
+
+eval $(ssh-agent -s)
+
+ssh-add  <ruta-de-la-llave> ruta ~/.ssh/id_rsa
+
+ssh-add ~/.ssh/id_rsa     // Linux y windows
+ssh-add -k ~/.ssh/id_rsa // solo en mac se le agrega -k
+```
+
+-  Conectar git  a gitlab
+-  Crear en el directori `/home/usr/.ssh` el archivo `config`
+
+```bash
+# Crear archivo
+touch config
+
+# Conceder permisos
+chmod +x config
+
+# editamos con vim, vi, nano ...
+vim config
+
+# Configuracion 
+Host *
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/key       # Llave privada -> key
+```
+
+Haz, establecido conexion correctamente con gitlab,. Felicidade
+
 **conectar github con ssh**
-```git
+```bash
 
 git remote -v
 
@@ -305,7 +341,7 @@ git remote set-url origin <pegamos-link-ssh>
 ```
 **Traer la último actualización del repositorio**
 
-```git
+```bash
 git pull
 
 git pull origin master
@@ -316,21 +352,54 @@ git push origin master
 
 **Tags-Etiquetas:** Asignan una versión a los commit o significado de muestro proyecto.
 
-**Crear un tag a un commit** ```git tag -a name id-commit```
+**Crear un tag a un commit** 
 
-**Borrar tag en repositorio local** ```git tag -d <nombre-del-tag>``` 
+```bash
+git tag -a name id-commit
+```
 
-**Listar los tags del repositorio local** ```git show-ref --tags```
+**Borrar tag en repositorio local** 
 
-**Publicar un tag en el repositorio remoto** ```ggit push origin --tags```
+```bash
+git tag -d <nombre-del-tag>`
+`` `
 
-**Borrar un tag del repositorio remoto** ```git tag -d <nombre-del-tag>``` o ```git push origin :refs/tags/<name-tag>```
+**Listar los tags del repositorio local** `
 
-**Crear alias** ```alias arbolito = "git log --graph --decorate --oneline"``` ejecutamos ```git arbolito```
+```bash
+git show-ref --tags
+```
+
+**Publicar un tag en el repositorio remoto** 
+```bash
+git push origin --tags
+```
+
+**Borrar un tag del repositorio remoto** 
+
+```bash
+git tag -d <nombre-del-tag>
+``` 
+o 
+
+```bash
+git push origin :refs/tags/<name-tag>
+```
+
+**Crear alias** 
+
+```bash
+alias arbolito = "git log --graph --decorate --oneline"
+``` 
+ejecutamos 
+
+```bash
+git arbolito
+```
 
 ## Enviar ramas al servidor
 
-```git
+```bash
 // crear rama
 
 git branch <nombre-de-la-rama>
@@ -341,29 +410,29 @@ git checkout -b <nombre-de-la-rama>
 
 git push origin <nombre-de-la-rama> // footer-header
 ```
-## ¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?
+### ¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?
 
 Git guarda todos los cambios realizados en el directorio .git de la carpeta donde se el repositorio. Para eliminarlo simplemente hay que borrar esa carpeta.
 
 cd carpeta/
 
-```git
+```bash
 rm -rf .git
 ```
 
-  ## Borrar archivos | carpetas del repositorio
+  ### Borrar archivos | carpetas del repositorio
 
   Para borrar archivos o carpetas en nuestro respositorio (bitbucket, github...) se usa el comando `rm` de **git** con los siguientes pasos:
 
   **1. Eliminar un archivo**
 
-  ```git
+  ```bash
   git rm miarchivo.php # Estar en el directorio
   ```
 
   **1.1 Eliminar una carpeta | directorio**
 
-  ```git 
+  ```bash
   $ git rm -r mi-carpeta
   ```
 
@@ -378,36 +447,36 @@ rm -rf .git
   $ git push <origin master> # Rama Master
   ```
 
-  ## ¿Cómo renombrar una rama local de Git?
+  ### ¿Cómo renombrar una rama local de Git?
 
-Antes de empezar, asegúrate de estar en la rama a la que quieres cambiarle el nombre, luego sigue los pasos según corresponda:
+- Al empezar, asegúrate de estar en la rama a la que quieres cambiarle el nombre, luego sigue los pasos según corresponda:
 
-```console
+```bash
 git checkout old-name
 ```
 
-Si deseas ver todas tus ramas locales, usa el siguiente comando:
+- Si deseas ver todas tus ramas locales, usa el siguiente comando:
 
-````console
+````bash
 git branch --list
 ````
 
-Cuando esté todo claro, sigue estos pasos:
+- Cuando esté todo claro, sigue estos pasos:
 
-El uso del comando Git rename branch requerirá que agregues una opción `-m`:
+- El uso del comando Git rename branch requerirá que agregues una opción `-m`:
 
 ```shell
 git branch -m new-name
 ```
 
-También puedes cambiar el nombre de una rama local desde otra rama usando los siguientes dos comandos:
+- También puedes cambiar el nombre de una rama local desde otra rama usando los siguientes dos comandos:
 
-```console
+```bash
 git checkout master
 
 git branch -m old-name new-name
 ```
-Para finalizar, este comando listará todas las ramas, tanto locales como remotas, para verificar que se les haya cambiado el nombre:
+- Para finalizar, este comando listará todas las ramas, tanto locales como remotas, para verificar que se les haya cambiado el nombre:
 
 ```console
 git branch -a
@@ -419,14 +488,16 @@ git branch -a
 
 2. Para empezar, necesitarás renombrar la rama local siguiendo los pasos explicados antes.
 Luego borra la rama anterior y aplica push a la nueva. Puedes hacerlo fácilmente con los siguientes comandos:
-```console
+
+```bash
 git push origin --delete nombre-anterior
 
 git push origin :nombre-anterior nombre-nuevo
 ```
 
 3. Restablece la rama ascendente para tu nueva rama local y estará listo:
-```console
+
+```bash
 git push origin -u nombre-nuevo
 ```
 
@@ -434,7 +505,7 @@ git push origin -u nombre-nuevo
 
 * Agregar a colaboradores desde GitHub.
 
-**Pull request** Verificar el códogo el equipo, y realiza los cambios.
+**`Pull request`** Verificar el códogo el equipo, y realiza los cambios.
 
 ## Fork desde Consola
 
@@ -459,7 +530,7 @@ git push origin master
 
 [servidor](https://www.jaimeolmo.com/2015/02/como-usar-git-para-hacer-deploy-de-nuestro-website/)
 
-```git
+```bash
 
 cd /var/www/<servidor>/<archivo.html>/
 
@@ -475,7 +546,7 @@ git pull origin master
 
 * A github no enviar los archivos binarios.
 
-* Utilizar fuentes externas, luego referenciarlos al proyecto.
+* Utilizar fuentes externas, para los archivos binarios para las imagenes podemos utilizar los servicios de los sitguientes sitios.
 
   * [Imagur](https://imgur.com)
   * [Imgbb](https://es.imgbb.com)
@@ -496,7 +567,7 @@ git pull origin master
 ### Git Stash
 **Guardar cambios en la memoria y recuperar después**
 
-```git 
+```bash
 git stash           | guardar en memoria.
 
 git stash list       | En llistar los stash
@@ -504,11 +575,11 @@ git stash list       | En llistar los stash
 git stash pop         | Traer stash en primer plano
 ```
 **Agregar a una rama**
-```git 
+```bash
 git stash branch <nombre-de-la-ramar>
 ```
 **Stash que no debe guardarse**
-```git
+```bash
 git stash
 
 git stash drop
@@ -524,7 +595,7 @@ Archivos como:
   * Compilación 
   * imagenes
 
-  ```git
+  ```bash
   git clean --dry-run     // ver lo que hay que borrar
 
   git clean -f
@@ -538,26 +609,31 @@ Archivos como:
 
   Con el siguiente comando:
 
-  `git commit --Amenud`
+  ```bash
+  git commit --Amenud
+  ```
 
   ### Git Reset y Reflog
 
   Usarse en caso de emergencia.
 
-  ```git
+  ```bash
   git reset --soft
 
   git reset --hard
   ```
   **git reset Hash-del-HEAD**
 
-  `git reglog` ver información
+    ver información
+  ```bash
+  git reglog
+  ``` 
 
   ### Commits de Git Grep y Log
 
 Buscar archivos y commits de git con grep y log
 
-```git
+```bash
 
 git grep -n color       // palabras
 
@@ -575,7 +651,7 @@ git log -S <nombre-de-la-rama> // commits
 
 **Comandos**
 
-```git
+```bash
 git branch -a 
 
 git shortlong -sn 
@@ -592,4 +668,4 @@ git branch -r
 
 git branch -a 
 ```
-### End
+<h1>End</h1>

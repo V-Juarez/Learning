@@ -1,42 +1,52 @@
-# Git y GitHub
+<h1>Git y GitHub</h1>
+<h3>Freddy Vega</h3>
 <p align="center"><a href=""><img src="img/_git.png" width="700"></a></p>
 
-## Tabla de Contenido
-  - [Objetivo](#Objetivo)
-  - [Iniciar Git](#Iniciar-Git)
-  - [Open SSL](#Open-SSL)
-  - [Stagin y los repositorios](#Stagin-y-los-repositorios)
-  - [Git rm](#Git-rm)
-  - [Git es una base de datos precisa](#Git-es-una-base-de-datos-precisa)
+<h1> Tabla de Contenido</h1>
+
+- [Objetivo](#objetivo)
+  - [Iniciar Git](#iniciar-git)
+- [Open SSL](#open-ssl)
+  - [Acerca de SSH](#acerca-de-ssh)
+    - [Tipos de archivos](#tipos-de-archivos)
+  - [Tabla de Comandos Básicos](#tabla-de-comandos-básicos)
+  - [Stagin y los repositorios](#stagin-y-los-repositorios)
+  - [Git rm](#git-rm)
+    - [Git es una base de datos precisa](#git-es-una-base-de-datos-precisa)
+    - [Las ramas amplifican mucho más el potencial de git](#las-ramas-amplifican-mucho-más-el-potencial-de-git)
   - [configurar git](#configurar-git)
-  - [Analizar los cambios de los archivos](#Analizar-los-cambios-de-los-archivos)
-  - [Ramas o brances en git](#Ramas-o-brances-en-git)
-  - [Fusión de ramas con Git Merge](#Fusión-de-ramas-con-Git-Merge)
-  - [Resolución de Conflictos la hacer un merge](#Resolución-de-Conflictos-la-hacer-un-merge)
-  - [Uso de GitHub](#Uso-de-GitHub)
-  - [Configurar llaves SSH en local](#Configurar-llaves-SSH-en-local)
-  - [Tags-Etiquetas](#Tags-Etiquetas)
-  - [Enviar ramas al servidor](#Enviar-ramas-al-servidor)
-    - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#Cómo-eliminar-un-repositorio-de-Git-creado-con-git-init-en-un-directorio)
-    - [Borrar archivos y carpetas del repositorio](#Borrar-archivos-y-carpetas-del-repositorio)
-    - [¿Cómo renombrar una rama local de Git?](#Cómo-renombrar-una-rama-local-de-Git)
-    - [¿Cómo cambiar el nombre de una rama remota de Git?](#Cómo-cambiar-el-nombre-de-una-rama-remota-de-Git)
-  - [Configurar multiples colaboradores en GitHub](#Configurar-multiples-colaboradores-en-GitHub)
-  - [Fork desde Consola](#Fork-desde-Consola)
-  - [Subir imagenes a nustro proyecto](#Subir-imagenes-a-nustro-proyecto)
-  - [README](#README)
-  - [Git Stash](#Git-Stash)
-  - [Git Clean](#Git-clean)
-  - [Git Cherry-Pick](#Git-Cherry-Pick)
-  - [Git Amenud](#Git-Amenud)
-  - [Git Reset y Reflog](#Git-Reset-y-Reflog)
-  - [Commits de Git Grep y Log](#Commits-de-Git-Grep-y-Log)
-  - [Recuros Colavorativos en Git y Github](#Recuroso-Colaborativos-en-Git-y-GitHub)
+  - [Analizar los cambios de los archivos](#analizar-los-cambios-de-los-archivos)
+  - [Ramas o brances en git](#ramas-o-brances-en-git)
+  - [Fusión de ramas con Git Merge](#fusión-de-ramas-con-git-merge)
+- [Resolución de Conflictos la hacer un merge](#resolución-de-conflictos-la-hacer-un-merge)
+  - [Corregir manualmente](#corregir-manualmente)
+  - [Uso de GitHub](#uso-de-github)
+  - [Configurar llaves SSH en local](#configurar-llaves-ssh-en-local)
+    - [Configurar key gitlab](#configurar-key-gitlab)
+  - [Tags-Etiquetas](#tags-etiquetas)
+  - [Enviar ramas al servidor](#enviar-ramas-al-servidor)
+    - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#cómo-eliminar-un-repositorio-de-git-creado-con-git-init-en-un-directorio)
+    - [Borrar archivos | carpetas del repositorio](#borrar-archivos--carpetas-del-repositorio)
+    - [¿Cómo renombrar una rama local de Git?](#cómo-renombrar-una-rama-local-de-git)
+    - [¿Cómo cambiar el nombre de una rama remota de Git?](#cómo-cambiar-el-nombre-de-una-rama-remota-de-git)
+  - [Configurar multiples colaboradores en GitHub](#configurar-multiples-colaboradores-en-github)
+  - [Fork desde Consola](#fork-desde-consola)
+  - [Deployment a un Servidor](#deployment-a-un-servidor)
+  - [Subir imagenes a nustro proyecto](#subir-imagenes-a-nustro-proyecto)
+- [README](#readme)
+- [Git Stash](#git-stash)
+  - [Git Clean](#git-clean)
+  - [Git Cherry-Pick](#git-cherry-pick)
+  - [Git Amenud](#git-amenud)
+  - [Git Reset y Reflog](#git-reset-y-reflog)
+  - [Commits de Git Grep y Log](#commits-de-git-grep-y-log)
+  - [Recuroso Colaborativos en Git y GitHub](#recuroso-colaborativos-en-git-y-github)
+
 
   Curso de [Git y Github](https://platzi.com/cursos/git-github/ "Git y Github") de [Platzi](https://platzi.com "Platzi")
 
 
-## Objetivo
+# Objetivo
 
   Como desarrollador siempre debemos de contar con una herramienta/software para nuestros control de versiones de los proyectos. Git y GitHub es la red social de los desarrolladores. Git es el sistema de control de versiones. 
 
@@ -81,17 +91,17 @@ Al realizar un commit los archivos son enviados a
 * **`git pull`** Trea el repositorio
 * **`git push`** Envia al repositorio remoto
 
-### Open SSL
+# Open SSL
 
 [Conectar a GitHub con SSH](https://docs.github.com/es/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
 
-#### Acerca de SSH
+## Acerca de SSH
 
 Usando el protocolo SSH, te puedes conectar y autenticar con servicios y servidores remotos. Con las claves SSH, te puedes conectar con GitHub sin suministrar tu nombre de usuario ni contraseña en cada visita.
 
 [Generar una nueva clave SSH y agregarla al ssh-agent](https://docs.github.com/es/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-#### Tipos de archivos
+### Tipos de archivos
 
 * **Archivos de texto:** Texto plano normal y sin nada especial.
 * **Archivos RTF:** Podemos guardar texto con diferentes tamaños, estilos y colores. Si lo abrimos en un editor de código, es más complejo que solo el texto plano. Archivo binario.
@@ -105,7 +115,7 @@ Usando el protocolo SSH, te puedes conectar y autenticar con servicios y servido
 
 **Archivo Binario:** Los archivos binarios que contienen bytes suelen ser interpretados como alguna cosa que no sean caracteres de texto. Un ejemplo típico son los programas de ordenador compilados; de hecho, las aplicaciones o programas compilados son conocidos como binarios, especialmente entre los programadores.
 
-**Tabla de Comandos Básicos**
+## Tabla de Comandos Básicos
 
 | **Comandos Básicos** | **Descripción** |
 |:--------: | :--------- |
@@ -148,7 +158,7 @@ Casos muy raro donde los archivos tiene dos estados al mismo tiempo: **Staged y 
 
 _**Git**_ es una base de datos muy precisa con todos los cambios y crecimiento que ha tenido nuestro proyecto. Los commits son la unica forma de tener un registro de los cambios.
 
-#### Las ramas amplifican mucho más el potencial de git
+### Las ramas amplifican mucho más el potencial de git
 
 
 
@@ -259,9 +269,11 @@ git merge <nombre-de-rama>
 ```
 **Git** sabe que cambios queremos conservar de una rama y qué otros de la otra. En algunos casos de las ramas tiene actualizaciones en diferentes o en ciertas líneas del archivo. Esto se le conoce como conflicto.
 
-## Resolución de Conflictos la hacer un merge
+# Resolución de Conflictos la hacer un merge
 
-### Corregir manualmente
+## Corregir manualmente
+
+Editas el archivo acceptando los cambios.
 ## Uso de GitHub
 
 ![](img/github.png)
@@ -410,11 +422,7 @@ git checkout -b <nombre-de-la-rama>
 
 git push origin <nombre-de-la-rama> // footer-header
 ```
-<<<<<<< HEAD
 ### ¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?
-=======
-  ### ¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?
->>>>>>> ce2687094cc3cdf8c9a6ef4f63ba3b2bc7676215
 
 Git guarda todos los cambios realizados en el directorio .git de la carpeta donde se el repositorio. Para eliminarlo simplemente hay que borrar esa carpeta.
 
@@ -424,11 +432,7 @@ cd carpeta/
 rm -rf .git
 ```
 
-<<<<<<< HEAD
   ### Borrar archivos | carpetas del repositorio
-=======
-  ### Borrar archivos y carpetas del repositorio
->>>>>>> ce2687094cc3cdf8c9a6ef4f63ba3b2bc7676215
 
   Para borrar archivos o carpetas en nuestro respositorio (bitbucket, github...) se usa el comando `rm` de **git** con los siguientes pasos:
 
@@ -560,7 +564,7 @@ git pull origin master
   * [Imgbb](https://es.imgbb.com)
   * [ImageShack](https://imageshack.com)
 
-## README
+# README
 
   **Markdown Editor**
 
@@ -572,7 +576,7 @@ git pull origin master
 
   Un archivo **[.md](https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/que-es-un-archivo-md/)** es un documento de texto simple que no contiene ningún otro elemento. En él, pueden introducirse símbolos en el texto para definir el formato de ciertas secciones. ... Los lenguajes de marcado pueden escribir y editarse en cualquier editor de texto.
 
-### Git Stash
+# Git Stash
 **Guardar cambios en la memoria y recuperar después**
 
 ```bash
@@ -593,7 +597,7 @@ git stash
 git stash drop
 ```
 
-### Git Clean 
+## Git Clean 
 
 Limpiar el proyecto de archivos no deseados.
 
@@ -608,11 +612,11 @@ Archivos como:
 
   git clean -f
   ```
-  ### Git Cherry-Pick
+  ## Git Cherry-Pick
 
   Traer commits viejos al head de un branch `git cherry-pick id-commit`
 
-  ### Git Amenud
+  ## Git Amenud
   > Una operativa corriente del mantenimiento de un repositorio Git consiste en modificar el commit realizado por último con la opción --amend. ... Básicamente se trata de modificar el último commit, en lugar de crear uno nuevo. -  [desarrolloweb.com](https://desarrolloweb.com/articulos/modificar-ultimo-commit-git.html#:~:text=Una%20operativa%20corriente%20del%20mantenimiento,con%20la%20opci%C3%B3n%20--amend.&text=B%C3%A1sicamente%20se%20trata%20de%20modificar,lugar%20de%20crear%20uno%20nuevo.)
 
   Con el siguiente comando:
@@ -621,7 +625,7 @@ Archivos como:
   git commit --Amenud
   ```
 
-  ### Git Reset y Reflog
+  ## Git Reset y Reflog
 
   Usarse en caso de emergencia.
 
@@ -637,7 +641,7 @@ Archivos como:
   git reglog
   ``` 
 
-  ### Commits de Git Grep y Log
+  ## Commits de Git Grep y Log
 
 Buscar archivos y commits de git con grep y log
 
@@ -650,7 +654,7 @@ git grep -C color       // Archivos y números
 git log -S <nombre-de-la-rama> // commits
 ``` 
 
-### Recuroso Colaborativos en Git y GitHub
+## Recuroso Colaborativos en Git y GitHub
 
 <p align="center">
 <a href=""><img src="img/git.png" width="250"></a>
@@ -676,9 +680,5 @@ git branch -r
 
 git branch -a 
 ```
-<<<<<<< HEAD
 <h1>End</h1>
-=======
-### End
->>>>>>> ce2687094cc3cdf8c9a6ef4f63ba3b2bc7676215
-Fri Apr 30 06:14:06 PM CST 2021
+

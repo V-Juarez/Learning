@@ -336,10 +336,15 @@ chmod +x config
 # editamos con vim, vi, nano ...
 vim config
 
-# Configuracion 
+# Configuracion GitLab
 Host *
   AddKeysToAgent yes
-  IdentityFile ~/.ssh/key       # Llave privada -> key
+  IdentityFile ~/.ssh/key       # Llave privada -> key con diferentes nombres
+
+# Configuracion GitLHu
+Host *
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/key       # Llave privada -> key con diferentes nombres
 ```
 
 Haz, establecido conexion correctamente con gitlab,. Felicidade

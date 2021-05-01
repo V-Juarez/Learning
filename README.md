@@ -17,10 +17,10 @@
   - [Configurar llaves SSH en local](#Configurar-llaves-SSH-en-local)
   - [Tags-Etiquetas](#Tags-Etiquetas)
   - [Enviar ramas al servidor](#Enviar-ramas-al-servidor)
-    - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#¿Cómo-eliminar-un-repositorio-de-Git-creado-con-‘git-init’-en-un-directorio?)
-    - [Borrar archivos | carpetas del repositorio](#Borrar-archivos-|-carpetas-del-repositorio)
-    - [¿Cómo renombrar una rama local de Git?](#¿Cómo-renombrar-una-rama-local-de-Git?)
-    - [¿Cómo cambiar el nombre de una rama remota de Git?](#¿Cómo-cambiar-el-nombre-de-una-rama-remota-de-Git?)
+    - [¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?](#Cómo-eliminar-un-repositorio-de-Git-creado-con-git-init-en-un-directorio)
+    - [Borrar archivos y carpetas del repositorio](#Borrar-archivos-y-carpetas-del-repositorio)
+    - [¿Cómo renombrar una rama local de Git?](#Cómo-renombrar-una-rama-local-de-Git)
+    - [¿Cómo cambiar el nombre de una rama remota de Git?](#Cómo-cambiar-el-nombre-de-una-rama-remota-de-Git)
   - [Configurar multiples colaboradores en GitHub](#Configurar-multiples-colaboradores-en-GitHub)
   - [Fork desde Consola](#Fork-desde-Consola)
   - [Subir imagenes a nustro proyecto](#Subir-imagenes-a-nustro-proyecto)
@@ -410,7 +410,11 @@ git checkout -b <nombre-de-la-rama>
 
 git push origin <nombre-de-la-rama> // footer-header
 ```
+<<<<<<< HEAD
 ### ¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?
+=======
+  ### ¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?
+>>>>>>> ce2687094cc3cdf8c9a6ef4f63ba3b2bc7676215
 
 Git guarda todos los cambios realizados en el directorio .git de la carpeta donde se el repositorio. Para eliminarlo simplemente hay que borrar esa carpeta.
 
@@ -420,7 +424,11 @@ cd carpeta/
 rm -rf .git
 ```
 
+<<<<<<< HEAD
   ### Borrar archivos | carpetas del repositorio
+=======
+  ### Borrar archivos y carpetas del repositorio
+>>>>>>> ce2687094cc3cdf8c9a6ef4f63ba3b2bc7676215
 
   Para borrar archivos o carpetas en nuestro respositorio (bitbucket, github...) se usa el comando `rm` de **git** con los siguientes pasos:
 
@@ -482,7 +490,7 @@ git branch -m old-name new-name
 git branch -a
 ```
 
-  ## ¿Cómo cambiar el nombre de una rama remota de Git?
+  ### ¿Cómo cambiar el nombre de una rama remota de Git?
 
 1. Aunque no es posible cambiar directamente el nombre de una rama remota. El proceso de renombrar una rama remota de Git implica seguir estos tres pasos:
 
@@ -668,4 +676,8 @@ git branch -r
 
 git branch -a 
 ```
+<<<<<<< HEAD
 <h1>End</h1>
+=======
+### End
+>>>>>>> ce2687094cc3cdf8c9a6ef4f63ba3b2bc7676215

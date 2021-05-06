@@ -168,9 +168,9 @@ Es cuando una persona tiene como objetivo entrar a una empresa y hace toda una i
 
   Proyecto de Valor
     
-    - Generar proyectos de aporte a las empresas
-    - Marcar diferencia
-    - Iniciativa, retos y resolución de problemas
+  - Generar proyectos de aporte a las empresas
+  - Marcar diferencia
+  - Iniciativa, retos y resolución de problemas
 
 ## Anticipa las preguntas
 

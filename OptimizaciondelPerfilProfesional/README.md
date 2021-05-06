@@ -31,6 +31,8 @@
   - [Tiempo de entrevistar](#tiempo-de-entrevistar)
   - [Conoce cómo te evaluarán](#conoce-cómo-te-evaluarán)
   - [El arte de responder](#el-arte-de-responder)
+  - [Modelo Soar](#modelo-soar)
+  - [Ejemplo de SOAR:](#ejemplo-de-soar)
   - [El toque final](#el-toque-final)
 - [5. Haz un buen seguimiento](#5-haz-un-buen-seguimiento)
   - [¿Cómo y cuándo enviar un mensaje de seguimiento?](#cómo-y-cuándo-enviar-un-mensaje-de-seguimiento)
@@ -281,6 +283,23 @@ Example 1:
 
 ## Tiempo de entrevistar
 
+1. Qué vas a hacer para animarte? Palabras de motivación, pose de poder y qué te llena de energía. 
+2. Qué sabes del rol? 
+3. Qué sabes de la empresa y del proceso? 
+4. Qué sabes del entrevistador? 
+5. Qué sabes de ti para ese rol, qué hace match, qué te hace falta? 
+6. Cuales son las objeciones que te pueden poner y cómo las vas a resolver? 
+7. Qué les vas a preguntar? 
+8. Trata de planificar el inicio y fin de la conversación. 
+9. Qué vas a hacer diferente para generar recordación. 
+10. Cómo vas a hacer que la entrevista se vuelva un diálogo 
+11. Cuál es tú valor agregado, Qué te hace diferente? 
+12. Cuál es tú hook? Storytelling + Diálogo 
+13. Cállate y escucha, si hiciste preguntas pon especial atención a las respuestas 
+14. No se te olvide el toque final! Disciplina + Constancia + Persistencia + Resiliencia
+
+😆 Olvida las preguntas para romper el hielo 🧊 sobre el tráfico, el clima o cosas triviales. Pregunta cosas que generen conversaciones valiosas ❤️
+
 
 - [Platzi te prepara para aplicar a tu trabajo ideal](https://platzi.com/blog/platzi-te-ayuda-a-aplicar-para-el-trabajo-perfecto/)
 
@@ -288,16 +307,90 @@ Example 1:
 ## Conoce cómo te evaluarán
 
 
+- [Cómo enfrentar entrevistas de trabajo a distancia y procesos de selección](https://platzi.com/blog/entrevistas-de-trabajo-a-distancia-nuevas-formas-de-seleccion/)
+
+
+- [Sobrevive a tu entrevista técnica con estructuras de datos](https://platzi.com/blog/sobrevive-a-tu-entrevista-tecnica-con-estructuras-de-datos/)
+
+
+- [Cómo usar dos metodologías UX en entrevistas de trabajo](https://platzi.com/blog/usar-ux-entrevistas-trabajo/)
+
+- [clase16-preguntas-frecuentes-docx.pdf](https://drive.google.com/file/d/1Hnc4OjrxeBnn2no17w_6FvzDXIyR3h3q/view?usp=sharing)
 
 ## El arte de responder
 
+Modelo Soar
+--
 
+  - Situación
+  - Obstáculo
+  - Acción
+  - Resultado
+
+Ejemplo de SOAR:
+-- 
+
+Me dijeron que explique un use case que haya resuelto:
+Situacion: La situacion era la necesidad de que una tarea repetitiva se automatice en el area de contabilidad al meter datos en nuestro sistema ERP MENSUALMENTE mas de 120 libros contables
+
+el obstaculo? estructura de archivos en la empresa para el proyecto a llevarse para que el equipo de contabilidad tenga derechos de lector y editor de dichos archivos. y que se quiere centralizar el manejo de estos para que el departamento de IT y el departamento de Contabilidad puedan manejar automaticamente toda la estructura de carpetas importantes para el proyecto.
+
+Accion: Task en especifico --> Gestionar la estructura pertinente en GSuite, crear flujos automatizados, llevarlos a GSuite y crear una libreria para que todas esten conectadas a esta y podamos hacer mantenimiento y mejoras constantes
+
+Resultado: El depaartamento de Contabilidad ahora puede mediante un menu personalisado en GSuite generar archivos de importacion directa a nuestro sistema ERP
+
+> Se minimiza la complejidad y procesos de espera.
 
 ## El toque final
 
+Los 10 últimos pasos son cruciales en el proceso de entrevista. Lo último que deberías decir, en el toque final y mágico, sería:
 
+> Muchas gracias por la entrevista, aprendí mucho de ti y del proceso, ¿me podrías decir qué fue lo que más te gustó de mi perfil?
 
+buen tip:
+> pedirle feedback y al tiro preguntarle que le gusto mas de mi perfil. Lo usare y espero que funcione porque tengo una de ls entrevistas mas importantes de mi carrera profesional.
+
+__Qué fue lo que más te gusto de mi perfil?__
+
+> El feed back es la enseñanza más importante de todo el proceso
 
 # 5. Haz un buen seguimiento
+
 ## ¿Cómo y cuándo enviar un mensaje de seguimiento?
+
+Otra forma de tener idea cuándo enviar un mensaje de seguimiento es preguntando qué sigue luego de la entrevista. Entonces puede que el reclutador diga que una entrevista técnica o una prueba psicotécnica en determinada fecha. Esa fecha se convierte en un deadline si no se contactan antes para enviar un mensaje.
+
+- Correo de agradecimiento, siempre por el tiempo (24 a 48 horas después)
+- Fue un reto llegar a esa etapa, a mi me gusto esto xxxx
+- Mostrar que se hizo la tarea (sobre alguna conversación particular)
+- Mostrar interés y hacer seguimiento
+- Importante no sonar demasiado goloso y lambón
+- Analítica, reflexiva y humilde = la respuesta más inteligente y mejor pensada en el correo de seguimiento y agradecimiento
+
 ## Cierre del curso
+
+1. que llena de emoción
+2. que sabes del rol
+3. que sabes de la empresa
+4. que sabes del entrevistador
+5. que sabe de ti para el rol
+6. que objeciones podrían hacerte
+7. que preguntas preparaste
+8. planificaste la conversacion
+9. como generas atencion
+10. hacer un dialogo
+11. valor agregado
+12. tu gancho
+13. haz un a pregunta y escucha
+14. no te olvides del Toque final
+
+Me encanto los tips de como hacer tu hoja de vida como responder una objeción y también el golpe final .
+
+- [StartButton](https://startbutton.com.ar/mission/questions/1)
+
+- [rodca | linkedin](https://www.linkedin.com/in/rodca/)
+
+- [rcortesarango | twitter](https://twitter.com/rcortesarango/)
+
+- [El trabajo de tus... ¿pesadillas? Miedo a buscar un mejor trabajo](https://platzi.com/blog/miedo-buscar-trabajo/)
+

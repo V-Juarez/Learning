@@ -381,19 +381,111 @@ Para que nuestro contenido no compita entre sí mismo.
 
 ## Etiquetas HTML para estructurar el contenido
 
+`<html>` Es la etiqueta que indica que nuestro documento será un HTML. Recuerda que HTML es el lenguaje de modelado, que nos permite crear la arquitectura de nuestro sitio. No es un lenguaje de programación.
 
+`<head>` En esta etiqueta en principio no va nada que afecte el contenido visible a los ojos del usuario que visita tu página, salvo el título de la misma. En esta etiqueta es donde agregaremos algunas meta etiquetas para darle más contexto a Google sobre el contenido que ofrece nuestro sitio web.
+
+`<title>` Es la etiqueta que indica el título de a página en la que estamos, dentro de un sitio web. Este título solo es visible para el usuario como el título de la pestaña del navegador.
+
+`<body>` En esta etiqueta incluimos todo el contenido visible para el usuario.
+
+`<div>` Es una etiqueta que nos permite crear una “caja” o división para agrupar un contenido determinado. Por sí misma no tiene ninguna connotación semántica para los navegadores o motores de búsqueda.
+
+`<h1>` Es la etiqueta que le ponemos al título más importante de la página. Solo debe haber una de estas por cada página de tu sitio web.
+
+`<h2> <h3> <h4>` Son las etiquetas que usamos para poner subtítulos. A medida que el número crece la jerarquía disminuye.
+
+`<p>` Etiqueta para agregar párrafos de texto.
+
+`<img>` Etiqueta para agregar imágenes.
+
+`<a>` Etiqueta para agregar enlaces.
+
+`<ul>` Indica que a continuación viene una lista no ordenada.
+
+`<ol>` Indica que a continuación viene una lista ordenada.
+
+`<li>` Agrega elementos de una lista ordenada o no ordenada.
+
+Importancia que tiene los meta en el head.
+
+```html
+<meta charset="utf-8">
+  <meta name="description" content="Web-tech es un sitio creado para la publicacion de articulos y explicaciones tutoriales sobre temas en Tecnologias Web">
+  <meta name="keywords" content="temas de tecnologias web, tutoriales sobre web, aprende desarrollo web, informacion sobre tecnologias web"> 
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
+	<meta name="owner" content="Andres Coello Goyes">
+	<meta name="author" content="andres-coello.onlinewebshop.net">
+  <meta name="robots" content="index, follow">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="lang" content="es-ES">
+```
+
+- [All the tags](https://allthetags.com/)
+- 
 ## Cómo mejorar la ortografía y la redacción
 
+**La mala ortografía es como el mal aliento**. Si tu contenido está mal escrito, los usuarios se van a alejar.
+
+Para tener una mejor ortografía y redacción sigue estos consejos:
+
+  - No escribas como hablas.
+  - No le temas al punto seguido. En internet es mejor usar los párrafos cortos y claros en vez de párrafos muy largos y repletos de comas.
+  - Lee en voz alta lo que escribiste.
+  - Dale estructura a tu texto. Las negritas te pueden ayudar a resaltar contenido importante que podría perderse entre todos los párrafos.
+    - Consigue un amigo editor.
+    - Lee mucho.
+
+- [La guía de los 12 pasos para escribir en internet](https://platzi.com/blog/la-guia-para-escribir-en-internet/)
 
 ## Actividad: Dale estructura a un review
+
+Recuerda:
+  - Organiza la información y dale jerarquía.
+  - Utiliza negrita, listas e imágenes.
+  - Elige el mejor título.
+  - Finaliza con un Call To Action.
+
+<img src="https://i.ibb.co/1z96xDh/homecat.jpg" alt="homecat" border="0">
+
+[Markdown: El lenguaje de estilos para los README.md de tus paquetes npm ... ¡ y de los tutoriales de Platzi!](https://platzi.com/tutoriales/1099-fundamentos-javascript-2017/1615-markdown-el-lenguaje-de-estilos-para-los-readmemd-de-tus-paquetes-npm-y-de-los-tutoriales-de-platzi/)
 
 # 4. Técnicas para posicionar tu contenido en Google
 
 ## Conceptos clave para hacer un Keyword Research
 
+**Keyword Research** es una búsqueda y análisis de palabras clave para tu contenido. Las keywords son cualquier input que los usuarios escriban en el buscador, no importa si está compuesta por una o varias palabras.
+
+El Short Tail es una keyword compuesta por términos muy generales, va a contar con un alto volumen de búsqueda, pero suele tener un porcentaje de conversión bajo. Por otro lado, el Long Tail son términos muy específicos con alto nivel de conversión pero un volumen no muy alto.
+
+  - **Short tail** = Keyword corta que tenga un gran peso de resultados.
+  - **Middle tail** = Keyword que da la acción a la búsqueda.
+  - **Long tail** = Keyword que da la intención a la búsqueda.
+
+- [¿Qué es Keyword Research?](https://platzi.com/blog/que-es-keyword-research/)
+
+realizar anuncios de Google y es importante que las keywords coincidan con el contenido que produzcamos.
+
+<img src="https://i.ibb.co/RYF29wb/CONCORDANCIADEPALABRASCLAVE.jpg" alt="CONCORDANCIADEPALABRASCLAVE" border="0">
 
 ## Cómo hacer un Keyword Research
 
+Los pasos para hacer un buen keyword research son:
+
+  1. Realizar una lluvia de ideas.
+  2. Usar el buscador de Google para realizar búsquedas relacionadas y detectar las palabras clave que utiliza la competencia.
+  3. Analizar a detalle todas estas palabras utilizando Google Trends
+
+Mas herramientas:
+  - Sem rush
+  - Quora
+  - netpateil
+  - buzzumo
+  - MOZ
+
+[Google Trends](https://trends.google.es/trends/?geo=ES)
+[Keyword Research ](https://answerthepublic.com/)
+[Uso de Google Trends](https://youtu.be/1kdTeN9CoOA)
 
 ## Link building: Cómo incluir enlaces en nuestro código
 

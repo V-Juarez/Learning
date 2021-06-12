@@ -474,7 +474,7 @@ Los pasos para hacer un buen keyword research son:
 
   1. Realizar una lluvia de ideas.
   2. Usar el buscador de Google para realizar búsquedas relacionadas y detectar las palabras clave que utiliza la competencia.
-  3. Analizar a detalle todas estas palabras utilizando Google Trends
+  3. Analizar a detalle todas estas palabras utilizando [Google Trends](https://trends.google.es/trends/?geo=ES)
 
 Mas herramientas:
   - Sem rush
@@ -483,26 +483,113 @@ Mas herramientas:
   - buzzumo
   - MOZ
 
-[Google Trends](https://trends.google.es/trends/?geo=ES)
-[Keyword Research ](https://answerthepublic.com/)
-[Uso de Google Trends](https://youtu.be/1kdTeN9CoOA)
+- [Google Trends](https://trends.google.es/trends/?geo=ES)
+- [Keyword Research ](https://answerthepublic.com/)
+- [Uso de Google Trends](https://youtu.be/1kdTeN9CoOA)
 
 ## Link building: Cómo incluir enlaces en nuestro código
 
+¿Recuerdas el concepto de autoridad de página y dominio? Este concepto está directamente relacionado al Link building, la cantidad de enlaces externos que dirigen usuarios hacia nuestro sitio.
+
+La etiqueta `<a></a>` nos permite dar estos votos de confianza a otros sitios añadiendo su enlace, pero si un sitio no es de tu confianza y no quieres darle tu voto de confianza, simplemente debes añadir el atributo `rel=”nofollow”`.
+
+`Link building`: Enlaces que llevan a un sitio web en especial.
+
+El **Link Building** es uno de los fundamentos del posicionamiento web o SEO, que busca aumentar la autoridad de una página el máximo posible mediante la generación de links hacia la misma.
+
+Con herramientas que midan el keyword range
+
+  - Majestic
+  - My page rank
+
+También con una extensión
+
+  - No follow simple
+
+<img src="https://i.ibb.co/NVbFcCX/gatosy-Perros.jpg" alt="gatosy-Perros" border="0">
 
 ## Cómo hacer una campaña de Link building
 
+Una buena estrategia de link building busca:
+
+  - Conectarte con la industria a través de crear relaciones con influenciadores.
+  - Potenciar tu tráfico.
+  - Aumentar la autoridad de tu sitio.
+
+Para crear una buena campaña de Link building debes:
+
+  1. Crear contenido de calidad.
+  2. Distribuir el contenido por diferentes canales.
+  3. Buscar y analizar expertos o influenciadores.
+  4. Haz una lista de los influenciadores y dales un puntaje.
+  5. ¡A contactar! Recuerda que estás conversando con una persona real, habla de la otra persona y de ti. Pídele exactamente lo que quieres que haga, busca un mensaje que no sea ni muy corto ni muy largo.
+
+- [Followerwonk: Tools for Twitter Analytics, Bio Search and More](https://followerwonk.com/)
+- [Followerwonk Instagram](https://www.searchmy.bio/)
 
 ## Qué son datos estructurados
 
+Los datos estructurados son elementos que podemos añadir a nuestro código para darle mayor contexto sobre nuestro contenido al buscador de Google y los usuarios. Desde cualificación de nuestros usuarios o tiempo de preparación, en caso de recetas, hasta la cantidad de dinero que costará seguir nuestra receta.
+
+Esto es posible gracias a Schema.org, fundado por Google, Microsoft, Yahoo y Yandex. Lo que busca es crear un vocabulario que genere mayor contexto a los contenidos a través del código del sitio web.
+
+Las propiedades que debemos añadir a nuestro código dependen del schema que sigamos. Algunos ejemplos son `estimatedCost`, `performTime`, `step`, entre otros.
+
+Cada propiedad la podemos añadir de 3 maneras distintas, todas funcionan exactamente igual:
+
+  - Microdata, la más fácil de añadir a tu código HTML.
+  - RDFa
+  - JSON-LD, la forma más recomendada por Google.
+
++ [Home - schema.org](https://schema.org/)
++ [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)
++ [Explore the search gallery](https://developers.google.com/search/docs/guides/search-gallery)
 
 ## Cómo agregar datos estructurados a tu código
+
+Añadiendo las propiedades `itemscope` e `itemtype` le indicamos al buscador el esquema que vamos a utilizar.
+
+La propiedad `itemprop` nos permite añadir la propiedad del esquema que estemos utilizando.
+
+Para probar nuestro código podemos usar la Herramienta pruebas de datos [estructurados de Google](https://search.google.com/structured-data/testing-tool/u/0/).
+
+- [¿Tu página puede generar resultados enriquecidos?](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=code)
 
 
 ## Publicaciones enriquecidas para Facebook
 
+Así como podemos darle más contexto a buscadores como Google, también podemos hacer lo mismo para las publicaciones que hagamos en Facebook haciendo uso del marcado de [Open Graph](https://developers.facebook.com/docs/sharing/webmasters#markup).
+
+Las propiedades que agreguemos a nuestro código deben encontrarse dentro de la etiqueta `<head></head>` en etiquetas `<meta>`. Propiedades como `og:url`, `og:type`, `og:title`, `og:description` y `og:image` van a mejorar bastante el contexto y forma de nuestras publicaciones en Facebook. Podemos probar nuestro resultado en la herramienta de [debugging de Facebook](https://developers.facebook.com/tools/debug/).
+
+``` HTML
+<meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+<meta property="og:description"        content="How much does culture influence creative thinking?" />
+<meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+```
+
+Ejemplo de lo que hicimos en esta clase, se visualizan los tags: imagen, título y descripción:
+
+<img src="https://i.ibb.co/crgZk91/facebook-open-graph-tags.gif" alt="facebook-open-graph-tags" border="0">
+
++ [Webmasters - Sharing - Documentation - Facebook for Developers](https://developers.facebook.com/docs/sharing/webmasters#markup)
+
++ [Sharing Debugger - Facebook for Developers](https://developers.facebook.com/tools/debug/sharing/)
 
 ## Cómo implementar Twitter Cards
 
+Similar a los esquemas de Google y el marcado de Open Graph para Facebook, en Twitter podemos implementar código para crear Twitter Cards que le den mayor contexto a nuestros usuarios que nos vean esta red social.
+
+Al igual que en Facebook, debemos añadir las propiedades en etiquetas `<meta>`. También contamos con una [herramienta para ver nuestro resultado](https://cards-dev.twitter.com/validator), comprobar que no tengamos errores y el resultado sea el que esperamos.
+
+- [Getting started with cards â Twitter Developers](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
 
 ## Actividad: Elige un contenido y optimízalo
+
+- [tutorial--como-cortarle-las-unas-a-tu-gato.pdf](https://drive.google.com/file/d/1Gh7HlPCbSiiSutokTsWM9RJkJyFZ9jme/view?usp=sharing)
+- [review--tienda-tipi-para-gatos.pdf](https://drive.google.com/file/d/1tmbNsaf1-5V6vZV-QQym4pAeKSWeM96F/view?usp=sharing)
+- [slides-introduccion-a-seo-pptx.pdf](https://drive.google.com/file/d/11tKjjIDocgemML-03RXV_ipumpptzMQh/view?usp=sharing)
+- [release--guante-cepillo-para-pelos-de-gato.pdf](https://drive.google.com/file/d/1tYkd2EGOnk4U7q6l-Dm9J4ExSTO2ziM3/view?usp=sharing)
+

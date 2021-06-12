@@ -12,11 +12,20 @@
   - [El miedo como protagonista](#el-miedo-como-protagonista)
   - [El poder de la visualización](#el-poder-de-la-visualización)
   - [¿Cómo reaccionas en momentos de presión?](#cómo-reaccionas-en-momentos-de-presión)
+    - [¿Cuando se te presentan frustraciones, tú como las afrontas?](#cuando-se-te-presentan-frustraciones-tú-como-las-afrontas)
+    - [FORMA DE EVALUARTE](#forma-de-evaluarte)
+    - [CAMINO DE LA SOLUCION](#camino-de-la-solucion)
+    - [ACTITUDES EN EL CAMINO DE LA CRISIS](#actitudes-en-el-camino-de-la-crisis)
+      - [¿SOY UNA VICTIMA?](#soy-una-victima)
+      - [PUEDE QUE DIGA ESTAS COSAS](#puede-que-diga-estas-cosas)
     - [Evita ser una persona tóxica](#evita-ser-una-persona-tóxica)
     - [¿SOY UNA PERSONA TOXICA?](#soy-una-persona-toxica)
     - [Identifica las circunstancias y tus emociones](#identifica-las-circunstancias-y-tus-emociones)
   - [Ciclo de las emociones en el estudio](#ciclo-de-las-emociones-en-el-estudio)
   - [Evolución de la preocupación en ansiedad](#evolución-de-la-preocupación-en-ansiedad)
+    - [Preocupación](#preocupación)
+    - [Ansiedad](#ansiedad)
+    - [¿Cómo llegar a la calma?](#cómo-llegar-a-la-calma)
 - [3. Entender el uso de las emociones](#3-entender-el-uso-de-las-emociones)
   - [Como funcionan las motivaciones](#como-funcionan-las-motivaciones)
   - [Principales emociones que afectan el aprendizaje](#principales-emociones-que-afectan-el-aprendizaje)
@@ -241,25 +250,148 @@ También puedes hacer un examen de racionalidad.
 
 # 3. Entender el uso de las emociones
 
-
 ## Como funcionan las motivaciones
 
+[![motivacion.jpg](https://i.postimg.cc/5tL6J8fz/motivacion.jpg)](https://postimg.cc/xkj0yJJj)
+
+**Como funcionan las motivaciones**
+Entender cómo funcionan las motivaciones y como son tus aliadas te ayudara a llevar un proceso mas claro y mucho mas tranquilo, no solo de forma técnica o emocional sino puntualizando en aquello que te mantiene conectado que son las motivaciones.
+
+  - **Motivaciones intrínsecas:** Provienen de recompensas y refuerzos internos, como la experimentación de un sentido de realización conectado a la acción.
+
+  - **Motivaciones Extrínsecas:** provienen de recompensas externas y refuerzos, como premios. Es importante entender en qué momento de tu aprendizaje van apareciendo cada una de ellas.
+
+**Mentalidades de aprendizaje motivacional**
+
+  - Intrinsecamente motivado - Activo
+  - Extrinsecamente motivado - Activo
+  - Extrinsecamente motivado - Pasivo
+
+**Desmotivados sin aprendizaje**
+
+(Se lee de abajo hacia arriba, como pirámide)
+
+**9 pasos para inspirar la motivación intrínseca.**
+
+1. **Abre camino:** ver lo que no sabes que no sabes, complementar y abrir hacia tu disciplina otras ideas y otros conocimientos.
+2. **Reduce el enfoque:** Escoge una linea de aprendizaje.
+3. **Visualiza la meta:** Mantener el objetivo propuesto.
+4. **Mide el problema:** Cuando se presenten desafíos fuertes, sopesar o medir el problema.
+5. **Revisa soluciones:** Verificar el camino y todo lo que se ha logrado, para darte cuenta que eres capaz.
+6. **Aliento y apoyo:** Demostrarte a ti mismo como has alcanzado cosas nuevas, como has avanzado y como te sientes en ese proceso.
+7. **Plan de acción:** Redacta, escribe o diseña un plan de accion, así te este costando trabajo o no.
+8. **Visualización:** mantenerte motivado y proyectado hacia el futuro y hacia la meta propuesta.
+9. **Semillas de éxito:** revisa todo lo bueno que ya tienes y aplica todo el conocimiento aprendido. Aplicar todo lo que conocemos.
+En el proceso de motivación si decaemos, debemos tener en cuenta que es un proceso.
+
+“Cuando ejercemos cambios únicamente conductuales, es como poner una venda en una herida sin haberla curado previamente” Enric Corbera
+
+Por ultimo hay que desaprender primero.
 
 ## Principales emociones que afectan el aprendizaje
 
-# 4. Reconocer herramientas metodológicas para el aprendizaje
+**Pereza:**
 
+  - Tener una buena rutina de estudio.
+  - No tener distracciones antes de las clases que tomaremos.
+  - Hacer las cosas inmediatamente.
+  - No usar ningún distractor antes de estudiar.
+
+**Orgullo:**
+
+  - Te hace dudar sobre si hacer o no las cosas.
+  - No discutir contra lo que haces.
+  - Tener un gran interés con lo que aprenderemos.
+
+**Arrogancia**
+
+  - Pensamientos mediocres, limitados.
+  - Leer mucho, estar al día de los nuevos avances tecnológicos.
+  - Visualizarnos hasta donde podremos llegar si lo hacemos.
+
+**Impaciencia**
+
+  - No disfrutamos el proceso.
+  - Disfrutar cada paso.
+  - Encontrar el sentido del orden de cada clase o curso.
+  - Avanzar y enfrentarnos directamente a lo que estudiamos.
+
+**Desconfianza**
+
+  - Desconfianza en nosotros mismos o en el material.
+  - Ir paso a paso.
+  - Ver las metas logradas.
+
+**Vergüenza**
+
+  - Por estudiar cosas sencillas.
+  - Lo importante es adquirir el conocimiento.
+
+**Enojo**
+
+  - No enojarnos con lo que estamos haciendo.
+  - Frena el aprendizaje.
+  - Tener paciencia y ser comprensivos.
+
+**Confusión**
+
+  - Es parte de aprender.
+  - Organizarnos para aclarar nuestras ideas.
+
+**Consejos**
+
+  - Soluciona los aspectos que estén en tus manos.
+  - Intenta no evitar reacciones emocionales.
+  - Vive las emociones desagradables y aprende de ellas.
+  - Contempla enfoques diferentes a pensar lo peor.
+
+# 4. Reconocer herramientas metodológicas para el aprendizaje
 
 ## Planificación del estudio
 
+**Planificación del estudio.**
+
+Herramientas técnicas para acompañar herramientas emocionales.
+
+Se recomienda el curso de gestión efectiva del tiempo, luego de tener este conocimiento debemos enfocarnos en lo siguiente:
+
+**Programar y Planear**
+
+Destinar un momento para tus objetivos de aprendizaje.
+Especificar que vas a realizar en ese espacio de tiempo:
+
+- Qué curso
+- Qué actividades.
+- Cuánto tiempo.
+
+> No es suficiente con definir objetivos, de deben indicar y establecer momentos, tiempos fechas y que actividades haremos en ese tiempo, esto debemos escribirlo.
+
+**Metodo espiral.**
+
+Es un método de enseñanza, que permite potencializar las metas, permite aprender sobre un mismo tema cada vez que se revisa, por lo tanto aprende y relaciona información, para construir conocimiento real, con sus diferentes ramas, por lo tanto cada vez que se encuentre con el tema, se mejoraran los niveles de habilidad.
+
+**Es importante lo siguiente:**
+
+- **Organización y limpieza:** definir el lugar, ordenarlo, ambientarlo, colocarle cosas que te gusten para sentirte cómodo y que te guste estar en ese lugar, no es recomendable estudiar en la cama, tiene que ser un espacio distinto.
+- **Disciplina y concentración:** se debe estar enfocado en los momentos en los cuales estamos leyendo, estudiando, investigando, viendo los cursos o poniendo en práctica algún conocimiento.
 
 ## Material de estudio y de repaso
 
+El [Sketchnoting](https://ggili.com/sketchnoting-pensamiento-visual-ordenar-ideas-creatividad-libro.html) es una manera creativa de tomar notas combinando texto y recursos gráficos. Se trata de una innovadora herramienta de pensamiento visual que nos permite organizar la información de forma clara, pero también abierta, posibilitando que se generen nuevas conexiones y desarrollos entre las ideas. Esta práctica consigue, así, liberar nuestra creatividad y ampliar los márgenes de nuestro pensamiento.
 
 ## Mapas mentales y mapas conceptuales
 
+Hacer mapas mentales geniales!
+- [mindmeister](https://www.mindmeister.com/es)
+- [xmind](https://www.xmind.net/)
+
+Diferencia entre mapas mentales y mapas conceptuales
+En los mapas conceptuales debes hacer la verificación jerárquica de los conceptos, en los mapas mentales puedes ir escribiendo y haciendo las ramas de este mapa sin necesidad de verificar que vayas de lo general a lo particular, puedes ir tomando apuntes de cursos, y se recomienda que cada una de las ramificaciones sean cada una de las clases que vamos viendo.
+
+[![Mapa-Conceptual.webp](https://i.postimg.cc/T3MrDVCk/Mapa-Conceptual.webp)](https://postimg.cc/svmQFhFS)
 
 ## Construyendo esquemas y procesos
+
 
 
 ## Líneas del tiempo

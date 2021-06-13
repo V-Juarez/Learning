@@ -392,10 +392,23 @@ En los mapas conceptuales debes hacer la verificación jerárquica de los concep
 
 ## Construyendo esquemas y procesos
 
+[![procesos.png](https://i.postimg.cc/6p6SsJxx/procesos.png)](https://postimg.cc/BXyNDzvm)
 
+Los Diagramas EPS (Entrada-Proceso-Salida), es una herramienta muy utilizada para tener una mejor visualización de un proceso de una empresa. De igual forma se usa mucho para el **Desarrollo de Software** al momento de planificación.
 
 ## Líneas del tiempo
 
++ [![linea-De-Tiempo.png](https://i.postimg.cc/qMGJXTxP/linea-De-Tiempo.png)](https://postimg.cc/svvCsb8m)
+
+  - [Visme](https://www.visme.co/timeline-maker/)
+  - [Creately](https://time.graphics/es/)  Muy bella.
+  - [Time Graphics](https://creately.com/lp/timeline-maker-online/)
 
 ## Cuéntame qué sabes de un tema
 
+La pasión de mi vida pero resulta que “La pasión es algo demasiado importante como para no tenerla, pero demasiado inconsistente como para estar constantemente persiguiéndola”, y “El truco no consiste en hacer lo que te gusta, sino en que te guste lo que haces”, y es que las personas que son más felices y viven su vida plenamente no esperan a encontrar su pasión, esas personas han puesto pasión en sus vidas.
+
+1. No persigas tu pasión, SIEMPRE llévala contigo, en todo lo que haces.
+2. Disfruten el proceso.
+
+Comparte tu conocimiento con los demás, ayúdales…

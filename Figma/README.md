@@ -170,12 +170,70 @@ Aplica para Adobe XD, Adobe Illustrator, Framer y más.
 
 ## Domina la herramienta de texto
 
+**COMANDOS**
+
+F = abrir las opciones de wirefrimes disponibles:
+
+T = Habilita la entrada de texto en el proyecto:
+
+Ctrl B = pone el texto en negrita:
+
+Ctrl I = Pone el texto en cursiva
+
+Ctrl U = subraya el texto
+
+Los estilos = Los estilos son propiedades globales de los elementos que pueden ser reutilizables a lo largo de varios archivos y/o proyectos.
+
+Para crear un nuevo estilo vamos a texto, seleccionamos el cuadro con los 4 puntos y le damos a +
+
+Le ponemos el nombre que quieras, en mi caso titulo y le das a crear titulo.
+
+- [Speed up your workflow with Keyboard Shortcuts – Figma](https://help.figma.com/hc/en-us/articles/360040328653-Speed-up-your-workflow-with-Keyboard-Shortcuts)
 
 ## Creación de objetos y efectos
 
+Shortcuts
+ctrl + b: negrita / bold
+
+ctrl + u: linea bajo el texto
+
+ctrl + i: Italica, inclinar texto
+
+ctrl + r: crear rectangulo o cuadro
+
+Ctrl + d : Duplicar objetos
+
+shift + r: regla
+
+T: Escribir texto
+
+R: crear rectangulo o cuadro
+
+I: pincel y lupa de captura de color
+
+O: Crear Ovalo o circulo
+
+L: Crear linea
+
+F: Crear frame (artboard)
+
+R | O | L y luego shift: mantiene las proporciones del Cuadrado | Circulo | Linea
+
+crtl + shift + e: mostrar archivos a exportar
+
+[![Notes-Figma-1.jpg](https://i.postimg.cc/BQhtMYcz/Notes-Figma-1.jpg)](https://postimg.cc/GHycpjfP)
+
+[![Figma.jpg](https://i.postimg.cc/wxn9vC2g/Figma.jpg)](https://postimg.cc/K476psCH)
 
 ## Creando efectos
 
+**Reto**
+
+  - Un rectangulo
+  - Un circulo
+  - Un poligono
+  - Una linea
+    - Todos con efecto
 
 ## Retículas y Guías: componer la complejidad
 

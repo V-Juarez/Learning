@@ -237,8 +237,28 @@ crtl + shift + e: mostrar archivos a exportar
 
 ## Retículas y Guías: componer la complejidad
 
+**Mobile**
+
+  - Count = 6
+  - Margin = 20
+  - Gutter = 12
+  
+**Tablet**
+
+  - Count = 6
+  - Margin = 30
+  - Gutter = 20
+
+**Desktop**
+
+  - Count = 6
+  - Margin = 42
+  - Gutter = 32
+
+Si quieren una referencia de todos los atajos de teclado, basta con ir en a la esquina inferior derecha y hacer click en el icono negro con signo de interrogación, lo que abrirá el menú de ayuda.
 
 ## Agregando imágenes
+
 
 
 ## Selección de color

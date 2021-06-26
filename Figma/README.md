@@ -257,9 +257,11 @@ crtl + shift + e: mostrar archivos a exportar
 
 Si quieren una referencia de todos los atajos de teclado, basta con ir en a la esquina inferior derecha y hacer click en el icono negro con signo de interrogación, lo que abrirá el menú de ayuda.
 
+[![figma3.jpg](https://i.postimg.cc/qqHvBnys/figma3.jpg)](https://postimg.cc/2bTD21Hy)
+
 ## Agregando imágenes
 
-
+> Dato importante: Siempre intentar que la resolución de las imágenes que utilice esté por encima de los 150 dpi.
 
 ## Selección de color
 

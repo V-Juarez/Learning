@@ -146,7 +146,7 @@ Figma soporta y es capaz de convertir las siguientes funcionalidades traídas de
   - Pages
   - Symbols
   - Fonts
-  
+
 #### Pages
 
 Al igual que Sketch, en Figma se pueden almacenar diferentes páginas de capas dentro de un solo archivo. Cualquier cantidad de páginas que existan dentro de un archivo de Sketch serán importadas como páginas separadas dentro de tu nuevo archivo de Figma.
@@ -242,7 +242,7 @@ crtl + shift + e: mostrar archivos a exportar
   - Count = 6
   - Margin = 20
   - Gutter = 12
-  
+
 **Tablet**
 
   - Count = 6
@@ -263,14 +263,50 @@ Si quieren una referencia de todos los atajos de teclado, basta con ir en a la e
 
 > Dato importante: Siempre intentar que la resolución de las imágenes que utilice esté por encima de los 150 dpi.
 
+<img src="https://i.ibb.co/qsv7XL7/figma-imagenes.jpg" alt="figma-imagenes" border="0">
+
 ## Selección de color
 
+Tip: Para crear los estilos de color puedes tener en un grupo de circulos los diferentes colores, al seleccionarlos en el panel de la derecha aparece **Selection Colors** y si pones el mouse encima aparecen 4 puntos, al darle click ahi puedes crear un **Style Color**
+
+<img src="https://i.ibb.co/2s8KN3T/colores.jpg" alt="colores" border="0">
+
+<img src="https://i.ibb.co/1Q5MYdT/paleta.jpg" alt="paleta" border="0">
+
+<img src="https://i.ibb.co/1Lc6GRc/paleta1.jpg" alt="paleta1" border="0">
+
+![img](https://www.google.com/s2/favicons?domain=//static.platzi.com/media/favicons/platzi_favicon.png)[Teoría del Color en el diseño de interfaces](https://platzi.com/blog/color-en-interfaces/)
+
+![img](https://www.google.com/s2/favicons?domain=//static.platzi.com/media/favicons/platzi_favicon.png)[Domina el color de tu producto](https://platzi.com/blog/domina-color/)
 
 ## Vectores: aprende a combinar figuras
+
+`P` para usar la herramienta `Pen`
+
+- Click en cualquier lugar para empezar.
+
+- Escape para abandonar.
+
+  - En Figma, un punto puede alojar una cantidad infinita de trazos que salgan desde ese punto.
+  - Cuando seleccionas y mueves dicho punto, todos los trazos se mueven con el.
+
+  **Self-note:** Utilizar los “…” (advanced Stroke) para que mis vectores puedan terminar redondos en lugar de siempre cuadrados 🤯🤯🤯
+
+  La barra superior de **Figma** es muy útil y casi nunca la veo. No sabía que ahí estaba la opción para las **operaciones booleanas** con objetos o vectores. Genial.
+
+  <img src="https://i.ibb.co/8Nyr4mS/Figuras.jpg" alt="Figuras" border="0">
+
+![img](https://www.google.com/s2/favicons?domain=https://static.figma.com/app/icon/1/icon-192.png)[Preview de tu proyecto hasta ahora](https://www.figma.com/file/XWBnYsCrFRQSijz6xZeO1S/Budgetrip-(Construcci%C3%B3n)?node-id=0%3A1)
 
 # 3. Composición Orquestada
 
 ## Integración: importar y exportar elementos
+
+<img src="https://i.ibb.co/cFz22Tf/figma-export-and-import.jpg" alt="figma-export-and-import" border="0">
+
+Guardar los archivos `.Fig` es super útil cuando sabes que trabajarás sin conexión un rato, para abrir el programa necesitas conexión, pero luego si la pierdes, puedes continuar trabajando y guardar el archivo .Fig para no perder el avance realizado, solo actualizas el archivo cuando vuelvas a tener conexión y listo, todo en la nube de nuevo.
+
+<img src="https://i.ibb.co/q1Zsgmb/Proyecto-App-musica2.jpg" alt="Proyecto-App-musica2" border="0">
 
 
 ## Constraints: usa las restricciones a tu favor

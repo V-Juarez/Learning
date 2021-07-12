@@ -308,17 +308,54 @@ Guardar los archivos `.Fig` es super útil cuando sabes que trabajarás sin cone
 
 <img src="https://i.ibb.co/q1Zsgmb/Proyecto-App-musica2.jpg" alt="Proyecto-App-musica2" border="0">
 
-
 ## Constraints: usa las restricciones a tu favor
 
+### Relaciones padre-hijo
+
+Todos los elementos contenidos  dentro de un frame son objetos `child` del contenedor que lo soporta.
+
+- Asi pues, sus restricciones funciona con base en el comportamiento de su `padre`.
+
+### Restrucciones
+
+Un elemento en figma puede estar restringido en su espacio horizontal segun:
+
+- Left
+- Right
+- Left & Right
+- Centro
+- Es
+
+### Consistencia
+
+Cada interfaz exite dentro de un espacio dinamico y es importante manterner una logica consitente al momento de cambiar el tamano de diferentes objetos.
+
+### El primer frame debe contener:
+
+Todos los constrains necesarios para que le design escale correctamente en cada uno de los nuevos dispositivos.
 
 ## Styleguides: creación de estilos
 
+<img src="https://i.ibb.co/LStySVr/figma2.jpg" alt="figma2" border="0">
 
 ## Auto-Layout: un amigo para la vida
 
+Hay que tener en cuenta la diferencia entre pading y margin.
+Padding: es la distancia que existe del borde del elemento hacia adentro.
+Margin: es la distancia que existe del borde del elemento hacia afuera.
+Visualmente pueden tener el mismo resultado si no se tienen bordes, pero es importante conocer estas diferencias.
+
+**Reto:**
+
+<img src="https://i.ibb.co/cNSN7XS/figmaframe.jpg" alt="figmaframe" border="0">
 
 ## Shortcuts: atajos para agilizar tu proceso
+
+a con ir en a la esquina inferior derecha y hacer click en el icono negro con signo de interrogación , lo que abrirá el menú de ayuda.
+
+En el menú de ayuda seleccionan la opción “Keyboard Shortcuts”, lo que abrirá una sección con todos los comandos disponibles 😄
+
+![img](https://www.google.com/s2/favicons?domain=//theme.zdassets.com/theme_assets/9325143/19963b7cf605c983be6984509521eeed6a348db0.ico)[Speed up your workflow with Keyboard Shortcuts – Figma](https://help.figma.com/hc/en-us/articles/360040328653-Speed-up-your-workflow-with-Keyboard-Shortcuts)
 
 # 4. Colaborando y Co-Creando con Figma
 

@@ -43,7 +43,6 @@
 - [5. Mentoría Expert](#5-mentoría-expert)
   - [Prototipado en vivo: Figma](#prototipado-en-vivo-figma)
 
-
 # 1. Introducción a Figma
 
 ## Figma: colaboración a gran escala
@@ -359,14 +358,100 @@ En el menú de ayuda seleccionan la opción “Keyboard Shortcuts”, lo que abr
 
 # 4. Colaborando y Co-Creando con Figma
 
-
 ## Herramientas de Co-creación: comentarios
 
+Para incentivar la co-creacion de los productos con diferentes actores, sin necesidad de que todos editen, pero si permitiendo sus puntos de vista en hilos.
+
+### Agregar comentario
+
+- C
+- click
+- Escribir comentario
+- “Post”
+
+### Involucrando a tu equipo
+
+- @ + Nombre
+- @ + email
+- Replicas
+- Marcar como resuelto
+
+“El diseño realmente lo que debería ser es un habilitador de comunicación”.
+
+Es muy importante trabajar las guías de marcas y de estilo en el branding para tomar cualquier decisión. En startups donde hay menos integrantes, eso puede resultar fácil. En grandes empresas también puede ser fácil si se comparten los documentos a las personas para que puedan desempeñar su trabajo con consistencia. De esto habla el branding y el UX 🐣
+
+Los errores entre más pronto sean corregidos en el proceso de diseño y desarrollo, menos constará resolverlos. Involucrar pasos de revisión son fundamentales para la asegurar la calidad de lo que creamos como equipo 😃
+
+> Tu no tienes todas las respuestas*
+>
+> \*Y tu cerebro es bastante limitado.
+
+Siento que si se utiliza bien esta herramienta te puedes ahorrar muchas juntas innecesarias o bien, plantear mejor los temas de alguna reunión que pudiera surgir.
+
+Crear comentario
 
 ## Agilidad y consistencia a través de componentes
 
+Un componente es como el molde sobre el cual nosotros vamos a hornear galletas. En este caso, cada botón creado en la clase fue una galleta tomada del molde del botón maestro o componente. Esto es la manera en la cual diseñamos de una manera mas rápida.
+
+Si ya has usado programación orientada a objetos, un componente es solo como una clase de la cual sacamos objetos.
+
+Son los elementos reutilizables que ayudan a:
+
++ Logra mayor consistencia
++ Optimizar velocidad en los cambios
+
+- Puedes crear a partir d:
+
+  + Frames
+  + Grupos
+  + Capas
+  + win + k
+
+  **Crear una instancia**
+
+  - Option + Arrastar componente
+
+  - Copy +_Paste
+
+  - Drafg desde vista de “Assets”
+
+  ### Relacion Padre-Hijo
+
+  - Propiedades del lmaster componente se traducen en todas las instancias.
+  - Cambios sobre las instancias se llaman “Overrides” y existen para:
+    - Text
+    - Fill
+    - stroke
+    - Efectos
+
+  Lo que un grupo hace es que se muevan juntos y los cambios al grupo se aplican a los elementos dentro.
+
+  Un frame es como un contenedor con su propio tamaño, que muestra los elementos en su interior, y como en un grupo se pueden hacer cambios que afectan a los elementos dentro.
+  Y auto-layout es como tenerlo en un contenedor con propiedades extra, como relleno (padding) y espaciado, para los elementos dentro.
+
+  ### Las instancias pueden rebelarse
+
+  - Win + option + b: para separa una instancia de su maestro
+  - Click derecho y “Reset Instance” para cancelar todos los overrides que tiene una  instancia y revertir al maestro.
+
+  <img src="https://i.ibb.co/SR66yVg/keytools.jpg" alt="keytools" border="0">
+  <img src="https://i.ibb.co/C93b6m8/figma-Space.webp" alt="figma-Space" border="0">
+  <img src="https://i.ibb.co/TmSS4Xh/figma-Alilidad.jpg" alt="figma-Alilidad" border="0">
+
+  
 
 ## Organiza tus componentes
+
+Esta forma de organizar componentes, se complementa a la perfección con la metodología de **Atomic Design**
+
+La cual, nos resume que todos los componentes y elementos de nuestra aplicación se separan desde su elemento más pequeño que es un **átomo**, estos formas **moléculas**, de ahí se forman **organismos**, y con todo eso podemos formar **templates** y **páginas**.
+Pasado a lenguaje de Figma, la unidad más pequeña serían componentes, que forman parte de componentes más complejos, así hasta formar nuestra vista!
+Si quieres saber más acerca de Atomic Design, te dejo la **[siguiente lectura](https://blog.interactius.com/atomic-design-para-dummies-5562930ce89c)** para que lo conozcas 😉
+
+> Otro tip: Nombren los componentes con nombres en ingles con (_) en vez de espacios y que no se repitan. El frontend podrá usar estos nombres para poner las clases en el CSS. (Se lo agradecerán)
+
+<img src="https://i.ibb.co/HVsFvYG/ordencampos.jpg" alt="ordencampos" border="0">
 
 
 ## Prototipado: dale vida a tu interfaz

@@ -1,0 +1,13 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.page {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}

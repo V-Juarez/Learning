@@ -126,8 +126,6 @@ font-family: 'Lato', sans-serif;
 
 ## Navbar
 
-## NavBar
-
 Les dejo mi resultado:
 ![img](https://i.imgur.com/2sTbRII.gif)
 
@@ -158,22 +156,234 @@ Esta clase me gusto mucho, ya que el proyecto va madurando y teniendo vida con l
 
   **https://github.com/paolojoaquin/lego-superheroes/tree/Clase/6-contenido-principal**
 
-
 ## Contenido lateral
 
+![img](https://media.giphy.com/media/ilBIaHXrCuQDUZeEOr/giphy.gif)
+Bueno entonces el contenido lateral fue como más intuitivo con lo ya visto en clases anteriores, con ciertas modificaciones, eso significa que es muy importante tener una base solida en la prop: **animation y @keyframes**
 
 ## Footer
+
+### 😃
+
+Les dejare aquí un pequeño resumen de las propiedades de animation que hemos venido trabajando y para que sirven:
+
+- Aqui pondremos el nombre de nuestra animación y poder referenciarla en los keyframes
+
+```css
+animation-name: "name";  
+```
+
+- Aqui pondremos el tiempo que queremos que tarde nuestra animación.
+
+```css
+animation-duration: "0.5s";  
+```
+
+- Este será el tiempo que se tendrá para retardar la animación.
+
+```css
+animation-delay: 2.5s; 
+```
+
+- Este será el tipo de aceleración que aplicaremos a nuestra animación.
+
+```css
+animation-timing-function: easy-in-out;  
+```
+
+- Este nos indicara que queremos que vuelva al estado inicial con “forwards”
+
+```css
+animation-fill-mode: forwards;
+```
+
+![img](https://www.google.com/s2/favicons?domain=https://static.platzi.com/media/favicons/platzi_favicon.png)[Spider-man | https://i.ibb.co/tKWqw8J/spiderman.png](https://i.ibb.co/tKWqw8J/spiderman.png)
+
+![img](https://www.google.com/s2/favicons?domain=https://static.platzi.com/media/favicons/platzi_favicon.png)[Robin | https://i.ibb.co/Xzsdvgg/robin.png](https://i.ibb.co/Xzsdvgg/robin.png)
+
+![img](https://www.google.com/s2/favicons?domain=https://static.platzi.com/media/favicons/platzi_favicon.png)[Bat-man https://i.ibb.co/M18p91c/batman.webp](https://i.ibb.co/M18p91c/batman.webp)
 
 # 3. Maquetación con JavaScript
 
 ## Cómo acceder al DOM con JavaScript
 
+### **DOM, CSSOM y Render Tree** 🤔
+
+Te cuento que nuestra profesora tiene una clase donde explica estos tres conceptos con toda profundidad en el curso de Frontend Developer que por cierto es buenísimo.
+
+- [DOM, CSSOM, Render Tree y el proceso de renderizado de la Web](https://platzi.com/clases/1640-frontend-developer/21876-dom-cssom-render-tree-y-el-proceso-de-renderizado-/)
 
 ## Modal: evento click con JavaScript
 
+```js
+  <script>
+    const modal = document.querySelector('#button1');
+    const button1 = document.querySelector('#button1');
+    const close = document.querySelector('.modal__content--close');
+  
+    button1.addEventListener('click', () => {
+      modal.classList.remove('hidden')
+      modal.classList.remove('visible')
+    })
+  
+    close.addEventListener('click', () => {
+      console.log('here')
+      modal.classList.remove('hidden')
+      modal.classList.remove('visible')
+    })
+  </script>
+```
+
+![img](https://www.google.com/s2/favicons?domain=https://icons8.com//vue-static/landings/primary-landings/favs/icons8_fav_32%C3%9732.png)[Free Icons, Clipart Illustrations, Photos, and Music](https://icons8.com/)
+
+![img](https://www.google.com/s2/favicons?domain=https://img.icons8.com/windows/512/macos-close.png)[MacOS Close Icon – Free Download, PNG and Vector](https://icons8.com/icon/AqDEb8mCIrk9/macos-close)
 
 ## Slider
+
+para ocultar los botones de radius usé display none:
+
+```css
+#radio1,
+#radio2,
+#radio3 {
+  display: none;
+}
+```
+
+para el botón de “Lo quiero” lo metí dentro de su propio contenedor:
+
+```css
+.modalbutton input {
+  background: var(--secondaryColor);
+  color: var(--white);
+  font-size: 1.7rem;
+  border: 0;
+  outline: none;
+  padding: 15px 35px;
+}
+```
+
+Y para colocar la “x” a la izquierda, la saque del contenedor donde esta el Slider y la coloque en un contenedor superior, de forma que la flexbox no me alterara los estilos de la “x”:
+
+```html
+ <section class="modal hidden">
+        <div class="modalContainer">
+          <p>
+            <a class="closeButton">X</a>
+          </p>
+          <div class="modalContent">
+            <div class="modalContentSlider">
+              <input type="radio" name="slider1" id="radio1" checked />
+              <input type="radio" name="slider1" id="radio2" />
+              <input type="radio" name="slider1" id="radio3" />
+              <div class="cards">
+                <label for="radio1" class="card card1">
+                  <img src="./assets/spidermancard1.png" alt="Spiderman 1" />
+                </label>
+                <label for="radio2" class="card card2">
+                  <img src="./assets/spidermancard2.png" alt="Spiderman 2" />
+                </label>
+                <label for="radio3" class="card card3">
+                  <img src="./assets/spidermancard3.png" alt="Spiderman 3" />
+                </label>
+              </div>
+            </div>
+            <div class="modalbutton">
+              <input type="button" value="Lo Quiero!" />
+            </div>
+          </div>
+        </div>
+      </section>
+```
+
+Para poder posicionar la X en la esquina hice los siguiente (por si alguien esta batallando)
+
+1.-A la clase `.modal__conten` le puse `"position:relative"`
+2.- La imagen la puse dentro de un div pero ese div lo deje dentro de la clase `.modal__content`
+3.- Al div de la imagen le puse `“position: absolute” , “top:10%” y "right:5%"`
+4.- Al div donde esta el carousel le puse `“position: absolute” y “top:50%”`
+
+**HTML**
+
+```html
+<div class="modal-container">
+                <img class="modal-container__close" src="https://img.icons8.com/plumpy/50/000000/macos-close.png" alt="close"/>
+
+                <div class="modal-container__slider">
+                    <input type="radio" name="slider-1" id="radio-1" 
+                    checked>
+                    <input type="radio" name="slider-1" id="radio-2" >
+                    <input type="radio" name="slider-1" id="radio-3" >
+
+                    <div class="cards">
+                        <label for="radio-1" id="card-1" class="card">
+                            <img src="" alt="">
+                        </label>
+                        <label for="radio-2"id="card-2" class="card">
+                            <img src="" alt="">
+                        </label>
+                        <label for="radio-3" id="card-3" class="card">
+                            <img src="" alt="">
+                        </label>
+                    </div>
+                </div>
+                <button>I want it!</button>
+            </div>
+```
+
+**CSS**
+
+```css
+.modal-container {
+    background: white;
+    width: 50%;
+    border-radius: 20px;
+    height: 50%;
+    display: grid;
+    flex-direction: column;
+    place-items: center;
+    grid-template-columns: 60px 1fr 60px;
+}
+
+.modal-container__close {
+    cursor: pointer;
+    transform: translatey(-27px);
+    grid-column: 3 / 4;
+}
+
+.modal-container__slider {
+    width: 300px;
+    height: 200px;
+    transform-style: preserve-3d;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+.modal-container__slider input {
+    visibility: hidden;
+}
+
+.modal-container button {
+    grid-column: 2 / 3;
+    width: 250px;
+    height: 50px;
+    border: none;
+    background: var(--red);
+    color: white;
+    font-size: 1.8rem;
+    border-radius: 3px;
+}
+
+.modal-container button:hover {
+    background: var(--blue);
+}
+```
+
+![Screenshot_1.png](https://static.platzi.com/media/user_upload/Screenshot_1-9206a6b9-2433-4651-82b6-a23fa23cb324.jpg)
 
 # 4. Continúa aprendiendo
 
 ## ¿Quieres aprender animaciones con JavaScript?
+
+No pares de Aprender!
+

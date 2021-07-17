@@ -1,0 +1,38 @@
+.main-content {
+  grid-area: section;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  animation: 2s main-content 0.5s ease-in-out;
+}
+
+.main-content p:first-child {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0 0 -14px 44px;
+  /* font-family: sans-serif; */
+}
+
+.main-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 28px 0;
+  /* font-family: sans-serif; */
+}
+
+.main-content p:last-child {
+  font-weight: 100;
+  margin: 0;
+  width: 60%;
+}
+
+@keyframes main-content {
+  0% {
+    transform: translateY(-600px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}

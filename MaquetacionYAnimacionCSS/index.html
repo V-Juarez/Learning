@@ -7,7 +7,7 @@
   <title>Hero Lego</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
   <div class="page">
@@ -17,38 +17,38 @@
         <div class="navbar__content">
           <img src="https://i.ibb.co/MMmDPXN/lego.png" alt="Logo">
           <ul>
-            <li><a href="">EXCLUSIVOS</a></li>
-            <li><a href="">NUEVOS</a></li>
-            <li><a href="">GIFT CARDS</a></li>
-            <li><a href="">FIND A STORE</a></li>
+            <li><a href="#">EXCLUSIVOS</a></li>
+            <li><a href="#">NUEVOS</a></li>
+            <li><a href="#">GIFT CARDS</a></li>
+            <li><a href="#">FIND A STORE</a></li>
           </ul>
         </div>
       </nav>
-    </section>
 
-    <section class="main-content">
-      <p>Desing tu</p>
-      <h1>Super Heroe!</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto neque, beatae at voluptate amet quasi porro dolorum maxime praesentium laudantium cupiditate ipsa, vitae voluptates possimus sed alias nesciunt tenetur quas?
-      Iure doloribus itaque excepturi ut, architecto doloremque neque exercitationem facere, at inventore fugit esse eligendi consequuntur rerum consequatur distinctio, deleniti voluptate aut modi quia. Veritatis provident exercitationem facilis optio esse?</p>
-    </section>
+      <section class="main-content">
+        <p>Desing tu</p>
+        <h1>Super Heroe!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto neque, beatae at voluptate amet quasi porro dolorum maxime praesentium laudantium cupiditate ipsa, vitae voluptates possimus sed alias nesciunt tenetur quas?
+        Iure doloribus itaque excepturi ut, architecto doloremque neque exercitationem facere!</p>
+      </section>
 
-    <section class="side-content">
-      <p>Superman</p>
-      <img src="" alt="">
-      <div></div>
-    </section>
+      <section class="side-content">
+        <div></div>
+        <p>Superman</p>
+        <img src="https://i.ibb.co/x16pz1x/super-man.png" alt="super-man">
+      </section>
 
-    <section>
-      <div>
-        <img src="" alt="">
-      </div>
-      <div>
-        <img src="" alt="">
-      </div>
-      <div>
-        <img src="" alt="">
-      </div>
+      <section class="footer">
+        <div id="button1">
+          <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="Spider-man">
+        </div>
+        <div>
+          <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="Robin">
+        </div>
+        <div>
+          <img src="https://i.ibb.co/M18p91c/batman.webp" alt="Bat-man">
+        </div>
+      </section>
     </section>
 
     <!-- Loader -->
@@ -59,9 +59,46 @@
     </section>
 
     <!-- Modal -->
-    <section>
-      Hola
+    <section class="modal hidden">
+      <div class="modal__content">
+        <img class="modal__content--close" src="macos-close.png">
+
+        <div class="modal__content--slider">
+          <input type="radio" name="slider-1" id="radio-1" checked="">
+          <input type="radio" name="slider-1" id="radio-2">
+          <input type="radio" name="slider-1" id="radio-3">
+
+          <div class="cards">
+            <label for="radio-1" id="card-1" class="card">
+              <img src="spider-man-1.png" alt="" width="200">
+            </label>
+            <label for="radio-2" id="card-2" class="card">
+              <img src="spider-man-2.png" alt="" width="200">
+            </label>>
+            <label for="radio-3" id="card-3" class="card">
+              <img src="spider-man-3.png" alt="" width="200">
+            </label>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
+
+  <script>
+    const modal = document.querySelector('.modal')
+    const button1 = document.querySelector('#button1')
+    const closeButton = document.querySelector('.modal__content--close')
+  
+    button1.addEventListener('click', () => {
+      modal.classList.remove('hidden')
+      modal.classList.add('visible')
+    })
+  
+    closeButton.addEventListener('click', () => {
+      console.log('here')
+      modal.classList.remove('hidden')
+      modal.classList.add('visible')
+    })
+  </script>
 </body>
 </html>

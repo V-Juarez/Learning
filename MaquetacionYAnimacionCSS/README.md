@@ -124,11 +124,39 @@ font-family: 'Lato', sans-serif;
 
 ![img](https://www.google.com/s2/favicons?domain=https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg)[Google Fonts](https://fonts.google.com/)
 
-
 ## Navbar
 
+## NavBar
+
+Les dejo mi resultado:
+![img](https://i.imgur.com/2sTbRII.gif)
+
+- Para resolver el problema de la posición final de la animación del **Logo** le agregue 30px de padding-top, quedando:
+
+```css
+.navbar__content {
+	    ....
+	    padding: 30px 0 0 80px;
+	    .....
+}
+```
+
+Me gusto mucho esta clase, sin duda la aplicación del display grid con flexbox es una combinación muy buena.
+Les dejo el código de esta clase: [**https://github.com/paolojoaquin/lego-superheroes/tree/Clase/5-navbar**](https://github.com/paolojoaquin/lego-superheroes/tree/Clase/5-navbar)
+
+[Lego | Logo](https://i.ibb.co/MMmDPXN/lego.png)
 
 ## Contenido principal
+
+Esta clase me gusto mucho, ya que el proyecto va madurando y teniendo vida con las animaciones, transiciones, y el display **flex** que fue nuestra solución para el problema de posición del **logo**:
+
+- Les dejo mi resultado hasta el momento
+
+  Código de la clase:
+
+   
+
+  **https://github.com/paolojoaquin/lego-superheroes/tree/Clase/6-contenido-principal**
 
 
 ## Contenido lateral

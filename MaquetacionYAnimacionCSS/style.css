@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Lato";
+  src: url('../assets/fonts/Lato-Thin.woff2') format("woff2"),
+    url('../assets/fonts/Lato-Light.woff2') format("woff2"),
+    url('../assets/fonts/Lato-Bold.woff2') format("woff2");
+  font-weight: 100, 300, 700;
+}
+
 :root {
   --yellow: #ffd602;
   --red: #d5040a;
@@ -13,23 +21,93 @@ body {
 }
 
 .page {
-  position: relative;
   height: 100vh;
+  position: relative;
   width: 100%;
 }
 
 .container {
   position: absolute;
-  z-index: 1;
-  
+  z-index:1;
+  width: 100%;
+  height:100%;
   display: grid;
   grid-template-columns: 55% 45%;
   grid-template-rows: 20% 50% 30%;
   grid-template-areas: "nav     aside"
-                        "section aside"
-                        "footer aside";
-  height: 100%;
+      "section aside"
+      "footer  aside";
+}
+
+.navbar {
+  background: lightpink;
+  grid-area: nav;
+  display: flex;
+}
+
+.navbar__content {
+  display: flex;
+  align-items: center;
   width: 100%;
+  padding: 0 0 0 80px;
+
+  animation: 2s navbar 0.5s ease-in-out;
+}
+
+@keyframes navbar {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: traslateY(0px);
+  }
+}
+
+.navbar__content img {
+  width: 50px;
+}
+
+
+.navbar__content ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  width: 450px;
+}
+
+.navbar__content ul li a {
+  color: var(--red);
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.main-content {
+    grid-area: section;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    animation: 2s main-content 0.5s ease-in-out;
+}
+
+.main-content p:first-child {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0 0 -14px 44px;
+  font-family: sans-serif;
+}
+
+.main-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 28px 0;
+  font-family: sans-serif;
+}
+
+.main-content p:last-child {
+  font-weight: 100;
+  margin: 0;
+  width: 60%;
 }
 
 .loader {
@@ -45,22 +123,7 @@ body {
   animation: loader 2s linear forwards;
 }
 
-@keyframes loader {
-  0% {
-    opacity: 1;
-    visibility: visible;
-  }
-  95% {
-    opacity: 1;
-    visibility: visible;
 
-  }
-  100% {
-    opacity: 0;
-    visibility: hidden;
-
-  }
-}
 
 /* animaciones  */
 .loader div {
@@ -94,5 +157,24 @@ body {
   }
   50% {
     transform: scale(1);
+  }
+}
+
+@keyframes loader {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  95% {
+    opacity: 1;
+    visibility: visible;
+
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+
   }
 }

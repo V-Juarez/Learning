@@ -392,29 +392,373 @@ main(int argc, char const *argv[])
 - Stack (Pila): Su comportamiento es **LIFO** (**Last In First Out**), *Último en Entrar, Primero en Salir*.
 - Queue (Cola) : Su comportamiento es **FIFO** (**First In, First Out**), *Primero en Entrar, Primero en Salir*.
 
+Muchas veces se confunden los ADT (Abstract Data Types) con las Estructuras de Datos.
+
+Los ADT van a ser una representación de un set particular de comportamientos. Va a tener la capacidad de almacenar datos pero además va a decirte cuál va a ser el comportamiento de los datos que tengas almacenados en él.
+
+Un stack (Una pila) es una lista que implementa una política “LIFO”, Lifo significa (Last In, First Out) esto en español viene siendo *Último en llegar, Primero en Salir*. Un ejemplo de un stack puede estar siempre en tu día a día en el software, por ejemplo cuando utilizas el tabulador.
+Una estructura de datos va a ser una técnica o estrategia para implementar nuestro ADT.
+
+De los tipos de datos abstractos más usados son el **Stack** (o Pila que ya lo mencionábamos), **Queue** (Cola, este utiliza otra comportamiento que se llama “First in, First Out” la persona que llega al primero será la primera también en salir), **Priority Queue** (Cola de Prioridades, no es más que la misma cola, solo que el orden de entrada pasa a segundo término y cada uno de los valores dentro del Queue va a tener asignado un peso o un valor que denote una importancia específica, va a salir primero del Queue el que tenga mayor relevancia o importancia), **Diccionarios** (especie de lista que va a tener un índice), **Trees** (Árboles), **Graphs** (Grafos).
+
+<img src="https://i.ibb.co/6yHdHJT/Abstract-Data-Types.jpg" alt="Abstract-Data-Types" border="0">
+
+<img src="https://i.ibb.co/1GkBTY1/list.png" alt="list" border="0">
+
+<img src="https://i.ibb.co/tbDjmB9/Adt.png" alt="Adt" border="0">
+
+[ ADT y un Data Structure](https://www.youtube.com/watch?v=s-PGxWBcnkg)
 
 ## Explicación gráfica Data Types básicos
 
+Como vimos en la clase anterior existen diversos **Abstract Data Types** típicos y los más básicos son los siguientes:
+
+**List**, Conjunto de valores ordenados secuencialmente donde son recuperados mediante un número del 0 al n.
+
+**Dictionary**: Similar a las listas, pero con un índice numérico o no numérico del tipo de datos que se desee (aunque tiene que ser único)
+
+**Linked List**: Cada elemento se vincula (Apunta) con el siguiente nodo, al no estar definidas de un inicio. las linked lists pueden tener el tamaño que sea.
+
+**Stack** (LIFO, Last in First Out): En estos datos se van agregando elementos con la peculiaridad de que el último en agregarse será el primero en recuperarse.
+
+**Queue** (FIFO, First in First Out): Al contrario del stack, los Queue se caracterizan por que la recuperación de datos siga la misma secuencia de la inserción de los datos, así el primer dato será recuperado al principio, y el último al final.
+
+<img src="https://i.ibb.co/YbDWksV/1.jpg" alt="1" border="0">
+
+<img src="https://i.ibb.co/rt5nSbS/2.jpg" alt="2" border="0">
+
+<img src="https://i.ibb.co/9bK8HSQ/3.jpg" alt="3" border="0">
+
+<img src="https://i.ibb.co/3y4QRnD/list.png" alt="list" border="0">
+
+<img src="https://i.ibb.co/72xwpV9/list1.png" alt="list1" border="0">
+
+<img src="https://i.ibb.co/T1bfvM6/list3.png" alt="list3" border="0">
+
+> **Queue** o cola: Primero que entra, primero que sale. Como una cola en el banco, el que llega primero, primero se atiende.
+> **Stack** o pila: Como una pila de juegos o libros, los nuevos llegan y se colocan encima del último libro, so, el primero que sacas es el último que agregaste a la pila.
+>
+> Usar los tipos de datos equivocados puede ser catastrófico. Imagínate una fila de banco que atiende de primeras al último que llega, ¡sería terrible! 😱
+
+> Algo curioso sobre las **Linked List** es que al ser nodos independientes a diferencia de los Array o Vectores el orden de almacenamiento ya sea en memoria o disco puede ser diferente al orden de recorrido, aún así el acceso a las listas solo puede ser secuencial a diferencia de los vectores que puede ser aleatorio es decir que las listas son más lentas que los vectores al momento de buscar una información específica
+
+![img](https://www.google.com/s2/favicons?domain=https://static.platzi.com/static/images/logos/platzi_favicon.01ca534ca7d3.png)[Glosario de funciones para Abstract Data Types en Curso Básico de Algoritmos](https://platzi.com/clases/1469-algoritmos/16932-glosario-de-funciones-para-abstract-data-types/)
 
 ## Glosario de funciones para Abstract Data Types
 
+lectura de referencia encontrarás la definición de los 3 Abstract Data Types más utilizados: listas ADT, Stack o Pila ADT y Queue o Cola ADT.
+
+La forma general de conocer cada una de estas 3 ADT es a través de sus definiciones y las definiciones sólo mencionan qué operaciones serán implementadas, sin embargo no especifican cómo se organizarán los datos en memoria o cuál algoritmo se utilizará para implementar las operaciones. Estas tres definiciones hacen parte de lo que conocemos como tipos de datos abstractos, porque dan una vista independiente de la implementación.
+Debido a esto es importante que conozcas los métodos o funcionalidades que podrás encontrar en un ADT.
+
+### List ADT
+
+Una lista es un tipo de datos abstracto utilizado para representar un número contable de valores ordenados. El mismo valor puede existir más de una vez, esta es la implementación computacional del concepto matemático de secuencia finita, la lista.
+
+A continuación te comparto las operaciones disponibles en este ADT:
+
+get() – Retorna un elemento de la lista en cualquier posición especificada.
+insert() – Inserta un elemento en cualquier posición de la lista.
+remove() – Remueve la primera aparición de cualquier elemento en una lista no-vacía.
+removeAt() – Remueve el elemento que se encuentre en la posición especificada en una lista que no esté vacía.
+replace() – Reemplaza un elemento en cualquier posición por otro elemento.
+size() – Retorna el número de elementos contenidos en la lista.
+isEmpty() – Retorna true si la lista está vacía, si no, regresa false.
+isFull() – Retorna true si la lista está llena, si no, regresa false.
+
+### Stack ADT
+
+Un Stack es un tipo de datos abstracto que sirve como una colección de elementos con dos operaciones principales:
+**Push**: agrega un elemento a la colección
+**Pop** remueve el elemento que se añadió más recientemente y que no ha sido removido, el orden en el que esto funciona como hemos visto en clases sigue la lógica LIFO (last in, first out) que en español sería “último o más reciente en entrar, primero en salir”
+
+A continuación te comparto las operaciones disponibles en este ADT:
+
+push() – Inserta un elemento en un extremo de la pila denominado “cima”.
+pop() – Remueve y retorna el elemento en la cima de la pila, si el stack no está vació.
+peek() – Retorna el elemento en la cima del stack sin removerlo, si el stack no está vacío.
+size() – Retorna el número de elementos en el stack.
+isEmpty() – Retorna true si el stack está vacío, si no, retorna false.
+isFull() – Retorna true si la lista está llena, si no, regresa false.
+
+### Queue ADT
+
+Una cola es un ADT que sirve para almacenar datos en el orden en el que los datos van llegando, sigue una lógica del tipo FIFO o “primero en llegar, primero en salir” como es en la mayoría de supermercados.
+
+A continuación te comparto las operaciones disponibles en este ADT:
+
+enqueue() – Inserta un nuevo elemento al final de la cola.
+dequeue() – Remueve y retorna el primer elemento de la cola si la cola no está vacía.
+peek() – Retorna el primer elemento de la cola sin removerlo.
+size() – Retorna el número de elementos almacenados en la cola.
+isEmpty() – Retorna true si la cola está vacía, si no, retorna false.
+isFull() – Retorna true si la cola está vacía, si no, retorna false.
+
+<img src="https://i.ibb.co/SxLhMj2/adt.jpg" alt="adt" border="0">
+
+> **ADT Vs. Estructura de datos:** Los ADT son estructura de datos creadas por el mismo programador, lo que quiere decir que se basan ya sea en una lista, un diccionario o un stack, pero estaran definidas de otra forma para tener un mejor control y flujo del codigo. En un caso mas claro imaginen tener un proyecto grande donde se trabaja con muchas variables y datos necesitamos crear estructuras de datos para tener un mejor orden y si trabajamos con las formas primitivas seria algo muy confuso de esta forma es en la que salen las ADT. Entonces las ADT realmente son definiciones de las mismas estructuras de datos pero declaradas por los programadores
 
 ## Clases y objetos
 
+**CLASES Y OBJETOS**
+Con la programación orientada a objetos podemos hacer una abstracción de cualquier cosa que queramos crear, por ejemplo, un vídeo juego de fútbol, y esta se llamara CLASE la cual se compone de dos cosas: ATRIBUTOS Y MÉTODOS.
+**ATRIBUTOS**: son todas las propiedades que corresponden al jugador
+
+**MÉTODOS**: son todas las acciones que tiene que hacer el jugador
+
+**QUE ES UN OBJETO**: es la base de la programación orientada a objetos, los objetos son las instancias de la clase, eso quiere decir que la clase será el molde del objeto, o sea que con la clase que es el molde del jugador, podemos crear muchos jugadores diferentes.
+
+**HERENCIA**: esto nos ayudara a crear nuevas clases a partir de otra clase, las clases pueden tener características parecidas entre sí.
+
+**ENCAPSULAMIENTO**: puede significar esconder algo, por ejemplo, si en el vídeo juego queremos esconder la velocidad con la que corre un jugador para que los otros jugadores no puedan verla.
+
+**POLIMORFISMO**: significa muchas formas. También es una base importante de la programación y lista de objetos, por ejemplo, el entrenador puede enviarle un msj a un jugador y este saldría al campo a jugar y a realizar lo que entendió del mensaje.
+
+- Las clases de componen de atributos o propiedades y métodos o acciones.
+- Un objeto es la instancia de una clase. La clase es como el molde de un objeto.
+- La herencia nos permite crear nuevas clases a partir de otras.
+- Encapsulamiento, esconder un propiedad de una clase.
+- Polimorfismo es que un método puede ser ejecutado muchas formas dependiendo de la clase.
 
 ## Creando tu primera Queue: Arrays
 
+En los **queue** el primer elemento que entra es el primero en salir.
+**Enqueue**: Utiliza el comando Enqueue para **agregar** un elemento al **final** de la estructura.
+**Dequeue**: Utiliza el comando Dequeue para **remover** un elemento al **principio** de la estructura.Creando tu primera Queue: implementación.
 
-## Creando tu primera Queue: implementación.
+<img src="https://i.ibb.co/sjtL0vn/queue.jpg" alt="queue" border="0">
 
+<img src="https://i.ibb.co/DGM7LQL/queue1.jpg" alt="queue1" border="0">
+
+**QUEUE o Colas:** El primer elemento en entrar es el primero en salir, tal cual como cuando vamos al super el primero en entrar eres el primero en salir por ser el primero en pasar por caja. Sus procesos son los siguientes:
+
+- **Enqueue:** Es una funcion que se usa para agregar un elemento al final de la cola, por ejemplo la persona que viene detras de ti
+
+- **Dequeue:** Es una funcion que se utiliza para liberar el primero de la cola, en este caso serias tu.
+
+**Ejemplo grafico:**
+
+<img src="https://i.ibb.co/rfqNXky/enqueue.jpg" alt="enqueue" border="0">
+
+## Creando tu primera Queue: implementación
+
+Para crear una **Queue** debemos seguir los siguientes pasos:
+
+1. Crear un **pointer** para saber que hay en front y rear
+2. Colocar estos valores en **-1** al inicializar
+3. **Incrementar en 1** el valor de “rear” cuando agregamos un elemento
+4. Retornar el valor de front al quitar un elemento e incrementar en 1 el valor de front a usar dequeue.
+5. Antes de agregar un elemento **revisar si hay espacios**
+6. Antes de remover un elemento revisamos que **existan elementos**
+7. Asegurarnos de que al remover todos los elementos resetear nuestro front y rear a -**1**
+
+Los arrays (y cualquier otro dato en programación) tienen la capacidad de contar sus elementos. Por ejemplo, el *string* `"fulano"` tiene 6 elementos (*f*, *u*, *l*, *a*, *n* y *o*) y el siguiente *array* tiene 3 elementos: `["pepito", "pizza", "pablito"]`.
+
+Sin embargo, si queremos acceder a la primera posición de nuestras variables no buscamos la posición 1, sino la posición 0. Y, por lo mismo, la segunda posición en realidad es la posición 1:
+
+Esta es la famosa confusión de la que habla el profe en la clase 😄. 
+
+Ejemplo:
+
+```js
+array[0] // pepito
+array[1] // pizza
+string[0] // f
+string[1] // u
+string[2] // l
+```
 
 ## Creando tu primera Queue: implementar la función enQueue
 
+En esta clase nos pusimos a estructurar el código la función enQueue que recibe un entero y agrega ese valor a la cola del queue.
+
+código (inclui una función para ver por consola cómo está funcionando el algoritmo)
+ 
+
+```c
+const SIZE = 5;
+let rear = -1, front = -1, show = ""
+let values = new Array(SIZE)
+// ESTO SOLO ES PARA IMPRIMIR EN PANTALLA
+function Show() {
+  values.forEach(value => {
+    show += " " + value;
+  });  
+  console.log(`Array = ${show}`);
+  console.log(`Front = ${front} Rear = ${rear}`);
+}
+Show();
+// ESTA ES LA FUNCION QUE IMPORTA
+function enQueue(val) {
+  if (rear == SIZE-1) {
+    console.log(`${val} no se pudo insertar, el queue esta lleno`);
+  }
+  else {
+    if(front == -1){
+      front = 0;
+    }
+    rear++
+    values[rear] = val
+    console.log("Se inserto " + val );
+  }
+}
+enQueue(1);
+enQueue(2);
+enQueue(3);
+enQueue(4);
+enQueue(5);
+enQueue(6);
+Show();
+```
+
+**Salida por consola:**
+
+```bash
+Array = 
+Front = -1 Rear = -1
+Se inserto 1
+Se inserto 2
+Se inserto 3
+Se inserto 4
+Se inserto 5
+6 no se pudo insertar, el queue esta lleno
+Array =  1 2 3 4 5
+Front = 0 Rear = 4
+```
 
 ## Creando tu primera Queue: implementar la función deQueue
 
+En esta clase estructuramos el código de la función deQueue que nos quita el primer elemento de nuestro Arreglo FIFO.
+
+```c
+#include  <stdio.h>
+#define SIZE 5
+
+void enQueue(int value){
+    if (rear == SIZE-1)
+        printf("Nuestro Queue esta lleno\n");
+    else {
+        if(front == -1)
+            front = 0;
+        rear++;
+        items[rear] = value;
+        printf("Se inserto el valor correctamente %d correctamente \n", value);
+    }
+}
+
+void deQueue(){
+    if(front == -1)
+        printf("Nuestro Queue eta vacio\n");
+    else
+    {
+        printf("se elimino el valor %d", items[front]);
+        front++;
+        if(front > rear)
+        front = rear = -1;
+    }
+    
+}
+```
 
 ## Creando tu primera Queue: main code
+
+Ya que tenemos nuestra lógica agreguemos nuestras variables faltantes, nuestro main y corramos el código de nuestro Queue.
+
+<img src="https://i.ibb.co/9pZbkvY/quuee.jpg" alt="quuee" border="0">
+
+<img src="https://i.ibb.co/n72zPCZ/q1.jpg" alt="q1" border="0">
+
+<img src="https://i.ibb.co/GfwD1c6/q2.jpg" alt="q2" border="0">
+
+<img src="https://i.ibb.co/ykn566f/q3.jpg" alt="q3" border="0">
+
+<img src="https://i.ibb.co/LzWrQtW/q4.jpg" alt="q4" border="0">
+
+<img src="https://i.ibb.co/ChQSVMS/q5.jpg" alt="q5" border="0">
+
+<img src="https://i.ibb.co/xYWx6n5/q6.jpg" alt="q6" border="0">
+
+<img src="https://i.ibb.co/CmYXPCx/q7.jpg" alt="q7" border="0">
+
+Codigo completo
+
+```c
+#include<stdio.h>
+
+#define SIZE 5
+int values[SIZE];
+int front = -1;
+int rear = -1;
+
+void imprimir(int v[]){
+  for(int i=front; i<=rear; i++){
+    printf("%d, ", v[i]);
+  }
+  printf("\n");
+}
+
+void enQueue(int value){
+  if((rear - front) == SIZE-1)
+  {
+    printf("Nuestro Queue esta lleno ");
+    imprimir(values);
+  } else
+  {
+    if (front == -1)
+    {
+      front = 0;
+    }
+    rear++;
+    values[rear] = value;
+    printf("Se inserto el valor %d correctamente ", value);
+    imprimir(values);
+  }
+}
+
+void deQueue(){
+  if(front == -1)
+  {
+    printf("Nuestro Queue esta vacio \n");
+  } else
+  {
+    printf("Se elimino el valor %d correctamente ", values[front]);
+    front++;
+    imprimir(values);
+    if(front > rear)
+    {
+      front = -1;
+      rear = -1;
+    }
+  }
+}
+
+main(int argc, char const *argv[])
+{
+  enQueue(10);
+  enQueue(20);
+  enQueue(30);
+  enQueue(40);
+  enQueue(50);
+  enQueue(60);
+  deQueue();
+  deQueue();
+  deQueue();
+  deQueue();
+  deQueue();
+  deQueue();
+  enQueue(60);
+  enQueue(70);
+  enQueue(80);
+  enQueue(90);
+  enQueue(100);
+  enQueue(110);
+
+
+
+
+  return 0;
+}
+```
 
 # 3. Algoritmos de ordenamiento
 

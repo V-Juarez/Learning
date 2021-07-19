@@ -1,6 +1,6 @@
 <h1>Figma</h1>
 
-<h3>Santigo Camarg</h3>
+<h3>Santigo Camargo</h3>
 
 <h1>Tabla de Contenido</h1>
 
@@ -453,29 +453,246 @@ Si quieres saber más acerca de Atomic Design, te dejo la **[siguiente lectura](
 
 <img src="https://i.ibb.co/HVsFvYG/ordencampos.jpg" alt="ordencampos" border="0">
 
-
 ## Prototipado: dale vida a tu interfaz
 
+<img src="https://i.ibb.co/Vq4xg2K/prototipamos.png" alt="prototipamos" border="0">
+
+
+
+<img src="https://i.ibb.co/MhBSk9C/3.png" alt="3" border="0">
+
+<img src="https://i.ibb.co/RzDCK6C/necesitamospro.png" alt="necesitamospro" border="0">
+
+Para hacer este ejercicio opte por convertir a mi grupo de imagenes de contactos en un **Frame**, darle un tamaño y permitirle hacer scrolling horizontal.
+Instrucciones:
+
+- Tomé todos los objetos con imagen de contacto y los hice un grupo.
+- Click derecho en el grupo y presioné el la opcion de **frame selection** con esto meto el grupo en un frame.
+- Seleccionando el contenedor frame recien creado lo delimito hasta donde llega mi frame mayor, el tamaño de la vista.
+- Le doy permiso a mi nuevo frame de hacer scroll horizontal, yendo al menu derecho, en la pestaña de prototype, en Overflow Behavior pongo la opción de Horizontal Scrolling.
+- Listo para mandar
+
+<img src="https://i.ibb.co/5FhN67h/frame-Select.jpg" alt="frame-Select" border="0">
+
+Para hacer el scroll horizontal realice lo siguiente:
+
+1. Active la casilla de “fix position when scrolling” de todos los componentes que no quería que se movieran
+2. En la pestaña prototipo, active "horizontal scrolling"
+   [Prototipo con Horizontal Scrolling](https://www.figma.com/proto/5wkf6DSiAvljblcTw4Pwww/Proyecto-1-Figma?node-id=51%3A53&scaling=scale-down)
+   Espero les sirva, un abrazo
+
+<img src="https://i.ibb.co/D89bJk5/scroll1.jpg" alt="scroll1" border="0">
+
+<img src="https://i.ibb.co/Gd7mDXk/scroll.webp" alt="scroll" border="0">
+
+Para hacer un scroll horizontal deben poner los componentes dentro un frame, los seleccionan, clic derecho crear frame y activar el horizontal scrolling así me funcionó. ah luego el frame lo cierran hasta el borde de la pantalla del dispositivo.
 
 ## Prototipado: conectando frames
 
+<img src="https://i.ibb.co/TmHLV4p/1.png" alt="1" border="0">
+
+<img src="https://i.ibb.co/xJ3P0z6/2.png" alt="2" border="0">
+
+<img src="https://i.ibb.co/Y8FCV8C/3.png" alt="3" border="0">
+
+<img src="https://i.ibb.co/cxKZLGk/4.png" alt="4" border="0">
+
+<img src="https://i.ibb.co/JtGzScf/5.png" alt="5" border="0">
+
+<img src="https://i.ibb.co/Cmknv4c/6.png" alt="6" border="0">
+
+<img src="https://i.ibb.co/ZLdYqj1/bottom.png" alt="bottom" border="0">
+
+<img src="https://i.ibb.co/8xY1Fvv/carrusel.png" alt="carrusel" border="0">
+
+<img src="https://i.ibb.co/mDZstXL/config.png" alt="config" border="0">
+
+<img src="https://i.ibb.co/vQ5TTJb/Hover.png" alt="Hover" border="0">
+
+> “Si una foto vale 1000 palabras, un prototipo vale más de 1000 reuniones” 😂😂😂
+
+Necesitas usar 3 frames:
+
+Móvil (Iphone o Android)
+Scroll horizontal (más ancho)
+Scroll vertical (más largo)
+
+Acomodas en el Frame del Móvil los otros dos. Después necesitas configurarlos para que se aplique el Scrolling en cada caso. Te vas a Prototype > Overflow behavior > vertical/horizontal scrolling.
 
 ## Transiciones más suaves con Smart Animate
 
+Amiges les comparto este link donde tengo una recopilación de blogs, canales de youtube, y màs sobre diseño UI y UX. Espero que les sea útil:[Recopilación sobre UX - UI](https://gist.github.com/jfelipebc/672d119c13d283d6952afe65b6f63c7c)
+
+> “El tiempo máximo de respuesta a una acción / trigger debe ser 400 más. A eso se le llama “Doherty Threshold”
+
+<img src="https://i.ibb.co/k9hg0j1/mov.png" alt="mov" border="0">
+
+<img src="https://i.ibb.co/nnR6dpr/mv1.png" alt="mv1" border="0">
+
+
+
+<img src="https://i.ibb.co/fdgFBwt/mv2.png" alt="mv2" border="0">
+
+
+
+<img src="https://i.ibb.co/8BqBdY2/mv3.png" alt="mv3" border="0">
+
+
+
+<img src="https://i.ibb.co/WfPYhwB/mv4.png" alt="mv4" border="0">
+
+
+
+<img src="https://i.ibb.co/rk88dGS/mv5.png" alt="mv5" border="0">
+
+
+
+<img src="https://i.ibb.co/7kgJXt0/mv6.png" alt="mv6" border="0">
+
+
+
+<img src="https://i.ibb.co/nM473W4/mv7.png" alt="mv7" border="0">
+
+
+
+<img src="https://i.ibb.co/strXMN2/mv8.jpg" alt="mv8" border="0">
+
+
+
+<img src="https://i.ibb.co/k2b0tqV/mv9.jpg" alt="mv9" border="0">
 
 ## Versionamiento: recupera el pasado
 
+**Una forma cómoda de actualizar las experiencias de contenido.**
+Si está intentando actualizar un sitio web o una app sin acceso a su historial, está probando a ciegas. Necesita saber qué probó el equipo en el pasado. Cómo afecta cada cambio a la experiencia de usuario. Y cómo el cambio propuesto se adapta al contexto de iteraciones pasadas. La creación de versiones puede aclarar tales dudas sin necesidad de realizar retoques complicados.
+
+<img src="https://i.ibb.co/KV73fhX/mv1.png" alt="mv1" border="0">
+
+<img src="https://i.ibb.co/dbSdtmr/mv2.png" alt="mv2" border="0">
+
+<img src="https://i.ibb.co/56n0wdF/mv4.png" alt="mv4" border="0">
+
+<img src="https://i.ibb.co/4MDNnnr/mv10.png" alt="mv10" border="0">
+
+<img src="https://i.ibb.co/p023xFy/tm.png" alt="tm" border="0">
+
+<img src="https://i.ibb.co/YPyc9cQ/tm5.png" alt="tm5" border="0">
+
+<img src="https://i.ibb.co/P1fZhTL/tm6.png" alt="tm6" border="0">
+
+<img src="https://i.ibb.co/ygNdsSM/tm7.png" alt="tm7" border="0">
+
+<img src="https://i.ibb.co/sWcQKjG/tm8.png" alt="tm8" border="0">
+
+<img src="https://i.ibb.co/RyPVSFx/tm9.png" alt="tm9" border="0">
+
+<img src="https://i.ibb.co/WnW5wLG/tm11.png" alt="tm11" border="0">
 
 ## Librerías de estilos y componentes
 
+Al utilizar componentes en Figma se crean instancias, que son copias del componente pero cuentan con atributos propios.
+Instancias de componentes ➡️ Al utilizar un componente se crea una instancia y no una copia de este. Todas las propiedades de los elementos que componen una instancia se pueden cambiar, lo único que no se puede modificar es la posición y el tamaño de los elementos (para no romper la consistencia que ganamos con los componentes
+
+<img src="https://i.ibb.co/Pm90Xyd/st.png" alt="st" border="0">
+
+<img src="https://i.ibb.co/XWrd36d/st1.png" alt="st1" border="0">
+
+<img src="https://i.ibb.co/wwWvdcg/st2.png" alt="st2" border="0">
+
+<img src="https://i.ibb.co/jJZrnYb/st4.png" alt="st4" border="0">
+
+<img src="https://i.ibb.co/0Jx6QgF/st5.png" alt="st5" border="0">
+
+<img src="https://i.ibb.co/nbRpCp5/st6.png" alt="st6" border="0">
+
+<img src="https://i.ibb.co/tztYfn2/st7.png" alt="st7" border="0">
+
+<img src="https://i.ibb.co/2vSjSrK/st8.png" alt="st8" border="0">
+
+<img src="https://i.ibb.co/1KCZwDB/st9.png" alt="st9" border="0">
+
+<img src="https://i.ibb.co/gDDCqzz/st10.png" alt="st10" border="0">
+
+<img src="https://i.ibb.co/vX1t3Rp/st11.png" alt="st11" border="0">
+
+<img src="https://i.ibb.co/k2rL7GF/st12.png" alt="st12" border="0">
+
+<img src="https://i.ibb.co/DRWvgg6/st13.png" alt="st13" border="0">
 
 ## Plugins: extiende funcionalidades
 
+**Lista de recomendaciones seria:**
+
+- Favvy Favion Exporter
+- Font Scale
+- Font Awesome Icons
+- Google Sheets Sync
+- Material Design Icons
+- Rename it
+- Zeplin
+- Rename It
+- Content Reel
+- Image Palette
+- Autoflow
+- Iconify
+- Figmoji
+- Unsplash
+- Border
+- Material Design Icons
+- Palette
+- Wave & Curve
+- Contrast
+- SPELL - Spell Checking for Figma
+- arc
+- Colorizer
+- Clay Mockups 3D
+- Blush
+- Handz 3D Illustration
+- Storyset by Freepik
+- oblique
+- Freepik
+- Feather Icons
+- Chart
+
+> Herramienta súper útil: el Plugin Blush para insertar ilustraciones gratuitas en Figma.
+
+<img src="https://i.ibb.co/fvqgY61/pl.png" alt="pl" border="0">
+
+<img src="https://i.ibb.co/vXPGnnB/pl1.webp" alt="pl1" border="0">
 
 ## Community: colaboración universal
 
+<img src="https://i.ibb.co/m4v4RKg/cm.png" alt="cm" border="0">
+
+1. Landify - Landing Page UI Kit (Perfecto en la creación de paginas webs).
+2. Card Templates
+3. 60 3D Web Icons
+   ❤️
+
+![img](https://www.google.com/s2/favicons?domain=https://static.figma.com/app/icon/1/icon-192.png)[Ant Design UI Kit](https://www.figma.com/resources/assets/ant-design-ui-kit/)
+
+![img](https://www.google.com/s2/favicons?domain=https://static.figma.com/app/icon/1/icon-192.png)[Figma - ❖ Base Gallery | Uber's Base design system was created to promote a centralized library of reusable UI components ...](https://www.figma.com/community/file/805195278314519508)
+
+![img](https://www.google.com/s2/favicons?domain=https://static.figma.com/app/icon/1/icon-192.png)[Figma - contra wireframe kit | A starter wireframe kit for quick design and prototyping your idea. Its library contains more tha...](https://www.figma.com/community/file/833515051385038928)
+
+![img](https://www.google.com/s2/favicons?domain=https://static.figma.com/app/icon/1/icon-192.png)[Figma - Figma Design Principles | Our guiding principles for product and design work at Figma. We've also shared our design explora..](https://www.figma.com/community/file/817913152610525667)
+
+![img](https://www.google.com/s2/favicons?domain=https://static.figma.com/app/icon/1/icon-192.png)[Figma - Task Lists for Figma Files | I really enjoy using checklists to keep track of things I need to do and I find myself creating m...](https://www.figma.com/community/file/844437632570943875)
+
+![img](https://www.google.com/s2/favicons?domain=https://static.figma.com/app/icon/1/icon-192.png)[Figma - Marvie✨ IOS UI Kit Dark theme | Marvie✨ is your top-notch multipurpose UI kit with bright and friendly colors. Full-featured and ...](https://www.figma.com/community/file/827876058453173134)
 
 ## Proyecto Final: Budgetrip
+
+<img src="https://i.ibb.co/zshVZXq/pf.jpg" alt="pf" border="0">
+
+<img src="https://i.ibb.co/sJ089B9/pf1.jpg" alt="pf1" border="0">
+<img src="https://i.ibb.co/z2x9Xf4/pf2.jpg" alt="pf2" border="0">
+
+<img src="https://i.ibb.co/DMqwfzj/pf3.jpg" alt="pf3" border="0">
+
+![img](https://www.google.com/s2/favicons?domain=https://static.figma.com/app/icon/1/icon-192.png)[Proyecto Final en Figma](https://www.figma.com/file/vvp0nBeD6MVekQzkX0KyTp/Budgetrip?node-id=89%3A189)
+
+![img](https://www.google.com/s2/favicons?domain=//static.platzi.com/media/favicons/platzi_favicon.png)[Reto: Vete de viaje con Figma #diseñoconplatzi](https://platzi.com/blog/reto-figma/)
 
 # 5. Mentoría Expert
 

@@ -63,7 +63,7 @@
 **Comandos Básicos**
 
 Inicar git en tu proyecto desde tu repositorio local.
-```git
+```bash
   git init  
 
   git add <nombre-del-archivo> 
@@ -185,7 +185,7 @@ git config --global core.editor emacs
 git config --list
 
 git config user.name
-```
+ ```
 * Ver configuración por defecto `git config --list`
 * Configuraciones guardadas `git config --list --show-origin`
 
@@ -306,8 +306,8 @@ eval $(ssh-agent -s)
 
 ssh-add  <ruta-de-la-llave> ruta ~/.ssh/id_rsa
 
-ssh-add ~/.ssh/id_rsa     // Linux y windows
-ssh-add -k ~/.ssh/id_rsa // solo en mac se le agrega -k
+ssh-add ~/.ssh/id_rsa     	# Linux y windows
+ssh-add -k ~/.ssh/id_rsa  	# solo en mac se le agrega -k
 ```
 
 ### Configurar key gitlab
@@ -319,8 +319,8 @@ eval $(ssh-agent -s)
 
 ssh-add  <ruta-de-la-llave> ruta ~/.ssh/id_rsa
 
-ssh-add ~/.ssh/id_rsa     // Linux y windows
-ssh-add -k ~/.ssh/id_rsa // solo en mac se le agrega -k
+ssh-add ~/.ssh/id_rsa     # Linux y windows
+ssh-add -k ~/.ssh/id_rsa 	# solo en mac se le agrega -k
 ```
 
 -  Conectar git  a gitlab
@@ -335,7 +335,11 @@ chmod +x config
 
 # editamos con vim, vi, nano ...
 vim config
+```
 
+**Archivo** `config`
+
+```bash
 # Configuracion GitLab
 Host *
   AddKeysToAgent yes
@@ -347,7 +351,7 @@ Host *
   IdentityFile ~/.ssh/key       # Llave privada -> key con diferentes nombres
 ```
 
-Haz, establecido conexion correctamente con gitlab,. Felicidade
+Haz, establecido conexion correctamente con Gitlab & Github. Felicidades
 
 **conectar github con ssh**
 ```bash
@@ -379,11 +383,10 @@ git tag -a name id-commit
 
 ```bash
 git tag -d <nombre-del-tag>`
-`` `
 
-**Listar los tags del repositorio local** `
+# Listar los tags del repositorio local
 
-```bash
+
 git show-ref --tags
 ```
 
@@ -396,7 +399,7 @@ git push origin --tags
 
 ```bash
 git tag -d <nombre-del-tag>
-``` 
+```
 o 
 
 ```bash
@@ -407,7 +410,7 @@ git push origin :refs/tags/<name-tag>
 
 ```bash
 alias arbolito = "git log --graph --decorate --oneline"
-``` 
+```
 ejecutamos 
 
 ```bash
@@ -417,15 +420,15 @@ git arbolito
 ## Enviar ramas al servidor
 
 ```bash
-// crear rama
+# crear rama
 
 git branch <nombre-de-la-rama>
 
 git checkout -b <nombre-de-la-rama>
 
-// Enviar rama al servidor
+# Enviar rama al servidor
 
-git push origin <nombre-de-la-rama> // footer-header
+git push origin <nombre-de-la-rama> 			# footer-header
 ```
 ### ¿Cómo eliminar un repositorio de Git creado con ‘git init’ en un directorio?
 
@@ -495,7 +498,7 @@ git branch -m old-name new-name
 ```
 - Para finalizar, este comando listará todas las ramas, tanto locales como remotas, para verificar que se les haya cambiado el nombre:
 
-```console
+```shell
 git branch -a
 ```
 
@@ -533,9 +536,9 @@ git remote add upstream <pegamos-el-link>
 
 git remote -v
 
-git pull upstream master // Traemos la rama principal
+git pull upstream master  # Traemos la rama principal
 
-// subir los cambios 
+# subir los cambios 
 
 git add .
 
@@ -545,13 +548,11 @@ git push origin master
 ```
 ## Deployment a un Servidor
 
-[servidor](https://www.jaimeolmo.com/2015/02/como-usar-git-para-hacer-deploy-de-nuestro-website/)
+**[servidor](https://www.jaimeolmo.com/2015/02/como-usar-git-para-hacer-deploy-de-nuestro-website/)**
 
 ```bash
 
-cd /var/www/<servidor>/<archivo.html>/
-
-// Carpteta del servidor
+cd /var/www/<servidor>/<archivo.html>/ # Carpteta del servidor
 
 git clone <link>
 
@@ -574,10 +575,11 @@ git pull origin master
   **Markdown Editor**
 
   * [MEditor](https://pandao.github.io/editor.md/en.html)
+  * [Typora](https://typora.io/) 😍😍😍
 
   **[Markdown](https://es.wikipedia.org/wiki/Markdown)** es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
 
-  **[Markdown](https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo)** es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML.
+> **[Markdown](https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo)** es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML.
 
   Un archivo **[.md](https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/que-es-un-archivo-md/)** es un documento de texto simple que no contiene ningún otro elemento. En él, pueden introducirse símbolos en el texto para definir el formato de ciertas secciones. ... Los lenguajes de marcado pueden escribir y editarse en cualquier editor de texto.
 
@@ -585,11 +587,11 @@ git pull origin master
 **Guardar cambios en la memoria y recuperar después**
 
 ```bash
-git stash           | guardar en memoria.
+git stash           # | guardar en memoria.
 
-git stash list       | En llistar los stash
+git stash list      # | En llistar los stash
 
-git stash pop         | Traer stash en primer plano
+git stash pop       #  | Traer stash en primer plano
 ```
 **Agregar a una rama**
 ```bash
@@ -613,13 +615,19 @@ Archivos como:
   * imagenes
 
   ```bash
-  git clean --dry-run     // ver lo que hay que borrar
+  git clean --dry-run     # ver lo que hay que borrar
 
   git clean -f
   ```
   ## Git Cherry-Pick
 
-  Traer commits viejos al head de un branch `git cherry-pick id-commit`
+  Traer commits viejos al head de un branch 
+
+```shell
+git cherry-pick id-commit
+```
+
+
 
   ## Git Amenud
   > Una operativa corriente del mantenimiento de un repositorio Git consiste en modificar el commit realizado por último con la opción --amend. ... Básicamente se trata de modificar el último commit, en lugar de crear uno nuevo. -  [desarrolloweb.com](https://desarrolloweb.com/articulos/modificar-ultimo-commit-git.html#:~:text=Una%20operativa%20corriente%20del%20mantenimiento,con%20la%20opci%C3%B3n%20--amend.&text=B%C3%A1sicamente%20se%20trata%20de%20modificar,lugar%20de%20crear%20uno%20nuevo.)
@@ -632,19 +640,20 @@ Archivos como:
 
   ## Git Reset y Reflog
 
-  Usarse en caso de emergencia.
+  **Usarse en caso de emergencia.**
 
   ```bash
   git reset --soft
 
   git reset --hard
   ```
-  **git reset Hash-del-HEAD**
-
-    ver información
+```bash
+  git reset Hash-del-HEAD
+```
   ```bash
+  # ver información
   git reglog
-  ``` 
+  ```
 
   ## Commits de Git Grep y Log
 
@@ -652,12 +661,12 @@ Buscar archivos y commits de git con grep y log
 
 ```bash
 
-git grep -n color       // palabras
+git grep -n color       # palabras
 
-git grep -C color       // Archivos y números
+git grep -C color       # Archivos y números
 
-git log -S <nombre-de-la-rama> // commits
-``` 
+git log -S <nombre-de-la-rama> # commits
+```
 
 ## Recuroso Colaborativos en Git y GitHub
 

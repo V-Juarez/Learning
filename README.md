@@ -306,7 +306,7 @@ Ver datos del usuario: `git config -l`.
 ssh-keygen -t rsa -b 4096 -C "email"
 ```
 
-### Validad llave
+### Validar llave
 
 ```bash
 eval $(ssh-agent -s)

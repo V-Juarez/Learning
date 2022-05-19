@@ -299,14 +299,30 @@ Ver datos del usuario: `git config -l`.
 
 [Crear llaves SSH](https://platzi.com/tutoriales/1557-git-github/4067-configurar-llaves-ssh-en-git-y-github/)
 
+### Generar Lllave
+
 ```bash
+# Generar llave
 ssh-keygen -t rsa -b 4096 -C "email"
+```
 
+### Validad llave
+
+```bash
 eval $(ssh-agent -s)
+```
 
+### Agregar llave a equipo local
+
+```bash
 ssh-add  <ruta-de-la-llave> ruta ~/.ssh/id_rsa
+```
 
+```bash
+# Linux
 ssh-add ~/.ssh/id_rsa     	# Linux y windows
+
+# MacOS
 ssh-add -k ~/.ssh/id_rsa  	# solo en mac se le agrega -k
 ```
 
@@ -324,7 +340,9 @@ ssh-add -k ~/.ssh/id_rsa 	# solo en mac se le agrega -k
 ```
 
 -  Conectar git  a gitlab
--  Crear en el directori `/home/usr/.ssh` el archivo `config`
+-  Crear en el directorio `/home/usr/.ssh` el archivo `config`
+
+### Crear configuracion de llaves
 
 ```bash
 # Crear archivo
@@ -336,7 +354,8 @@ chmod +x config
 # editamos con vim, vi, nano ...
 vim config
 ```
-
+ ### File config
+ 
 **Archivo** `config`
 
 ```bash
@@ -350,6 +369,8 @@ Host *
   AddKeysToAgent yes
   IdentityFile ~/.ssh/key       # Llave privada -> key con diferentes nombres
 ```
+
+Copias el contenido del llave id_rsa.pub. En github generas una llave ssh, pegas. Listo.
 
 Haz, establecido conexion correctamente con Gitlab & Github. Felicidades
 

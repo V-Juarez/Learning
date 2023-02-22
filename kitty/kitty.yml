@@ -1,8 +1,0 @@
-font_family FiraCode NFM
-font_size 18.0
-background_opacity 0.88
-enable_audio_bell no
-adjust_line_height 100%
-term xterm-256color
-close_on_child_death yes
-hide_window_decorations yes

@@ -1,0 +1,56 @@
+{
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  },
+  "cmake": {
+    "command": "cmake-language-server",
+    "filetypes": ["cmake"],
+    "rootPatterns": [
+      "build/"
+    ],
+    "initializationOptions": {
+      "buildDirectory": "build"
+    }
+  },
+  "clangd": {
+    "command": "clangd",
+    "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+  },
+  "bash": {
+    "command": "bash-language-server",
+    "args": ["start"],
+    "filetypes": ["sh"]
+  },
+  "arduino":{ 
+    "command":"/path/to/arduino-language-server",
+    "rootPatterns":["*.ino"],
+    "filetypes":["arduino"],
+    "args":["-cli", "/path/to/arduino-cli", "-clangd", "/path/to/clangd", "-cli-config", "/path/to/arduino-cli.yaml"]
+  },
+  "purescript": {
+      "command": "purescript-language-server",
+      "args": ["--stdio"],
+      "filetypes": ["purescript"],
+      "trace.server": "off",
+      "rootPatterns": ["bower.json", "psc-package.json", "spago.dhall"],
+      "settings": {
+        "purescript": {
+          "addSpagoSources": true,
+          "addNpmPath": true // Set to true if using a local purty install for formatting
+          // etc
+        }
+      }
+  },
+  {
+  "eslint.packageManager": "yarn",
+  "eslint.nodePath": ".yarn/sdks",
+  "workspace.workspaceFolderCheckCwd": false,
+  "tsserver.tsdk": ".yarn/sdks/typescript/lib"
+  }
+}

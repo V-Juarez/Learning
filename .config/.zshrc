@@ -19,7 +19,7 @@ ZSH_THEME="robbyrussell"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
-# Uncomment the following line to use hyphen-insensitive completion.
+# Uncomment the following line to use hyphen-insreact-nativeensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
@@ -71,9 +71,15 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  docker-compose
   git
-  common-aliases colored-man-pages zsh-autosuggestions zsh-syntax-highlighting
-  ruby react docker python
+  common-aliases
+  colored-man-pages
+  ruby 
+  react-native 
+  docker 
+  python 
+  rails
 )
 
 SPACESHIP_PROMPT_ORDER=(
@@ -187,3 +193,22 @@ alias catl='/bin/bat --paging=never'
 # Virtual pyenv
 alias virtual-py='pyenv activate'
 alias disconnet='source deactivate'
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+ eval "$(pyenv init -)"
+fi
+
+# nvm
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+
+# DataBase
+alias pos='sudo -i -u postgres'
+alias mys='mysql -u root -p'

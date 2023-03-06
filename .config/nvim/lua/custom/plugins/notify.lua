@@ -5,7 +5,7 @@ if not present then
 end
 
 local options = {
-	background_colour = "#000000",
+	background_colour = "#aaaaaa",
 }
 
 notify.setup(options)

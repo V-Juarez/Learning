@@ -5,20 +5,21 @@ return {
 	----------------------------------------- default plugins ------------------------------------------
 	--
 	["NvChad/ui"] = {
-		after = "base46",
-		module = "nvchad_ui",
+		override_options = overrides.ui,
+	},
+	["jackMort/ChatGPT.nvim"] = {
+		opt = true,
+		keys = { "<leader>gpt" },
+		module_pattern = { "chatgpt*" },
+		after = { "nui.nvim", "telescope.nvim" },
 		config = function()
-			local present, nvchad_ui = pcall(require, "nvchad_ui")
-
-			if present then
-				nvchad_ui.setup({
-					statusline = nil,
-					tabufline = {
-						enable = false,
-					},
-				})
-			end
+			require("custom.plugins.gpt")
 		end,
+		requires = {
+			"MunifTanjim/nui.nvim",
+			"nvim-lua/plenary.nvim",
+			"nvim-telescope/telescope.nvim",
+		},
 	},
 
 	["goolord/alpha-nvim"] = {
@@ -38,10 +39,8 @@ return {
 			require("custom.plugins.lspconfig")
 		end,
 	},
-
-	-- override default configs
-	["kyazdani42/nvim-tree.lua"] = {
-		override_options = overrides.nvimtree,
+	["hrsh7th/nvim-cmp"] = {
+		override_options = overrides.cmp,
 	},
 
 	["nvim-treesitter/nvim-treesitter"] = {
@@ -51,7 +50,6 @@ return {
 	["williamboman/mason.nvim"] = {
 		override_options = overrides.mason,
 	},
-
 	--------------------------------------------- custom plugins ----------------------------------------------
 	-- autoclose tags in html, jsx only
 	["windwp/nvim-ts-autotag"] = {
@@ -179,12 +177,6 @@ return {
 			require("custom.plugins.twilight")
 		end,
 	},
-	["SmiteshP/nvim-navic"] = {
-		requires = "neovim/nvim-lspconfig",
-		config = function()
-			require("custom.plugins.navic")
-		end,
-	},
 	["stevearc/dressing.nvim"] = {
 		config = function()
 			require("custom.plugins.dressing")
@@ -203,7 +195,6 @@ return {
 		},
 		exclude = {}, -- table: groups you don't want to clear
 	},
-	["nvim-lualine/lualine.nvim"] = {},
 	["https://git.sr.ht/~whynothugo/lsp_lines.nvim"] = {
 		config = function()
 			require("lsp_lines").setup()
@@ -222,48 +213,31 @@ return {
 		end,
 	},
 	["gelguy/wilder.nvim"] = {
+		rocks = "pcre2",
 		config = function()
-			local present, wilder = pcall(require, "wilder")
-			if not present then
-				return
-			end
-			wilder.setup({ modes = { ":", "/", "?" } })
-			wilder.set_option(
-				"renderer",
-				wilder.popupmenu_renderer(wilder.popupmenu_palette_theme({
-					-- 'single', 'double', 'rounded' or 'solid'
-					-- can also be a list of 8 characters, see :h wilder#popupmenu_palette_theme() for more details
-					border = "rounded",
-					max_height = "75%", -- max height of the palette
-					min_height = 0, -- set to the same as 'max_height' for a fixed height window
-					prompt_position = "top", -- 'top' or 'bottom' to set the location of the prompt
-					reverse = 0, -- set to 1 to reverse the order of the list, use in combination with 'prompt_position'
-					left = { " ", wilder.popupmenu_devicons() },
-					highlighter = wilder.basic_highlighter(),
-				}))
-			)
+			require("custom.plugins.wilder")
 		end,
 	},
-	["onsails/lspkind.nvim"] = {
-
-		config = function()
-			local lspkind = require("lspkind")
-			require("cmp").setup({
-				formatting = {
-					format = lspkind.cmp_format({
-						mode = "symbol", -- show only symbol annotations
-						maxwidth = 50, -- prevent the popup from showing more than provided characters (e.g 50 will not show more than 50 characters)
-
-						-- The function below will be called before any actual modifications from lspkind
-						-- so that you can provide more controls on popup customization. (See [#30](https://github.com/onsails/lspkind-nvim/pull/30))
-						before = function(entry, vim_item)
-							return vim_item
-						end,
-					}),
-				},
-			})
-		end,
-	},
+	-- ["onsails/lspkind.nvim"] = {
+	--
+	-- 	config = function()
+	-- 		local lspkind = require("lspkind")
+	-- 		require("cmp").setup({
+	-- 			formatting = {
+	-- 				format = lspkind.cmp_format({
+	-- 					mode = "symbol", -- show only symbol annotations
+	-- 					maxwidth = 50, -- prevent the popup from showing more than provided characters (e.g 50 will not show more than 50 characters)
+	--
+	-- 					-- The function below will be called before any actual modifications from lspkind
+	-- 					-- so that you can provide more controls on popup customization. (See [#30](https://github.com/onsails/lspkind-nvim/pull/30))
+	-- 					before = function(entry, vim_item)
+	-- 						return vim_item
+	-- 					end,
+	-- 				}),
+	-- 			},
+	-- 		})
+	-- 	end,
+	-- },
 	["jamestthompson3/nvim-remote-containers"] = {},
 	["linty-org/key-menu.nvim"] = {
 		config = function()
@@ -278,45 +252,15 @@ return {
 	},
 	["lvimuser/lsp-inlayhints.nvim"] = {
 		config = function()
-			require("lsp-inlayhints").setup({
-				inlay_hints = {
-					parameter_hints = {
-						show = true,
-						prefix = "<- ",
-						separator = ", ",
-						remove_colon_start = false,
-						remove_colon_end = true,
-					},
-					type_hints = {
-						-- type and other hints
-						show = true,
-						prefix = "",
-						separator = ", ",
-						remove_colon_start = false,
-						remove_colon_end = false,
-					},
-					only_current_line = false,
-					-- separator between types and parameter hints. Note that type hints are
-					-- shown before parameter
-					labels_separator = "  ",
-					-- whether to align to the length of the longest line in the file
-					max_len_align = false,
-					-- padding from the left if max_len_align is true
-					max_len_align_padding = 1,
-					-- highlight group
-					highlight = "LspInlayHint",
-				},
-				enabled_at_startup = true,
-				debug_mode = false,
-			})
+			require("custom.plugins.lsp-inlayhints")
 		end,
 	},
-	["glepnir/galaxyline.nvim"] = {
-		branch = "main",
+	["nvim-lualine/lualine.nvim"] = {
 		config = function()
-			require("custom.plugins.galaxyline")
+			require("custom.plugins.lualine")
 		end,
 	},
+
 	["lukas-reineke/indent-blankline.nvim"] = {
 		override_options = {
 			indentLine_enabled = 1,
@@ -346,32 +290,7 @@ return {
 			},
 		},
 	},
-	["b0o/incline.nvim"] = {
-		config = function()
-			require("custom.plugins.incline")
-		end,
-	},
-
-	["anuvyklack/windows.nvim"] = {
-
-		requires = {
-			"anuvyklack/middleclass",
-			"anuvyklack/animation.nvim",
-		},
-		config = function()
-			vim.opt.winwidth = 10
-			vim.opt.winminwidth = 10
-			vim.opt.equalalways = false
-			require("windows").setup()
-		end,
-	},
 	["kdheepak/lazygit.nvim"] = {},
-	["stevearc/aerial.nvim"] = {
-		config = function()
-			require("custom.plugins.aerial")
-		end,
-	},
-	-- ["tveskag/nvim-blame-line"] = {},
 	["akinsho/git-conflict.nvim"] = {
 		config = function()
 			require("git-conflict").setup({
@@ -387,51 +306,26 @@ return {
 	["anuvyklack/pretty-fold.nvim"] = {
 		config = function()
 			require("pretty-fold").setup({
+				keep_indentation = false,
+				fill_char = "━",
 				sections = {
 					left = {
+						"━ ",
+						function()
+							return string.rep("*", vim.v.foldlevel)
+						end,
+						" ━┫",
 						"content",
+						"┣",
 					},
 					right = {
-						" ",
+						"┫ ",
 						"number_of_folded_lines",
 						": ",
 						"percentage",
-						" ",
-						function(config)
-							return config.fill_char:rep(3)
-						end,
+						" ┣━━",
 					},
 				},
-				fill_char = "•",
-
-				remove_fold_markers = true,
-
-				-- Keep the indentation of the content of the fold string.
-				keep_indentation = true,
-
-				-- Possible values:
-				-- "delete" : Delete all comment signs from the fold string.
-				-- "spaces" : Replace all comment signs with equal number of spaces.
-				-- false    : Do nothing with comment signs.
-				process_comment_signs = "spaces",
-
-				-- Comment signs additional to the value of `&commentstring` option.
-				comment_signs = {},
-
-				-- List of patterns that will be removed from content foldtext section.
-				stop_words = {
-					"@brief%s*", -- (for C++) Remove '@brief' and all spaces after.
-				},
-
-				add_close_pattern = true, -- true, 'last_line' or false
-
-				matchup_patterns = {
-					{ "{", "}" },
-					{ "%(", ")" }, -- % to escape lua pattern char
-					{ "%[", "]" }, -- % to escape lua pattern char
-				},
-
-				ft_ignore = { "neorg" },
 			})
 		end,
 	},
@@ -463,15 +357,14 @@ return {
 			require("hlslens").setup()
 		end,
 	},
-	["ahmedkhalf/project.nvim"] = {
-		config = function()
-			require("custom.plugins.project")
-		end,
+	["nvim-telescope/telescope-project.nvim"] = {
+		requires = "nvim-telescope/telescope.nvim",
 	},
 	["glepnir/lspsaga.nvim"] = {
 		config = function()
 			require("custom.plugins.lspsaga")
 		end,
+		commit = "707c9399b1cbe063c6942604209674edf1b3cf2e",
 	},
 	["folke/tokyonight.nvim"] = {},
 	["melkster/modicator.nvim"] = {
@@ -486,55 +379,168 @@ return {
 	},
 	["rafamadriz/friendly-snippets"] = {},
 	["f-person/git-blame.nvim"] = {},
-	["lewis6991/satellite.nvim"] = {
+	["folke/noice.nvim"] = {
 		config = function()
-			require("satellite").setup()
+			require("custom.plugins.noice")
 		end,
 	},
 	["https://gitlab.com/yorickpeterse/nvim-window"] = {
 		config = function()
-			require("nvim-window").setup({
-				-- The characters available for hinting windows.
-				chars = {
-					"a",
-					"b",
-					"c",
-					"d",
-					"e",
-					"f",
-					"g",
-					"h",
-					"i",
-					"j",
-					"k",
-					"l",
-					"m",
-					"n",
-					"o",
-					"p",
-					"q",
-					"r",
-					"s",
-					"t",
-					"u",
-					"v",
-					"w",
-					"x",
-					"y",
-					"z",
+			require("custom.plugins.nvim-window")
+		end,
+	},
+	["kevinhwang91/nvim-ufo"] = {
+		requires = "kevinhwang91/promise-async",
+		config = function()
+			require("custom.plugins.ufo")
+		end,
+	},
+	["kevinhwang91/rnvimr"] = {
+		cmd = "RnvimrToggle",
+		config = function()
+			vim.g.rnvimr_draw_border = 1
+			ufo.luaim.g.rnvimr_pick_enable = 1
+			vim.g.rnvimr_bw_enable = 1
+		end,
+	},
+	["nvim-treesitter/nvim-treesitter-textobjects"] = {
+		config = function()
+			require("custom.plugins.textobjects")
+		end,
+	},
+	["camspiers/snap"] = {
+		rocks = "fzy",
+		config = function()
+			local snap = require("snap")
+			local layout = snap.get("layout").bottom
+			local file = snap.config.file:with({ consumer = "fzy", layout = layout })
+			local vimgrep = snap.config.vimgrep:with({ layout = layout })
+			snap.register.command("find_files", file({ producer = "ripgrep.file" }))
+			snap.register.command("buffers", file({ producer = "vim.buffer" }))
+			snap.register.command("oldfiles", file({ producer = "vim.oldfile" }))
+			snap.register.command("live_grep", vimgrep({}))
+		end,
+	},
+	["sindrets/diffview.nvim"] = {
+		events = "BufRead",
+	},
+	["JoosepAlviste/nvim-ts-context-commentstring"] = {},
+	["romgrk/nvim-treesitter-context"] = {
+		config = function()
+			require("treesitter-context").setup({
+				enable = true, -- Enable this plugin (Can be enabled/disabled later via commands)
+				throttle = true, -- Throttles plugin updates (may improve performance)
+				max_lines = 0, -- How many lines the window should span. Values <= 0 mean no limit.
+				patterns = { -- Match patterns for TS nodes. These get wrapped to match at word boundaries.
+					-- For all filetypes
+					-- Note that setting an entry here replaces all other patterns for this entry.
+					-- By setting the 'default' entry below, you can control which nodes you want to
+					-- appear in the context window.
+					default = {
+						"class",
+						"function",
+						"method",
+					},
 				},
-
-				-- A group to use for overwriting the Normal highlight group in the floating
-				-- window. This can be used to change the background color.
-				normal_hl = "Normal",
-
-				-- The highlight group to apply to the line that contains the hint characters.
-				-- This is used to make them stand out more.
-				hint_hl = "Bold",
-
-				-- The border style to use for the floating window.
-				border = "single",
 			})
 		end,
 	},
+
+	["emileferreira/nvim-strict"] = {
+		config = function()
+			require("custom.plugins.strict")
+		end,
+	},
+	["hrsh7th/cmp-nvim-lsp"] = {},
+	["tzachar/cmp-tabnine"] = {
+		run = "./install.sh",
+		requires = "hrsh7th/nvim-cmp",
+		config = function()
+			local tabnine = require("cmp_tabnine.config")
+
+			tabnine:setup({
+				max_lines = 1000,
+				max_num_results = 20,
+				sort = true,
+				run_on_every_keystroke = true,
+				snippet_placeholder = "..",
+				ignored_file_types = {
+					-- default is not to ignore
+					-- uncomment to ignore in lua:
+					-- lua = true
+				},
+				show_prediction_strength = false,
+			})
+		end,
+	},
+	["romgrk/fzy-lua-native"] = {},
+	["voldikss/vim-floaterm"] = {},
+
+	["ray-x/cmp-treesitter"] = {},
+	["hrsh7th/cmp-emoji"] = {},
+
+	["hrsh7th/cmp-calc"] = {},
+	["justinhj/battery.nvim"] = {
+		config = function()
+			local battery = require("battery")
+			battery.setup({
+				update_rate_seconds = 30, -- Number of seconds between checking battery status
+				show_status_when_no_battery = true, -- Don't show any icon or text when no battery found (desktop for example)
+				show_plugged_icon = true, -- If true show a cable icon alongside the battery icon when plugged in
+				show_unplugged_icon = true, -- When true show a diconnected cable icon when not plugged in
+				show_percent = true, -- Whether or not to show the percent charge remaining in digits
+				vertical_icons = true, -- When true icons are vertical, otherwise shows horizontal battery icon
+				multiple_battery_selection = 1, -- Which battery to choose when multiple found. "max" or "maximum", "min" or "minimum" or a number to pick the nth battery found (currently linux acpi only)
+			})
+		end,
+	},
+
+	["nvim-neo-tree/neo-tree.nvim"] = {
+		branch = "v2.x",
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+			"MunifTanjim/nui.nvim",
+			{
+				-- only needed if you want to use the commands with "_with_window_picker" suffix
+				"s1n7ax/nvim-window-picker",
+				tag = "v1.*",
+				config = function()
+					require("window-picker").setup({
+						autoselect_one = true,
+						include_current = false,
+						filter_rules = {
+							-- filter using buffer options
+							bo = {
+								-- if the file type is one of following, the window will be ignored
+								filetype = { "neo-tree", "neo-tree-popup", "notify" },
+
+								-- if the buffer type is one of following, the window will be ignored
+								buftype = { "terminal", "quickfix" },
+							},
+						},
+						other_win_hl_color = "#e35e4f",
+					})
+				end,
+			},
+			{
+				"mrbjarksen/neo-tree-diagnostics.nvim",
+				module = "neo-tree.sources.diagnostics",
+			},
+		},
+		config = function()
+			require("custom.plugins.neotree")
+		end,
+	},
+	-- ["barrett-ruth/import-cost.nvim"] = {
+	-- 	build = "sh install.sh npm",
+	-- 	config = function()
+	-- 		require("custom.plugins.import-cost")
+	-- 	end,
+	-- },
+	-- ["https://git.sr.ht/~nedia/auto-save.nvim"] = {
+	-- 	config = function()
+	-- 		require("custom.plugins.auto-save")
+	-- 	end,
+	-- },
 }

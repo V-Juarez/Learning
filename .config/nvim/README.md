@@ -19,14 +19,6 @@ rm -rf ~/.config/nvim ~/.local/share/nvim ~/.cache/nvim && git clone https://git
 :MasonInstallAll
 ```
 
-Install language for mason
-
-# mason
-
-```sh
-:MasonInstall typescript-language-server
-```
-
 3. Reboot nvim and run:
 
 ```

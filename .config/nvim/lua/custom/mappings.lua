@@ -31,17 +31,7 @@ M.truzen = {
 
 M.projects = {
 	n = {
-		["<C-p>"] = { "<cmd> Telescope projects <CR>", "Switch Projects" },
-	},
-}
-
-M.Aerial = {
-	n = {
-		["<leader>a"] = { "<cmd>AerialToggle!<CR>", "Toggle Aerial" },
-		["{"] = { "<cmd>AerialPrev<CR>", "Aerial Previous" },
-		["}"] = { "<cmd>AerialNext<CR>", "Aerial Next" },
-		["[["] = { "<cmd>AerialPrevUp<CR>", "Aerial Prev Up Tree" },
-		["]]"] = { "<cmd>AerialNextUp<CR>", "Aerial Next Up Tree" },
+		["<C-p>"] = { "<cmd> Telescope project <CR>", "Switch Projects" },
 	},
 }
 
@@ -72,19 +62,23 @@ M.navigation = {
 
 M.Barbar = {
 	n = {
-		["<A-.>"] = { ":BufferNext<CR>", "Next Buffer" },
-		["<A-,>"] = { ":BufferPrevious<CR>", "Previous Buffer" },
-		["<A-1>"] = { ":BufferGoto 1<CR>", "Goto buffer 1" },
-		["<A-2>"] = { ":BufferGoto 2<CR>", "Goto buffer 2" },
-		["<A-3>"] = { ":BufferGoto 3<CR>", "Goto buffer 3" },
-		["<A-4>"] = { ":BufferGoto 4<CR>", "Goto buffer 4" },
-		["<A-5>"] = { ":BufferGoto 5<CR>", "Goto buffer 5" },
-		["<A-6>"] = { ":BufferGoto 6<CR>", "Goto buffer 6" },
-		["<A-7>"] = { ":BufferGoto 7<CR>", "Goto buffer 7" },
-		["<A-8>"] = { ":BufferGoto 8<CR>", "Goto buffer 8" },
-		["<A-9>"] = { ":BufferGoto 9<CR>", "Goto buffer 9" },
-		["<leader>cc"] = { ":BufferCloseAllButCurrentOrPinned<CR>", "Close all but keep current or pinned" },
-		["<A-0>"] = { ":BufferLast<CR>", "Goto last buffer" },
+		["<A-.>"] = { ":BufferNext<CR>", "Next Buffer", opts = { silent = true } },
+		["<A-,>"] = { ":BufferPrevious<CR>", "Previous Buffer", opts = { silent = true } },
+		["<A-1>"] = { ":BufferGoto 1<CR>", "Goto buffer 1", opts = { silent = true } },
+		["<A-2>"] = { ":BufferGoto 2<CR>", "Goto buffer 2", opts = { silent = true } },
+		["<A-3>"] = { ":BufferGoto 3<CR>", "Goto buffer 3", opts = { silent = true } },
+		["<A-4>"] = { ":BufferGoto 4<CR>", "Goto buffer 4", opts = { silent = true } },
+		["<A-5>"] = { ":BufferGoto 5<CR>", "Goto buffer 5", opts = { silent = true } },
+		["<A-6>"] = { ":BufferGoto 6<CR>", "Goto buffer 6", opts = { silent = true } },
+		["<A-7>"] = { ":BufferGoto 7<CR>", "Goto buffer 7", opts = { silent = true } },
+		["<A-8>"] = { ":BufferGoto 8<CR>", "Goto buffer 8", opts = { silent = true } },
+		["<A-9>"] = { ":BufferGoto 9<CR>", "Goto buffer 9", opts = { silent = true } },
+		["<leader>cc"] = {
+			":BufferCloseAllButCurrentOrPinned<CR>",
+			"Close all but keep current or pinned",
+			opts = { silent = true },
+		},
+		["<A-0>"] = { ":BufferLast<CR>", "Goto last buffer", opts = { silent = true } },
 	},
 }
 
@@ -106,14 +100,15 @@ M.Hop = {
 M.SaveFile = {
 	i = {
 		["<C-s>"] = {
-			"<ESC>:w | lua require'notify'('Saving file ....', 'success', {title = 'System', timeout = 1000})<cr>",
+			-- "<ESC>:w | lua require'notify'('Saving file ....', 'success', {title = 'System', timeout = 1000})<cr>",
+			"<ESC>:w<cr>",
 			"Save file in insert mode",
 			opts = { silent = true },
 		},
 	},
 	n = {
 		["<C-s>"] = {
-			"<ESC>:w | silent lua require'notify'('Saving file ....', 'success', {title = 'System', timeout = 1000})<cr>",
+			"<ESC>:w<cr>",
 			"Save file in normal mode",
 			opts = { silent = true },
 		},
@@ -122,7 +117,12 @@ M.SaveFile = {
 
 M.NvimTree = {
 	n = {
-		["<C-b>"] = { "<cmd> NvimTreeToggle <CR>", "toggle nvimtree" },
+		["<C-b>"] = { "<cmd>Neotree float reveal toggle <CR>", "toggle nvimtree" },
+		["<leader>e"] = { "<cmd>Neotree float reveal toggle <CR>", "toggle nvimtree" },
+	},
+
+	i = {
+		["<C-b>"] = { "<cmd>Neotree float reveal toggle <CR>", "toggle nvimtree" },
 	},
 }
 
@@ -186,7 +186,7 @@ M.lspconfig = {
 			},
 		},
 
-		["[e"] = {
+		["<C-[>"] = {
 			"<cmd>Lspsaga diagnostic_jump_prev<CR>",
 			"goto prev",
 			opts = {
@@ -194,7 +194,7 @@ M.lspconfig = {
 			},
 		},
 
-		["e]"] = {
+		["<C-]>"] = {
 			"<cmd>Lspsaga diagnostic_jump_next<CR>",
 			"goto next",
 			opts = {
@@ -229,7 +229,7 @@ M.lspconfig = {
 M.windows = {
 	n = {
 
-		["<C-w>"] = {
+		["<A-w>"] = {
 			"<cmd>lua require'nvim-window'.pick()<CR>",
 			"Pick Window",
 			opts = {

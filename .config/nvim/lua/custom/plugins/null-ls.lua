@@ -12,7 +12,7 @@ local sources = {
 	b.completion.spell,
 	b.diagnostics.misspell,
 	-- webdev stuff
-	b.formatting.prettier.with({
+	b.formatting.prettierd.with({
 		filetypes = {
 			"javascript",
 			"javascriptreact",
@@ -29,6 +29,7 @@ local sources = {
 			"markdown",
 			"graphql",
 			"php",
+			"clang_format",
 		},
 	}),
 	-- Lua
@@ -43,7 +44,7 @@ local sources = {
 	-- b.formatting.clang_format,
 
 	-- docker
-	b.diagnostics.hadolint,
+	-- b.diagnostics.hadolint,
 
 	-- php
 	-- b.formatting.phpcsfixer,
@@ -61,12 +62,12 @@ null_ls.setup({
 		})
 		if vim.g.vim_version > 7 then
 			if client.server_capabilities.documentFormattingProvider then
-				vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_sync()")
+				vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format()")
 				vim.o.laststatus = 2
 			end
 		else
 			if client.resolved_capabilities.document_formatting then
-				vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_sync()")
+				vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format()")
 
 				vim.o.laststatus = 2
 			end

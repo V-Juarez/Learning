@@ -26,6 +26,9 @@ M.treesitter = {
 		enable = true,
 	},
 	auto_install = true,
+	context_commentstring = {
+		enable = true,
+	},
 }
 
 M.whichkey = {
@@ -50,13 +53,10 @@ M.nvimtree = {
 	hijack_unnamed_buffer_when_opening = true,
 	hijack_cursor = true,
 	diagnostics = {
-		enable = true,
+		enable = false,
 		show_on_dirs = false,
 		debounce_delay = 50,
 		icons = {
-			hint = "",
-			info = "",
-			warning = "",
 			error = "",
 		},
 	},
@@ -70,6 +70,12 @@ M.nvimtree = {
 			show = {
 				git = true,
 			},
+		},
+	},
+	tab = {
+		sync = {
+			open = true,
+			close = true,
 		},
 	},
 }
@@ -86,7 +92,6 @@ M.blankline = {
 		"nvchad_cheatsheet",
 		"lsp-installer",
 		"norg",
-		"",
 	},
 }
 
@@ -136,21 +141,21 @@ M.telescope = {
 		file_ignore_patterns = { "node_modules", ".docker", ".git" },
 	},
 	extensions = {
-		repo = {
-			list = {
-				fd_opts = {
-					"--no-ignore-vcs",
-				},
-				search_dirs = {
-					"~/Documents/box-universe/",
-				},
+		project = {
+			base_dirs = {
+				{ "~/Projects/" },
 			},
+			hidden_files = true, -- default: false
+			order_by = "asc",
+			sync_with_nvim_tree = true, -- default false
 		},
 	},
-	extensions_list = { "themes", "terms", "notify", "aerial", "repo", "projects", "noice" },
+	extensions_list = { "themes", "terms", "notify", "project" },
 }
 
 M.bufferline = {
+	mode = "tabs",
+	modified_icon = "●",
 	highlights = {
 		background = {
 			guibg = "NONE",
@@ -183,5 +188,89 @@ M.nvterm = {
 		auto_insert = true,
 	},
 	enable_new_mappings = true,
+}
+M.cmp = {
+
+	window = {
+		-- completion = {
+		-- 	border = "rounded",
+		-- 	winhighlight = "Normal:CmpPmenu,CursorLine:PmenuSel,Search:None",
+		-- },
+		documentation = {
+			border = "rounded",
+		},
+
+		formatting = {
+			fields = { "kind", "abbr", "menu" },
+			format = function(_, vim_item)
+				local icons = require("nvchad_ui.icons").lspkind
+				vim_item.kind = string.format("%s %s", icons[vim_item.kind], vim_item.kind)
+				local item = _:get_completion_item()
+				if item.detail then
+					vim_item.menu = item.detail
+				end
+				-- vim_item.menu = ({
+				-- 	nvim_lsp = "(LSP)",
+				-- 	emoji = "(Emoji)",
+				-- 	path = "(Path)",
+				-- 	calc = "(Calc)",
+				-- 	cmp_tabnine = "(Tabnine)",
+				-- 	vsnip = "(Snippet)",
+				-- 	luasnip = "(Snippet)",
+				-- 	buffer = "(Buffer)",
+				-- 	tmux = "(TMUX)",
+				-- 	copilot = "(Copilot)",
+				-- 	treesitter = "(TreeSitter)",
+				-- })[_.source.name]
+			end,
+		},
+	},
+}
+M.ui = {
+	statusline = {
+		separator_style = "default", -- default/round/block/arrow
+		overriden_modules = function()
+			local X = {}
+
+			X.mode = function()
+				return ""
+			end
+			X.modes = function()
+				return ""
+			end
+			X.fileInfo = function()
+				return ""
+			end
+
+			X.git = function()
+				return ""
+			end
+			X.LSP_progress = function()
+				return ""
+			end
+			X.LSP_Diagnostics = function()
+				return ""
+			end
+			X.LSP_status = function()
+				return ""
+			end
+			X.cwd = function()
+				return ""
+			end
+
+			X.cursor_position = function()
+				return ""
+			end
+			return X
+		end,
+	},
+	tabufline = {
+		enabled = false,
+		lazyload = false,
+		overriden_modules = function()
+			local X = {}
+			return X
+		end,
+	},
 }
 return M

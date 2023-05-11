@@ -21,6 +21,4 @@ font:
     family: "Inconsolata Nerd Font Mono"
     style: Bold Italic
   # Font size
-  size: 20
-
-
+  size: 18
